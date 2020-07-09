@@ -1,17 +1,17 @@
-const appId = "";
-const clientId = "";
+var aws_config = require("../Config/AWSConfig.js");
 
 class OAuth2Controller {
-    getCode(){
+    getCode(req, resp, callbackUrl) {
+        var url =  aws_config.central_app + `/oauth2/authorize?response_type=code&client_id=${aws_config.central_app.client_id}&redirect_uri=${callbackUrl}`
+        resp.redirect(url);
+    }
+
+    getToken() {
 
     }
 
-    getToken(){
-
-    }
-
-    getInfo(){
+    getInfo() {
 
     }
 }
-module.exports = OAuth2Controller;
+module.exports = new OAuth2Controller();

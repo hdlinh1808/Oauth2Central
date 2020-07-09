@@ -13,13 +13,14 @@ const UserController = require("./Controller/UserController.js");
 const userController = new UserController();
 const LoginController = require("./Controller/LoginController.js");
 const loginController = new LoginController();
+const appController = require("./Controller/AppController.js")
 
 //DB
 var mongoUtil = require("./DBClient/MongoUtil")
-mongoUtil.connectToServer(function(err){
-    if(err){
+mongoUtil.connectToServer(function (err) {
+    if (err) {
         console.log(err);
-    }else {
+    } else {
         console.log("Connect DB success!")
     }
 });
@@ -45,39 +46,47 @@ const URI_DASHBOARD = "/dashboard";
 
 var subMap = [];
 
-app.all('/*', function (req, res, next) {//filter
-    next();  // call next() here to move on to next middleware/router
-})
-
-
-app.get('/', (req, resp) => {
-    loginController.renderLoginPage(req, resp);
-});
-
-app.get(URI_DASHBOARD, (req, resp) => {
-    let sub = req.cookies.sub;
-    if (sub != undefined && sub != "" && subMap[sub] == sub) {
-        resp.sendFile(__dirname + "/index.html")
-    } else {
-        resp.clearCookie("sub");
-        resp.redirect("/login");
-    }
-
-})
 
 app.get("/login", (req, resp) => {
-    let sub = req.cookies.sub;;
-    if (sub != undefined && sub != "") {
-        resp.redirect("/dashboard");
-        return;
-    }
-    resp.sendFile(__dirname + "/login.html")
+    loginController.renderLoginPage(req, resp);
 })
 
 app.get("/api/login", (req, resp) => {
-    loginWithAWS(resp);
+    loginController.loginWithAWS(req, resp, "http://localhost:3000/oauth2callback");
+    // loginWithAWS(resp);
 })
 
+app.get(URI_OAUTH2_CALLBACK, (req, resp) => {
+    loginController.execCallbackLogin(req, resp, "http://localhost:3000/oauth2callback")
+})
+
+app.all('/*', function (req, resp, next) {//filter
+    // let sub = req.cookies.sub;
+    // if (sub != undefined && sub != "" && loginController.getSubMap()[sub] == sub) {
+    //     next();
+    // } else {
+    //     resp.clearCookie("sub");
+    //     resp.redirect("/login");
+    // }
+    next();
+    // call next() here to move on to next middleware/router
+})
+
+app.get('/', (req, resp) => {
+    resp.redirect("/login");
+});
+
+app.get(URI_DASHBOARD, (req, resp) => {
+    appController.renderDashboardPage(req, resp);
+})
+
+app.get("/admin/user/manager", (req, resp) => {
+    userController.renderUserManagementPage(req, resp);
+})
+
+app.get("/admin/user", (req, resp) => {
+    userController.getListUser(req, resp);
+})
 
 function loginWithAWS(resp) {
     redirect_uri = "http://localhost:3000" + URI_OAUTH2_CALLBACK;
@@ -85,41 +94,6 @@ function loginWithAWS(resp) {
     console.log(url)
     resp.redirect(url)
 }
-
-app.get(URI_OAUTH2_CALLBACK, (req, resp) => {
-    var code = req.query.code;
-    console.log(code)
-    if (code == undefined || code == "") {
-        console.log('adfaf')
-        return;
-    }
-    var tokenParams = {
-        "grant_type": "authorization_code",
-        code: code,
-        redirect_uri: "http://localhost:3000" + URI_OAUTH2_CALLBACK,
-        client_id: AWS_CLIENT_ID,
-    }
-
-    var formData = querystring.stringify(tokenParams);
-    var contentLength = formData.length;
-
-    request({
-        headers: {
-            'Content-Length': contentLength,
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Authorization': "Basic " + Buffer.from(AWS_CLIENT_ID + ":" + AWS_CLIENT_SECRET).toString('base64'),
-        },
-        uri: AWS_DOMAIN_BASE + "/oauth2/token",
-        body: formData,
-        method: 'POST'
-    }, function (err, res, body) {
-        let params = JSON.parse(body);
-        let access_token = params.access_token;
-        getUserInfo(access_token, resp, function () {
-
-        })
-    });
-})
 
 function getUserInfo(access_token, resp, callback) {
     request({
