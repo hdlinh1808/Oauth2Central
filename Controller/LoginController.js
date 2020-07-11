@@ -2,19 +2,20 @@ var Mustache = require("mustache");
 var aws_config = require("../Config/AWSConfig.js");
 const querystring = require('querystring');
 var request = require('request');
+const userDaoImpl = require('../DAOImpl/DAOImplObject.js').getUserDaoImpl();
+const sessionDaoImpl = require('../DAOImpl/DAOImplObject.js').getSessionDaoImpl();
 
-var subMap = [];
 class LoginController {
     constructor() {
 
     }
     renderLoginPage(req, resp) {
-        let sub = req.cookies.sub;
+        let sub = req.cookies.centralSession;
         if (sub != undefined && sub != "") {
             resp.redirect("/dashboard");
             return;
         }
-
+        //clear cookie
         resp.render('login');
     }
 
@@ -52,18 +53,36 @@ class LoginController {
             // console.log(this);
             let params = JSON.parse(body);
             let access_token = params.access_token;
-            getUserInfo(access_token, resp, function () {
-
+            getUserInfo(access_token, resp, async (params) => { //success function
+                let sub = params.sub;
+                let rs = await userDaoImpl.checkExistUser(params.username);
+                if (!rs) {
+                    await userDaoImpl.createNewUser(params.username, params.email, access_token, sub, "viewer", [], []);
+                }
+                let session = await sessionDaoImpl.addOrUpdateUserSession(params.username, sub, access_token);
+                resp.cookie('centralSession', session._id);
+                resp.redirect("/dashboard");
             });
         });
+    }
+
+    logout(req, resp) {
+        let sessionId = req.cookies.centralSession;
+        sessionDaoImpl.removeSession(sessionId).then(function (result) {
+            if (result) {
+                resp.clearCookie("centralSession");
+                resp.redirect("/login");
+            }
+        });
+
     }
 
     renderTestPage(req, resp) {
         resp.render('test', { test: 'Alligator' });
     }
 
-    getSubMap(){
-        return subMap;
+    _test() {
+        console.log('aa')
     }
 }
 
@@ -74,11 +93,11 @@ function getUserInfo(access_token, resp, callback) {
         },
         uri: aws_config.aws_domain + "/oauth2/userInfo",
     }, function (err, res, body) {
+        if (err != null) {
+            return;
+        }
         let params = JSON.parse(body);
-        let sub = params.sub;
-        subMap[sub] = sub;
-        resp.cookie('sub', sub);
-        resp.redirect("/dashboard");
+        callback(params);
     });
 }
 module.exports = LoginController;

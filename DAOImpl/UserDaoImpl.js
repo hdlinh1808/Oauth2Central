@@ -1,38 +1,107 @@
 const User = require('../entity/User.js')
-var mongoUtil = require('../DBClient/MongoUtil');
+var mongoUtil = require('../DBClient/MongoUtil.js');
 var database = mongoUtil.getDb();
+var USER_COLLECTION = mongoUtil.getUserCollection();
+
 class UserDaoImpl {
-    constructor(){
+    constructor() {
+        this.sessionDaoImpl = null;
+        this.appDaoImpl = null;
     }
-    getUser(username){
-        let user = new User(username,2,3,4);
+
+    initDaoImpl() {
+        this.sessionDaoImpl = require('../DAOImpl/DAOImplObject.js').getSessionDaoImpl();
+        this.appDaoImpl = require('../DAOImpl/DAOImplObject.js').getAppDaoImpl();
+    }
+    async getUserDetail(username) {
+        try {
+            let user = await database.collection(USER_COLLECTION).findOne({ "_id": username });
+            return user;
+        } catch (err) {
+            console.log(err);
+            return null;
+        }
+    }
+
+    async addRequestApp(sessionId, app) {
+        let session = await this.sessionDaoImpl.getUserSession(sessionId);
+        let userId = session.userId;
+        let updateData = {
+            rapps: app,
+        }
+        try {
+            let result = await database.collection(USER_COLLECTION).updateOne({ _id: userId }, { $push: updateData });
+            result = await this.appDaoImpl.updateRequestApp(app, userId);
+            return result;
+        } catch (err) {
+            console.log("add Request App fail");
+            return null;
+        }
+    }
+
+    async getUserDetailBySessionId(sessionId) {
+        let session = await this.sessionDaoImpl.getUserSession(sessionId);
+        let userId = session.userId;
+        let user = await this.getUserDetail(userId);
         return user;
     }
 
-    getListUser(from, to){
+    getListUser(from, to) {
         from = 1, to = 7;
         return users.slice(from, to);
     }
 
-    addUser(){
-        
+    async createNewUser(username, email, access_token, sub, role, apps, rapps, callback) {
+        let user = new User(username, email, access_token, sub, role, apps, rapps);
+        user._id = username;
+        try {
+            let result = await database.collection(USER_COLLECTION).insertOne(user);
+            return true;
+        } catch (err) {
+            console.log(err);
+            return false;
+        }
+    }
+
+    async checkExistUser(username, callback) {
+        try {
+            let query = await database.collection(USER_COLLECTION).findOne({ "_id": username });
+            return query != null;
+        } catch (err) {
+            console.log(err);
+            return false;
+        }
+    }
+
+    async removeFromListRequest(username, app) {
+        try {
+            let data = {
+                rapps: app,
+            }
+            let result = await database.collection(USER_COLLECTION).updateOne({ "_id": username }, { $pull: data });
+            return result;
+        } catch (err) {
+            console.log(err);
+            return false;
+        }
+    }
+
+    async addAppToUser(username, app) {
+        try {
+            let data = {
+                apps: app,
+            }
+            let result = await database.collection(USER_COLLECTION).updateOne({ "_id": username }, { $push: data });
+            return result;
+        } catch (err) {
+            console.log(err);
+            return false;
+        }
     }
 }
 
-var users = [new User('Linh', "123", "viewer", ["nextcloud"]),
-new User('Linh1', "123", "viewer", ["nextcloud"]),
-new User('Linh2', "123", "viewer", ["rocketchat"]),
-new User('Linh3', "123", "viewer", ["nextcloud"]),
-new User('Linh4', "123", "viewer", ["nextcloud"]),
-new User('Linh5', "123", "viewer", ["nextcloud"]),
-new User('Linh6', "123", "viewer", ["nextcloud"]),
-new User('Linh7', "123", "viewer", ["nextcloud"]),
-new User('Linh8', "123", "viewer", ["nextcloud"]),
-new User('Linh9', "123", "viewer", ["nextcloud"]),
-new User('Linh10', "123", "viewer", ["nextcloud"]),
-new User('Linh11', "123", "viewer", ["nextcloud"]),
-new User('Linh12', "123", "viewer", ["nextcloud"]),
-new User('Linh13', "123", "viewer", ["nextcloud"]),
-]
+function getUserIdBySession() {
+
+}
 
 module.exports = UserDaoImpl;

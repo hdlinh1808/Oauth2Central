@@ -18,6 +18,10 @@ class BaseTemplate {
     renderWithBaseAdminTpl(title, content){
         return Mustache.render(this.baseAdminTpl, { content: content, title: title })
     }
+
+    renderPageWithParam(page, params){
+        return Mustache.render(page, params);
+    }
 }
 
 module.exports = new BaseTemplate();

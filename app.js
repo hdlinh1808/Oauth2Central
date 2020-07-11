@@ -7,23 +7,40 @@ var url = require('url');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 var request = require('request');
+var requestFilter = {};
 
 //Entity
-const UserController = require("./Controller/UserController.js");
-const userController = new UserController();
-const LoginController = require("./Controller/LoginController.js");
-const loginController = new LoginController();
-const appController = require("./Controller/AppController.js")
-
+var userController = {};
+var loginController = {};
+var appController = {};
 //DB
-var mongoUtil = require("./DBClient/MongoUtil")
+var mongoUtil = require("./DBClient/MongoUtil.js")
 mongoUtil.connectToServer(function (err) {
     if (err) {
         console.log(err);
-    } else {
-        console.log("Connect DB success!")
+        return;
     }
+    console.log("Connect DB success!")
+    app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+    initController();
+
+
 });
+
+function initController() {
+    let DAOImplObject = require('./DAOImpl/DAOImplObject.js');
+    DAOImplObject.initDaoImpl();
+
+    let UserController = require("./Controller/UserController.js");
+    let LoginController = require("./Controller/LoginController.js");
+    userController = new UserController();
+    loginController = new LoginController();
+    appController = require("./Controller/AppController.js");
+    requestFilter = require("./Filter/Filter.js")
+
+
+}
+
 
 //aws constant
 var AWS_DOMAIN_BASE = "https://devlinh.auth.ap-southeast-1.amazoncognito.com"
@@ -46,7 +63,6 @@ const URI_DASHBOARD = "/dashboard";
 
 var subMap = [];
 
-
 app.get("/login", (req, resp) => {
     loginController.renderLoginPage(req, resp);
 })
@@ -56,20 +72,16 @@ app.get("/api/login", (req, resp) => {
     // loginWithAWS(resp);
 })
 
+app.get("/api/logout", (req, resp) => {
+    loginController.logout(req, resp);
+})
+
 app.get(URI_OAUTH2_CALLBACK, (req, resp) => {
     loginController.execCallbackLogin(req, resp, "http://localhost:3000/oauth2callback")
 })
 
 app.all('/*', function (req, resp, next) {//filter
-    // let sub = req.cookies.sub;
-    // if (sub != undefined && sub != "" && loginController.getSubMap()[sub] == sub) {
-    //     next();
-    // } else {
-    //     resp.clearCookie("sub");
-    //     resp.redirect("/login");
-    // }
-    next();
-    // call next() here to move on to next middleware/router
+    requestFilter.filterBeforeRequest(req, resp, next);
 })
 
 app.get('/', (req, resp) => {
@@ -80,6 +92,14 @@ app.get(URI_DASHBOARD, (req, resp) => {
     appController.renderDashboardPage(req, resp);
 })
 
+/*neutral user*/
+app.post("/app/request", (req, resp) => {
+    appController.requestApp(req, resp);
+})
+
+/*admin*/
+
+
 app.get("/admin/user/manager", (req, resp) => {
     userController.renderUserManagementPage(req, resp);
 })
@@ -88,33 +108,27 @@ app.get("/admin/user", (req, resp) => {
     userController.getListUser(req, resp);
 })
 
-function loginWithAWS(resp) {
-    redirect_uri = "http://localhost:3000" + URI_OAUTH2_CALLBACK;
-    var url = AWS_DOMAIN_BASE + AWS_AUTHORIZATION + `?response_type=code&client_id=${AWS_CLIENT_ID}&redirect_uri=${redirect_uri}`
-    console.log(url)
-    resp.redirect(url)
-}
+app.get("/user/detail", (req, resp) => {
+    userController.renderUserDetailPage(req, resp);
+});
 
-function getUserInfo(access_token, resp, callback) {
-    request({
-        headers: {
-            'Authorization': "Bearer " + access_token,
-        },
-        uri: AWS_DOMAIN_BASE + "/oauth2/userInfo",
-    }, function (err, res, body) {
-        let params = JSON.parse(body);
-        let sub = params.sub;
-        resp.cookie('sub', sub);
-        subMap[sub] = sub;
-        resp.redirect("/dashboard");
-    });
-}
+app.get("/admin/user/detail", (req, resp) => {
 
-app.get("/test", (req, resp) => {
-    // resp.render('test', { test: 'Alligator' });
-    loginController.renderTestPage(req, resp);
+});
+
+app.get("/admin/app/request", (req, resp) => {
+    appController.renderAdminRequestAppPage(req, resp);
 })
 
+app.post("/admin/app/request/decline", (req, resp) => {
+    appController.declineAppRequest(req, resp);
+})
 
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+app.post("/admin/app/request/accept", (req, resp) => {
+    appController.acceptAppRequest(req, resp);
+})
+
+app.get("/test", (req, resp) => {
+    console.log(req.query);
+})
 
