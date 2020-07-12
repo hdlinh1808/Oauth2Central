@@ -83,7 +83,7 @@ class UserController {
             data.requested = requestedRow;
             data.notRequest = notRequestRow;
             let content = BaseTemplate.renderPageWithParam(userDetailTpl, data);
-            let page = BaseTemplate.renderWithBaseAdminTpl("User detail", content);
+            let page = BaseTemplate.renderWithBaseTpl("", "User detail", content);
             // console.log(page);
             resp.send(page);
         });

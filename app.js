@@ -128,6 +128,22 @@ app.post("/admin/app/request/accept", (req, resp) => {
     appController.acceptAppRequest(req, resp);
 })
 
+app.get("/admin/app", (req, resp) => {
+    appController.renderAdminAppPage(req, resp);
+})
+
+app.get("/admin/app/detail", (req, resp) => {
+    appController.renderAdminAppDetailPage(req, resp);
+})
+
+app.post("/admin/app/listuser", (req, resp) => {
+    appController.getListUserOfApp(req, resp);
+})
+
+app.post("/admin/app/listuser/remove", (req, resp) => {
+    appController.removeUserOfApp(req, resp);
+})
+
 app.get("/test", (req, resp) => {
     console.log(req.query);
 })

@@ -1,61 +1,99 @@
-<div>
-    <table class="table table-striped table-bordered table-hover">
-        <tr>
-            <td>Username</td>
-            <td>{{username}}</td>
-        </tr>
-        <tr>
-            <td>Email</td>
-            <td>{{email}}</td>
-        </tr>
-        <tr>
-            <td>Role</td>
-            <td>{{role}}</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
+<style>
+    #notAvail tr {
+        height: 55px;
+    }
+</style>
+<div class="row">
+    <div class="col-12">
+        <div class="card card-outline card-primary">
+            <div class="card-header">
+                <h3 class="card-title">User info</h3>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped table-bordered table-hover">
+                    <tr>
+                        <td><span class="text-info">Username</span></td>
+                        <td>{{username}}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="text-info">Email</span></td>
+                        <td>{{email}}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="text-info">Role</span></td>
+                        <td>{{role}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
 </div>
 
-<hr>
+<div class="row">
+    <div class="col-12">
+        <div class="card card-outline card-primary">
+            <div class="card-header">
+                <h3 class="card-title">Available apps</h3>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped table-bordered table-hover">
 
-<h4>Available apps</h4>
-<table class="table table-striped table-bordered table-hover">
-    {{#accessRow}}
-    <tr>
-        <td>{{id}}</td>
-        <th>{{name}}</th>
-    </tr>
-    {{/accessRow}}
-</table>
-
-<hr>
-
-<h4>Not available apps</h4>
-<table class="table table-striped table-bordered table-hover" id="notAvail">
-    {{#notRequest}}
-    <tr>
-        <td>{{id}}</td>
-        <td class="name">{{name}}</td>
-        <td class="status">
-            <button class="btn btn-warning request">
-                Request
-            </button>
-        </td>
-    </tr>
-    {{/notRequest}}
-    {{#requested}}
-    <tr>
-        <td>{{id}}</td>
-        <td class="name">{{name}}</td>
-        <td class="status">
-            Requested
-        </td>
-    </tr>
-    {{/requested}}
-</table>
+                    <tbody>
+                        {{#accessRow}}
+                        <tr>
+                            <td>{{id}}</td>
+                            <th>{{name}}</th>
+                        </tr>
+                        {{/accessRow}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <div class="card card-outline card-primary">
+            <div class="card-header">
+                <h3 class="card-title">Not available apps</h3>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped table-bordered table-hover" id="notAvail">
+                    <thead>
+                        <tr>
+                            <td style="width: 10%;"></td>
+                            <td style="width: 45%;">App</td>
+                            <td style="width: 45%;">Action</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#notRequest}}
+                        <tr>
+                            <td>{{id}}</td>
+                            <td class="name">{{name}}</td>
+                            <td class="status">
+                                <button class="btn btn-warning btn-sm request">
+                                    <i class="fas fa-share"></i>
+                                    Request
+                                </button>
+                            </td>
+                        </tr>
+                        {{/notRequest}}
+                        {{#requested}}
+                        <tr>
+                            <td>{{id}}</td>
+                            <td class="name">{{name}}</td>
+                            <td class="status">
+                                <span class="badge bg-info">Requested</span>
+                            </td>
+                        </tr>
+                        {{/requested}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script>
     $(function () {
@@ -71,8 +109,8 @@
         console.log(app);
         requestApp(app, function (result) {
             if (result != undefined && result.code > 0) {
-                $status.text('Requested');
-            }else {
+                $status.html('<span class="badge bg-info">Requested</span>');
+            } else {
                 console.log('error');
             }
         })

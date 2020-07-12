@@ -12,37 +12,60 @@ class NextCloudApdater {
         this.nextCloudDomain = nextCloudDomain;
     }
 
-    disableUser(username, callback) {
+    disableUser(user, callback) {
+        if (user == null) {
+            code = ErrorCode.fail();
+            console.error("user null!");
+            callback(code);
+            return;
+        }
         request({
             headers: renderHeader(this.adminUsername, this.adminPassword),
-            uri: nextCloudDomain + `/ocs/v1.php/cloud/users/${username}/disable`,
+            uri: nextCloudDomain + `/ocs/v1.php/cloud/users/AWS-provider-${user.sub}/disable`,
             method: 'PUT'
         }, function (err, res, body) {
-            console.log(body);
-            callback(body);
+            try {
+                let rs = xmlParser.toJson(body);
+                let code = {};
+                rs = JSON.parse(rs);
+                if (rs.ocs.meta.status == "ok") {
+                    code = ErrorCode.success();
+                } else {
+                    code = ErrorCode.fail();
+                }
+            } catch (err) {
+                code = ErrorCode.fail();
+                console.log(err);
+            }
+            callback(code);
         });
     }
 
     enableUser(user, callback) {
-        console.log()
+        if (user == null) {
+            code = ErrorCode.fail();
+            console.error("user null!");
+            callback(code);
+            return;
+        }
         request({
             headers: renderHeader(this.adminUsername, this.adminPassword),
             uri: nextCloudDomain + `/ocs/v1.php/cloud/users/AWS-provider-${user.sub}/enable`,
             method: 'PUT'
         }, function (err, res, body) {
-            let rs = xmlParser.toJson(body);
-            let code = {};
-            try{
+            try {
+                let rs = xmlParser.toJson(body);
+                let code = {};
                 rs = JSON.parse(rs);
-                if(rs.ocs.meta.status == "ok"){
+                if (rs.ocs.meta.status == "ok") {
                     code = ErrorCode.success();
-                }else{
+                } else {
                     code = ErrorCode.fail();
                 }
-            }catch(err){
+            } catch (err) {
                 code = ErrorCode.fail();
+                console.log(err);
             }
-            console.log(code);
             callback(code);
         });
     }

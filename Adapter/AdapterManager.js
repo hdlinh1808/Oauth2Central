@@ -5,8 +5,12 @@ class AdapterManager {
         this.apdater["nextcloud"] = require("./NextCloudAdapter.js");
     }
 
-    enableUser(app, userId, callback) {
-        this.apdater[app].enableUser(userId, callback);
+    enableUser(app, user, callback) {
+        this.apdater[app].enableUser(user, callback);
+    }
+
+    disableUser(app, user, callback){
+        this.apdater[app].disableUser(user, callback);
     }
 
 }

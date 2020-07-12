@@ -36,7 +36,7 @@ class AppDaoImpl {
     }
 
     containApp(app) {
-        return this.apps.has(app);
+        return this.apps.includes(app);
     }
 
     async updateRequestApp(app, username) {
@@ -69,6 +69,19 @@ class AppDaoImpl {
         }
     }
 
+    async removeUserFromApp(app, username) {
+        let updateData = {
+            users: username,
+        }
+        try {
+            let result = await database.collection(APP_COLLECTION).updateOne({ _id: app }, { $pull: updateData }, { upsert: true });
+            return result;
+        } catch (err) {
+            console.log(err);
+            return null;
+        }
+    }
+
     async getListAllRequest() {
         try {
             let result = await database.collection(REQUEST_APP_COLLECTION).findOne({ "_id": REQUEST_APP_KEY });
@@ -87,6 +100,16 @@ class AppDaoImpl {
         }
         try {
             let result = await database.collection(REQUEST_APP_COLLECTION).updateOne({ "_id": REQUEST_APP_KEY }, { $pull: data });
+            return result;
+        } catch (err) {
+            console.log(err);
+            return null;
+        }
+    }
+
+    async getListUserOfApp(app) {
+        try {
+            let result = await database.collection(APP_COLLECTION).findOne({ "_id": app });
             return result;
         } catch (err) {
             console.log(err);

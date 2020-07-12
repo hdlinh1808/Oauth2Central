@@ -98,6 +98,19 @@ class UserDaoImpl {
             return false;
         }
     }
+
+    async removeAppFromUser(username, app) {
+        try {
+            let data = {
+                apps: app,
+            }
+            let result = await database.collection(USER_COLLECTION).updateOne({ "_id": username }, { $pull: data });
+            return result;
+        } catch (err) {
+            console.log(err);
+            return false;
+        }
+    }
 }
 
 function getUserIdBySession() {

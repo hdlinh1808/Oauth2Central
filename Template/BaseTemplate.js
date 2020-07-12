@@ -11,8 +11,8 @@ class BaseTemplate {
         return this.baseTpl;
     }
 
-    renderWithBaseTpl(title, content) {
-        return Mustache.render(this.baseTpl, { content: content, title: title })
+    renderWithBaseTpl(title, subtitle, content) {
+        return Mustache.render(this.baseTpl, { content: content, title: title, subtitle: subtitle })
     }
 
     renderWithBaseAdminTpl(title, content){
