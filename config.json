@@ -1,0 +1,28 @@
+{
+    "app": {
+        "nextcloud": {
+            "image": "",
+            "baseUrl": "http://localhost:8080",
+            "admin": "admin",
+            "adminPass": "admin",
+            "apdater": "NextCloudApdapter"
+        },
+        "rocketchat": {
+            "image": "",
+            "baseUrl": "",
+            "admin": "",
+            "apdater": "NextCloudApdapter"
+        }
+    },
+    "db": {
+        "addr": "mongodb://localhost:27017",
+        "dbname": "test"
+    },
+    "aws": {
+        "baseDomain": "https://devlinh.auth.ap-southeast-1.amazoncognito.com",
+        "clientId": "7luaggvs8svcecsfqd312rq9ji",
+        "clientSecret": "1phan8h4rd3botl88gtfvrqc6lfpruc45t3not7i336t9ci7h6tc"
+    },
+    "appAddr": "http://localhost:3000",
+    "port": 3000
+}

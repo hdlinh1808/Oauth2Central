@@ -10,8 +10,6 @@ class Filter {
                 resp.redirect("/login");
             }
         })
-
-
         // next();
         // call next() here to move on to next middleware/router
     }

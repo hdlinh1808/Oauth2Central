@@ -1,0 +1,38 @@
+
+2020-07-14T07:54:05.321Z | test log error | undefined
+2020-07-14T07:54:05.635Z | init app fail! | undefined
+2020-07-14T07:54:05.635Z | aa is not defined | undefined
+2020-07-14T07:54:23.094Z | init app fail! | undefined
+2020-07-14T07:54:23.100Z | aa is not defined | undefined
+2020-07-14T07:55:32.376Z error: init app fail!
+2020-07-14T07:55:32.377Z error: aa is not defined - ReferenceError: aa is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:20:5
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:140:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-07-14T07:56:04.547Z error: test log error
+2020-07-14T07:56:04.864Z error: init app fail!
+2020-07-14T07:56:04.864Z error: aa is not defined - ReferenceError: aa is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:22:5
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:142:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-07-14T07:58:26.086Z error: test log error
+2020-07-14T07:58:26.391Z error: init app fail!
+2020-07-14T07:58:26.391Z error: aa is not defined - ReferenceError: aa is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:22:5
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:142:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47

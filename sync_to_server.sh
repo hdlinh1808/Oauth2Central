@@ -1,0 +1,1 @@
+sudo rsync -Pav -e "ssh -i /home/lap12654/Desktop/DucDev.pem" --exclude "node_modules" --exclude "config.json"  /media/lap12654/DATA/git/my-git/Oauth2Central/. ubuntu@54.151.189.56:/home/ubuntu/Oauth2Central/

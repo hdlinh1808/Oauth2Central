@@ -9,11 +9,17 @@ var _db;
 const ObjectId = require('mongoose').Types.ObjectId;
 
 module.exports = {
-    connectToServer: function (callback) {
-        MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true, }, function (err, client) {
+    connectToServer: async function (callback) {
+        try {
+            console.log("init database..")
+            let client = await MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
             _db = client.db('test');
-            return callback(err);
-        });
+            console.log("init database done!")
+            return _db;
+        }catch(err){
+            console.log("init db fail!");
+        }
+        
     },
 
     getDb: function () {
@@ -29,15 +35,15 @@ module.exports = {
         // return ObjectId(username);
     },
 
-    getSessionCollection: function (){
+    getSessionCollection: function () {
         return sessionCollectionName;
     },
 
-    getAppCollection: function (){
-        return appCollectionName; 
+    getAppCollection: function () {
+        return appCollectionName;
     },
 
-    getRequestAppCollection: function() {
+    getRequestAppCollection: function () {
         return requestAppCollectionName;
     }
 

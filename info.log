@@ -1,0 +1,109 @@
+{"message":"test log info","level":"info"}
+{"message":"test log info","level":"info"}
+{"message":"test log error","level":"error"}
+{"message":"test log info","level":"info"}
+{"message":"test log error","level":"error"}
+{"message":"test log info","level":"info","timestamp":"2020-07-14T07:33:00.174Z"}
+{"message":"test log error","level":"error","timestamp":"2020-07-14T07:33:00.175Z"}
+{"message":"test log info","level":"info","timestamp":"2020-07-14T07:40:18.097Z"}
+{"message":"test log error","level":"error","timestamp":"2020-07-14T07:40:18.098Z"}
+{"message":"test log info","level":"info","timestamp":"2020-07-14T07:41:11.059Z"}
+{"message":"test log error","level":"error","timestamp":"2020-07-14T07:41:11.061Z"}
+{"message":"init app fail!","level":"error","timestamp":"2020-07-14T07:41:11.374Z"}
+{"level":"error","timestamp":"2020-07-14T07:41:11.374Z","stack":"ReferenceError: aa is not defined\n    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:22:5\n    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:142:3)\n    at Module._compile (internal/modules/cjs/loader.js:1133:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)\n    at Module.load (internal/modules/cjs/loader.js:977:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:877:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)\n    at internal/main/run_main_module.js:18:47","message":"aa is not defined"}
+info: test log info {"timestamp":"2020-07-14T07:43:37.442Z"}
+error: test log error {"timestamp":"2020-07-14T07:43:37.443Z"}
+error: init app fail! {"timestamp":"2020-07-14T07:43:37.767Z"}
+error: aa is not defined {"timestamp":"2020-07-14T07:43:37.767Z","stack":"ReferenceError: aa is not defined\n    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:22:5\n    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:142:3)\n    at Module._compile (internal/modules/cjs/loader.js:1133:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)\n    at Module.load (internal/modules/cjs/loader.js:977:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:877:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)\n    at internal/main/run_main_module.js:18:47"}
+{"message":"test log info","level":"info","timestamp":"2020-07-14T07:44:03.201Z"}
+{"message":"test log error","level":"error","timestamp":"2020-07-14T07:44:03.203Z"}
+{"message":"init app fail!","level":"error","timestamp":"2020-07-14T07:44:03.565Z"}
+{"level":"error","timestamp":"2020-07-14T07:44:03.565Z","stack":"ReferenceError: aa is not defined\n    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:22:5\n    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:142:3)\n    at Module._compile (internal/modules/cjs/loader.js:1133:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)\n    at Module.load (internal/modules/cjs/loader.js:977:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:877:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)\n    at internal/main/run_main_module.js:18:47","message":"aa is not defined"}
+2020-07-14T07:45:27.939Z | test log info
+2020-07-14T07:45:27.941Z | test log error
+2020-07-14T07:45:28.336Z | init app fail!
+2020-07-14T07:45:28.336Z | aa is not defined
+{"message":"test log info","level":"info","timestamp":"2020-07-14T07:46:39.648Z"}
+{"message":"test log error","level":"error","timestamp":"2020-07-14T07:46:39.649Z"}
+{"message":"init app fail!","level":"error","timestamp":"2020-07-14T07:46:40.037Z"}
+{"level":"error","timestamp":"2020-07-14T07:46:40.037Z","stack":"ReferenceError: aa is not defined\n    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:22:5\n    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:142:3)\n    at Module._compile (internal/modules/cjs/loader.js:1133:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)\n    at Module.load (internal/modules/cjs/loader.js:977:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:877:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)\n    at internal/main/run_main_module.js:18:47","message":"aa is not defined"}
+2020-07-14T07:47:22.935Z | test log info
+2020-07-14T07:47:22.937Z | test log error
+2020-07-14T07:47:23.273Z | init app fail!
+2020-07-14T07:47:23.273Z | aa is not defined
+{"message":"test log info","level":"info","timestamp":"2020-07-14T07:47:34.286Z"}
+{"message":"test log error","level":"error","timestamp":"2020-07-14T07:47:34.289Z"}
+{"message":"init app fail!","level":"error","timestamp":"2020-07-14T07:47:34.951Z"}
+{"level":"error","timestamp":"2020-07-14T07:47:34.951Z","stack":"ReferenceError: aa is not defined\n    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:22:5\n    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:142:3)\n    at Module._compile (internal/modules/cjs/loader.js:1133:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)\n    at Module.load (internal/modules/cjs/loader.js:977:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:877:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)\n    at internal/main/run_main_module.js:18:47","message":"aa is not defined"}
+undefined
+undefined
+undefined
+undefined
+{"message":"test log info","level":"info","timestamp":"2020-07-14T07:49:10.689Z"}
+{"message":"test log error","level":"error","timestamp":"2020-07-14T07:49:10.691Z"}
+{"message":"init app fail!","level":"error","timestamp":"2020-07-14T07:49:11.031Z"}
+{"level":"error","timestamp":"2020-07-14T07:49:11.032Z","stack":"ReferenceError: aa is not defined\n    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:22:5\n    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:142:3)\n    at Module._compile (internal/modules/cjs/loader.js:1133:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)\n    at Module.load (internal/modules/cjs/loader.js:977:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:877:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)\n    at internal/main/run_main_module.js:18:47","message":"aa is not defined"}
+2020-07-14T07:49:48.031Z | test log info
+2020-07-14T07:49:48.032Z | test log error
+2020-07-14T07:49:48.362Z | init app fail!
+2020-07-14T07:49:48.362Z | aa is not defined
+{"message":"test log info","level":"info","timestamp":"2020-07-14T07:51:10.559Z"}
+{"message":"test log error","level":"error","timestamp":"2020-07-14T07:51:10.561Z"}
+{"message":"init app fail!","level":"error","timestamp":"2020-07-14T07:51:10.872Z"}
+{"level":"error","timestamp":"2020-07-14T07:51:10.872Z","stack":"ReferenceError: aa is not defined\n    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:22:5\n    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:142:3)\n    at Module._compile (internal/modules/cjs/loader.js:1133:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)\n    at Module.load (internal/modules/cjs/loader.js:977:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:877:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)\n    at internal/main/run_main_module.js:18:47","message":"aa is not defined"}
+{"message":"test log info","level":"info","timestamp":"2020-07-14T07:51:23.073Z"}
+{"message":"test log error","level":"error","timestamp":"2020-07-14T07:51:23.075Z"}
+{"message":"init app fail!","level":"error","timestamp":"2020-07-14T07:51:23.404Z"}
+{"level":"error","timestamp":"2020-07-14T07:51:23.405Z","stack":"ReferenceError: aa is not defined\n    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:22:5\n    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:142:3)\n    at Module._compile (internal/modules/cjs/loader.js:1133:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)\n    at Module.load (internal/modules/cjs/loader.js:977:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:877:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)\n    at internal/main/run_main_module.js:18:47","message":"aa is not defined"}
+undefined
+undefined
+undefined
+undefined
+info: test log info {"timestamp":"2020-07-14T07:51:56.597Z"}
+error: test log error {"timestamp":"2020-07-14T07:51:56.598Z"}
+error: init app fail! {"timestamp":"2020-07-14T07:51:56.958Z"}
+error: aa is not defined {"timestamp":"2020-07-14T07:51:56.958Z","stack":"ReferenceError: aa is not defined\n    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:22:5\n    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:142:3)\n    at Module._compile (internal/modules/cjs/loader.js:1133:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)\n    at Module.load (internal/modules/cjs/loader.js:977:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:877:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)\n    at internal/main/run_main_module.js:18:47"}
+2020-07-14T07:53:50.709Z | test log info | undefined
+2020-07-14T07:53:50.710Z | test log error | undefined
+2020-07-14T07:53:51.013Z | init app fail! | undefined
+2020-07-14T07:53:51.013Z | aa is not defined | undefined
+2020-07-14T07:54:05.320Z | test log info | undefined
+2020-07-14T07:54:05.321Z | test log error | undefined
+2020-07-14T07:54:05.635Z | init app fail! | undefined
+2020-07-14T07:54:05.635Z | aa is not defined | undefined
+2020-07-14T07:54:23.094Z | init app fail! | undefined
+2020-07-14T07:54:23.100Z | aa is not defined | undefined
+2020-07-14T07:55:32.376Z error: init app fail!
+2020-07-14T07:55:32.377Z error: aa is not defined - ReferenceError: aa is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:20:5
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:140:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-07-14T07:56:04.546Z info: test log info
+2020-07-14T07:56:04.547Z error: test log error
+2020-07-14T07:56:04.864Z error: init app fail!
+2020-07-14T07:56:04.864Z error: aa is not defined - ReferenceError: aa is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:22:5
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:142:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-07-14T07:58:26.085Z info: test log info
+2020-07-14T07:58:26.086Z error: test log error
+2020-07-14T07:58:26.391Z error: init app fail!
+2020-07-14T07:58:26.391Z error: aa is not defined - ReferenceError: aa is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:22:5
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:142:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47

@@ -24,9 +24,10 @@ class NextCloudApdater {
             uri: nextCloudDomain + `/ocs/v1.php/cloud/users/AWS-provider-${user.sub}/disable`,
             method: 'PUT'
         }, function (err, res, body) {
+            let code = {};
             try {
                 let rs = xmlParser.toJson(body);
-                let code = {};
+
                 rs = JSON.parse(rs);
                 if (rs.ocs.meta.status == "ok") {
                     code = ErrorCode.success();
@@ -53,9 +54,9 @@ class NextCloudApdater {
             uri: nextCloudDomain + `/ocs/v1.php/cloud/users/AWS-provider-${user.sub}/enable`,
             method: 'PUT'
         }, function (err, res, body) {
+            let code = {};
             try {
                 let rs = xmlParser.toJson(body);
-                let code = {};
                 rs = JSON.parse(rs);
                 if (rs.ocs.meta.status == "ok") {
                     code = ErrorCode.success();
