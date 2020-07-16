@@ -1,3 +1,4 @@
+var logger = require("../Logger/Logger.js")(module)
 const sessionDaoImpl = require('../DAOImpl/DAOImplObject.js').getSessionDaoImpl();
 class Filter {
     filterBeforeRequest(req, resp, next) {
@@ -9,6 +10,8 @@ class Filter {
                 resp.clearCookie("centralSession");
                 resp.redirect("/login");
             }
+        }).catch((err) => {
+            logger.error(err);
         })
         // next();
         // call next() here to move on to next middleware/router

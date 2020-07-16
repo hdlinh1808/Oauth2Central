@@ -1,3 +1,4 @@
+var logger = require("../Logger/Logger.js")(module)
 var crypto = require('crypto');
 var Session = require("../entity/Session.js");
 var mongoUtil = require('../DBClient/MongoUtil.js');
@@ -27,7 +28,7 @@ class SessionDaoImpl {
             let result = await database.collection(SESSION_COLLECTION).insertOne(session);
             return session;
         } catch (err) {
-            console.log(err);
+            logger.error(err);
             return null;
         }
     }
@@ -41,7 +42,7 @@ class SessionDaoImpl {
 
             return session;
         } catch (err) {
-            console.log(err);
+            logger.error(err);
             return null;
         }
     }
@@ -51,7 +52,7 @@ class SessionDaoImpl {
             let result = await database.collection(SESSION_COLLECTION).deleteOne({_id : sessionId});
             return result;
         } catch (err) {
-            console.log(err);
+            logger.error(err);
             return null;
         }
     }
@@ -61,7 +62,7 @@ class SessionDaoImpl {
             let session = await database.collection(SESSION_COLLECTION).findOne({ "_id": sessionId });
             return session;
         } catch (err) {
-            console.log(err);
+            logger.error(err);
             return null;
         }
     }

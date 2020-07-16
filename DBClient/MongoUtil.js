@@ -1,29 +1,29 @@
+var logger = require("../Logger/Logger.js")(module)
 const mongo = require('mongodb');
 const MongoClient = mongo.MongoClient;
-const url = "mongodb://localhost:27017";
 const userCollectionName = "user";
 const sessionCollectionName = "session";
 const appCollectionName = "app";
 const requestAppCollectionName = "request_app";
-var _db;
 const ObjectId = require('mongoose').Types.ObjectId;
+var config = require("../Config/Config.js")
 
+var _db;
 module.exports = {
     connectToServer: async function (callback) {
         try {
-            console.log("init database..")
-            let client = await MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
-            _db = client.db('test');
-            console.log("init database done!")
+            logger.info("init database..");
+            let client = await MongoClient.connect(config.db.addr, { useNewUrlParser: true, useUnifiedTopology: true });
+            _db = client.db(config.db.dbname);
+            logger.info("init database done!")
             return _db;
         }catch(err){
-            console.log("init db fail!");
+            logger.error("init db fail!");
         }
         
     },
 
     getDb: function () {
-        // console.log(_db)
         return _db;
     },
 

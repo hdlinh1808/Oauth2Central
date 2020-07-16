@@ -1,15 +1,15 @@
-var adminUsername = "admin";
-var adminPassword = "admin";
-var nextCloudDomain = "http://localhost:8080";
+var logger = require("../Logger/Logger.js")(module)
 var request = require('request');
 let xmlParser = require('xml2json');
-let ErrorCode = require("../ErrorCode/ErrorCode.js")
-
-class NextCloudApdater {
-    constructor() {
-        this.adminUsername = adminUsername;
-        this.adminPassword = adminPassword;
-        this.nextCloudDomain = nextCloudDomain;
+const Adapter = require("./Adapter.js");
+var ErrorCode = require("../ErrorCode/ErrorCode.js")
+class NextCloudApdater extends Adapter {
+    constructor(config) {
+        super(config);
+        this.adminUsername = config.admin;
+        this.adminPassword = config.adminPass;
+        this.nextCloudDomain = config.baseUrl;
+        // console.log(this);
     }
 
     disableUser(user, callback) {
@@ -21,13 +21,13 @@ class NextCloudApdater {
         }
         request({
             headers: renderHeader(this.adminUsername, this.adminPassword),
-            uri: nextCloudDomain + `/ocs/v1.php/cloud/users/AWS-provider-${user.sub}/disable`,
+            uri: this.nextCloudDomain + `/ocs/v1.php/cloud/users/aws_oauth2-${user.sub}/disable`,
             method: 'PUT'
         }, function (err, res, body) {
             let code = {};
             try {
                 let rs = xmlParser.toJson(body);
-
+                logger.info(body);
                 rs = JSON.parse(rs);
                 if (rs.ocs.meta.status == "ok") {
                     code = ErrorCode.success();
@@ -36,7 +36,7 @@ class NextCloudApdater {
                 }
             } catch (err) {
                 code = ErrorCode.fail();
-                console.log(err);
+                logger.error(err);
             }
             callback(code);
         });
@@ -51,7 +51,7 @@ class NextCloudApdater {
         }
         request({
             headers: renderHeader(this.adminUsername, this.adminPassword),
-            uri: nextCloudDomain + `/ocs/v1.php/cloud/users/AWS-provider-${user.sub}/enable`,
+            uri: this.nextCloudDomain + `/ocs/v1.php/cloud/users/aws_oauth2-${user.sub}/enable`,
             method: 'PUT'
         }, function (err, res, body) {
             let code = {};
@@ -65,7 +65,7 @@ class NextCloudApdater {
                 }
             } catch (err) {
                 code = ErrorCode.fail();
-                console.log(err);
+                logger.error(err);
             }
             callback(code);
         });
@@ -80,4 +80,6 @@ function renderHeader(username, password) {
     }
 }
 
-module.exports = new NextCloudApdater();
+module.exports = function (config) {
+    return new NextCloudApdater(config);
+}

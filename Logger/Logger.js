@@ -2,8 +2,8 @@ const winston = require('winston');
 require('dotenv').config();
 
 const getLabel = function (callingModule) {
-    const parts = callingModule.filename.split(path.sep);
-    return path.join(parts[parts.length - 2], parts.pop());
+    var parts = callingModule.filename.split('/');
+    return parts[parts.length - 2] + '/' + parts.pop();
 };
 
 const errorStackFormat = winston.format(info => {
@@ -16,7 +16,7 @@ const errorStackFormat = winston.format(info => {
     return info
 })
 
-const logger = winston.createLogger({
+var logger = winston.createLogger({
     level: 'info',
     format: winston.format.combine(winston.format.timestamp(),
         errorStackFormat(),
@@ -24,7 +24,6 @@ const logger = winston.createLogger({
         // winston.format.simple(),
         winston.format.printf(({ level, message, timestamp, stack }) => {
             if (stack) {
-                // print log trace 
                 return `${timestamp} ${level}: ${message} - ${stack}`;
             }
             return `${timestamp} ${level}: ${message}`;
@@ -37,27 +36,60 @@ const logger = winston.createLogger({
         //
         new winston.transports.File({ filename: 'error.log', level: 'error' }),
         new winston.transports.File({ filename: 'info.log' }),
+        new winston.transports.Console({
+            format: winston.format.combine(winston.format.timestamp(),
+                errorStackFormat(),
+                winston.format.colorize(),
+                winston.format.printf(({ level, message, timestamp, stack }) => {
+                    if (stack) {
+                        return `${timestamp} ${level}: ${message} - ${stack}`;
+                    }
+                    return `${timestamp} ${level}: ${message}`;
+                }),
+            )
+        })
     ],
     exceptionHandlers: [
         new winston.transports.File({ filename: 'exception.log' }),
+        new winston.transports.Console({
+            format: winston.format.combine(winston.format.timestamp(),
+                errorStackFormat(),
+                // winston.format.json(),
+                // winston.format.simple(),
+                winston.format.printf(({ level, message, timestamp, stack }) => {
+                    if (stack) {
+                        return `${timestamp} ${level}: ${message} - ${stack}`;
+                    }
+                    return `${timestamp} ${level}: ${message}`;
+                }),
+            )
+        })
     ]
 });
 
 if (process.env.NODE_ENV !== 'production') {
-    logger.add(new winston.transports.Console({
-        format: winston.format.combine(winston.format.timestamp(),
-            errorStackFormat(),
-            // winston.format.json(),
-            // winston.format.simple(),
-            winston.format.printf(({ level, message, timestamp, stack }) => {
-                if (stack) {
-                    // print log trace 
-                    return `${timestamp} ${level}: ${message} - ${stack}`;
-                }
-                return `${timestamp} ${level}: ${message}`;
-            }),
-        )
-    }));
+    // logger.add();
 }
 
-module.exports = logger;
+class Logger {
+    constructor(callingModule) {
+        this.callingModule = callingModule;
+        this.label = "[" + getLabel(this.callingModule) + "] " ;
+    }
+
+    info(msg) {
+        // msg.message = this.label + msg.message;
+        logger.info(msg);
+    }
+
+    error(err) {
+        if(err.message){
+            err.message = this.label + err.message;
+        }
+        
+        logger.error(err);
+    }
+}
+module.exports = function (callingModule) {
+    return new Logger(callingModule);
+};

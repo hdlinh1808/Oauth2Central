@@ -1,3 +1,4 @@
+var logger = require("../Logger/Logger.js")(module)
 const DAOImplObject = require('../DAOImpl/DAOImplObject.js')
 var BaseTemplate = require("../Template/BaseTemplate")
 var fs = require("fs");
@@ -84,8 +85,9 @@ class UserController {
             data.notRequest = notRequestRow;
             let content = BaseTemplate.renderPageWithParam(userDetailTpl, data);
             let page = BaseTemplate.renderWithBaseTpl("", "User detail", content);
-            // console.log(page);
             resp.send(page);
+        }).catch((err) => {
+            logger.error(err);
         });
         // resp.send('aa')
     }

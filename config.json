@@ -1,17 +1,20 @@
 {
     "app": {
         "nextcloud": {
-            "image": "",
+            "image": "/nextcloud.png",
             "baseUrl": "http://localhost:8080",
             "admin": "admin",
             "adminPass": "admin",
-            "apdater": "NextCloudApdapter"
+            "adapter": "NextCloudAdapter",
+            "description": ""
         },
         "rocketchat": {
-            "image": "",
-            "baseUrl": "",
-            "admin": "",
-            "apdater": "NextCloudApdapter"
+            "image": "rocketchat.png",
+            "baseUrl": "http://localhost:8090",
+            "xAuthToken": "GUStmvcYRxDfCSRbibgHY4qm7D_ggosmHLq0RTqvZAu",
+            "xUserId": "R2yvPmSgLyF2b7yXd",
+            "description": "",
+            "adapter": "RocketchatAdapter"
         }
     },
     "db": {

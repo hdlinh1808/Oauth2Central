@@ -1,13 +1,14 @@
 const fs = require('fs');
 let config = {};
+var logger = require("../Logger/Logger.js")(module)
 try {
-    console.log("Load config..");
+    logger.info("Load config..");
     let rawdata = fs.readFileSync('./config.json').toString();
     config = JSON.parse(rawdata);
-    console.log('Load config done!');
+    logger.info('Load config done!');
 } catch (err) {
     config = null;
-    console.log("Load config Error!")
-    console.log(err);
+    logger.error("Load config Error!")
+    logger.error(err);
 }
 module.exports = config;

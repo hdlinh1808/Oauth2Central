@@ -1,0 +1,170 @@
+2020-07-16T08:18:13.629Z error: uncaughtException: aa is not defined
+ReferenceError: aa is not defined
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:11:1)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 - ReferenceError: aa is not defined
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:11:1)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-07-16T08:46:53.908Z error: uncaughtException: Cannot create property 'message' on string 'APP IS STARTING...'
+TypeError: Cannot create property 'message' on string 'APP IS STARTING...'
+    at Logger.info (/media/lap12654/DATA/git/my-git/Oauth2Central/Logger/Logger.js:81:21)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:6:8)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 - TypeError: Cannot create property 'message' on string 'APP IS STARTING...'
+    at Logger.info (/media/lap12654/DATA/git/my-git/Oauth2Central/Logger/Logger.js:81:21)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:6:8)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-07-16T08:55:06.829Z error: uncaughtException: process.on(...) is not a function
+TypeError: process.on(...) is not a function
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 - TypeError: process.on(...) is not a function
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-07-16T08:56:08.184Z error: uncaughtException: Cannot create property 'message' on string 'init app fail!'
+TypeError: Cannot create property 'message' on string 'init app fail!'
+    at Logger.error (/media/lap12654/DATA/git/my-git/Oauth2Central/Logger/Logger.js:86:21)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:135:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) - TypeError: Cannot create property 'message' on string 'init app fail!'
+    at Logger.error (/media/lap12654/DATA/git/my-git/Oauth2Central/Logger/Logger.js:86:21)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:135:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T08:57:40.138Z error: uncaughtException: aa is not defined
+ReferenceError: aa is not defined
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:18:9)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) - ReferenceError: aa is not defined
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:18:9)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T08:58:16.548Z error: uncaughtException: aabb is not defined
+ReferenceError: aabb is not defined
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:18:9)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) - ReferenceError: aabb is not defined
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:18:9)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T09:29:24.077Z error: uncaughtException: aa is not defined
+ReferenceError: aa is not defined
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:17:9)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) - ReferenceError: aa is not defined
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:17:9)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T09:30:47.427Z error: uncaughtException: aa is not defined
+ReferenceError: aa is not defined
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:17:9)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) - ReferenceError: aa is not defined
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:17:9)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T10:08:06.939Z error: uncaughtException: Unexpected token < in JSON at position 0
+SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:68:30)
+    at Request.self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:310:20)
+    at IncomingMessage.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:416:28)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) - SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:68:30)
+    at Request.self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:310:20)
+    at IncomingMessage.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:416:28)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-07-16T10:11:18.541Z error: uncaughtException: Unexpected token < in JSON at position 0
+SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:74:30)
+    at Request.self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:310:20)
+    at IncomingMessage.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:416:28)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) - SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:74:30)
+    at Request.self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:310:20)
+    at IncomingMessage.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:416:28)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-07-16T10:12:04.280Z error: uncaughtException: Unexpected token < in JSON at position 0
+SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:74:30)
+    at Request.self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:310:20)
+    at IncomingMessage.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:416:28)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) - SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:74:30)
+    at Request.self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:310:20)
+    at IncomingMessage.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:416:28)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)

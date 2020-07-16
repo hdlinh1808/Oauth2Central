@@ -1,44 +1,34 @@
+var logger = require("./Logger/Logger.js")(module)
 const express = require('express')
 const mustacheExpress = require('mustache-express');
-const https = require("https");
-const http = require("http");
-const querystring = require('querystring');
-var url = require('url');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
-var request = require('request');
-var requestFilter;
-
+logger.info("APP IS STARTING...")
 //Config
 var config = require("./Config/Config.js")
-
-var logger = require("./Logger/Logger.js")
-logger.info("test log info");
-logger.error("test log error");
-
 //DB
 var mongoUtil = require("./DBClient/MongoUtil.js");
+
 (async () => {
-    aa
     await mongoUtil.connectToServer();
+    //init impl Dao
     let DAOImplObject = require('./DAOImpl/DAOImplObject.js');
     DAOImplObject.initDaoImpl();
+
+
+    //init Adapter
+    require("./Adapter/AdapterManager.js");
+
+    // init Controller
     let UserController = require("./Controller/UserController.js");
     let LoginController = require("./Controller/LoginController.js");
     var userController = new UserController();
     var loginController = new LoginController();
     var appController = require("./Controller/AppController.js");
     var requestFilter = require("./Filter/Filter.js");
-
-    //aws constant
-    var awsConfig = config.aws;
-    var AWS_DOMAIN_BASE = awsConfig.baseDomain;
-    var AWS_AUTHORIZATION = "/oauth2/authorize"
-    var AWS_CLIENT_ID = awsConfig.clientId;
-    var AWS_CLIENT_SECRET = awsConfig.clientSecret;
-
     //app domain
     var appDomain = config.appAddr;
+    const port = config.port;
 
     //APP setting
     const app = express()
@@ -49,7 +39,7 @@ var mongoUtil = require("./DBClient/MongoUtil.js");
     app.set('view engine', 'mustache');
 
     //APP constant
-    const port = process.env.PORT || 3000
+
     const URI_OAUTH2_CALLBACK = "/oauth2callback";
     const URI_DASHBOARD = "/dashboard";
 
@@ -135,13 +125,17 @@ var mongoUtil = require("./DBClient/MongoUtil.js");
     })
 
     app.get("/test", (req, resp) => {
-        console.log(req.query);
+        logger.info('test')
     })
 
-    app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+    app.listen(port, () => logger.info(`Example app listening at http://localhost:${port}`))
 })()
     .catch((err) => {
         logger.error("init app fail!")
         logger.error(err);
     });
+
+process.on('unhandledRejection', (reason, promise) => {
+    logger.error(reason);
+})
 

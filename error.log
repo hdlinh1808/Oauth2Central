@@ -1,38 +1,239 @@
+2020-07-16T08:03:34.429Z error: [Adapter/RocketchatAdapter.js] ReferenceError: request is not defined
+2020-07-16T08:04:48.776Z error: [Adapter/RocketchatAdapter.js] ReferenceError: request is not defined
+2020-07-16T08:05:07.243Z error: [Adapter/RocketchatAdapter.js] ReferenceError: request is not defined
+2020-07-16T08:05:57.293Z error: [Adapter/RocketchatAdapter.js] ReferenceError: request is not defined
+2020-07-16T08:06:43.994Z error: [Adapter/RocketchatAdapter.js] ReferenceError: request is not defined
+2020-07-16T08:07:56.312Z error: [Adapter/RocketchatAdapter.js] ReferenceError: request is not defined
+2020-07-16T08:09:35.294Z error: [Adapter/RocketchatAdapter.js] ReferenceError: request is not defined
+2020-07-16T08:10:31.420Z error: [Adapter/RocketchatAdapter.js] ReferenceError: request is not defined
+2020-07-16T08:11:07.681Z error: [Adapter/RocketchatAdapter.js] ReferenceError: request is not defined
+2020-07-16T08:14:20.602Z error: [Adapter/RocketchatAdapter.js] ReferenceError: request is not defined
+2020-07-16T08:14:39.244Z error: [Adapter/RocketchatAdapter.js] ReferenceError: request is not defined
+2020-07-16T08:15:11.388Z error: [Adapter/RocketchatAdapter.js] 312ReferenceError: request is not defined123
+2020-07-16T08:16:10.155Z error: [Adapter/RocketchatAdapter.js] ReferenceError: request is not defined
+2020-07-16T08:18:32.751Z error: [Oauth2Central/app.js] init app fail!
+2020-07-16T08:18:32.752Z error: [Oauth2Central/app.js] ReferenceError: aa is not defined
+2020-07-16T08:21:45.162Z error: [Adapter/RocketchatAdapter.js] ReferenceError: request is not defined
+2020-07-16T08:23:57.775Z error: [Adapter/RocketchatAdapter.js] ReferenceError: aa is not defined
+2020-07-16T08:23:59.593Z error: [Adapter/RocketchatAdapter.js] ReferenceError: aa is not defined
+2020-07-16T08:23:59.757Z error: [Adapter/RocketchatAdapter.js] ReferenceError: aa is not defined
+2020-07-16T08:23:59.973Z error: [Adapter/RocketchatAdapter.js] ReferenceError: aa is not defined
+2020-07-16T08:24:00.150Z error: [Adapter/RocketchatAdapter.js] ReferenceError: aa is not defined
+2020-07-16T08:24:28.825Z error: [Oauth2Central/app.js] ReferenceError: aa is not defined
+2020-07-16T08:26:45.957Z error: aa is not defined - ReferenceError: aa is not defined
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:13:5)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-07-16T08:27:59.486Z error: aa is not defined - ReferenceError: aa is not defined
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:13:5)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-07-16T08:34:17.054Z error: [Oauth2Central/app.js] ReferenceError: aa is not defined
+2020-07-16T08:34:26.313Z error: [Oauth2Central/app.js] ReferenceError: aa is not defined
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:13:5)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-07-16T08:35:08.681Z error: [Oauth2Central/app.js] 
+2020-07-16T08:37:16.529Z error: aa is not defined - ReferenceError: aa is not defined
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:13:5)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-07-16T08:45:03.469Z error: request is not defined - ReferenceError: request is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:38:13
+    at new Promise (<anonymous>)
+    at RocketchatAdapter.makeApi (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:37:16)
+    at RocketchatAdapter.getUserId (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:28:20)
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:18:14)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T08:46:13.479Z error: Adapter/RocketchatAdapter.jsrequest is not defined - ReferenceError: Adapter/RocketchatAdapter.jsrequest is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:38:13
+    at new Promise (<anonymous>)
+    at RocketchatAdapter.makeApi (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:37:16)
+    at RocketchatAdapter.getUserId (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:28:20)
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:18:14)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T08:47:33.676Z error: [Adapter/RocketchatAdapter.js] request is not defined - ReferenceError: [Adapter/RocketchatAdapter.js] request is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:38:13
+    at new Promise (<anonymous>)
+    at RocketchatAdapter.makeApi (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:37:16)
+    at RocketchatAdapter.getUserId (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:28:20)
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:18:14)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T08:56:52.320Z error: init app fail!
+2020-07-16T08:56:52.320Z error: [Oauth2Central/app.js] aa is not defined - ReferenceError: [Oauth2Central/app.js] aa is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:14:5
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T09:26:14.805Z error: [Adapter/RocketchatAdapter.js] request is not defined - ReferenceError: [Adapter/RocketchatAdapter.js] request is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:37:13
+    at new Promise (<anonymous>)
+    at RocketchatAdapter.makeApi (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:36:16)
+    at RocketchatAdapter.getUserId (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:27:20)
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:17:14)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T09:27:56.443Z error: [Adapter/RocketchatAdapter.js] request is not defined - ReferenceError: [Adapter/RocketchatAdapter.js] request is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:37:13
+    at new Promise (<anonymous>)
+    at RocketchatAdapter.makeApi (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:36:16)
+    at RocketchatAdapter.getUserId (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:27:20)
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:17:14)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T09:28:13.695Z error: [Adapter/RocketchatAdapter.js] request is not defined - ReferenceError: [Adapter/RocketchatAdapter.js] request is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:37:13
+    at new Promise (<anonymous>)
+    at RocketchatAdapter.makeApi (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:36:16)
+    at RocketchatAdapter.getUserId (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:27:20)
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:17:14)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T09:28:17.783Z error: [Adapter/RocketchatAdapter.js] request is not defined - ReferenceError: [Adapter/RocketchatAdapter.js] request is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:37:13
+    at new Promise (<anonymous>)
+    at RocketchatAdapter.makeApi (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:36:16)
+    at RocketchatAdapter.getUserId (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:27:20)
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:17:14)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T09:31:58.686Z error: [Oauth2Central/app.js] aa is not defined - ReferenceError: [Oauth2Central/app.js] aa is not defined
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:17:9)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T09:32:16.705Z error: [Oauth2Central/app.js] aa is not defined - ReferenceError: [Oauth2Central/app.js] aa is not defined
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:17:9)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T09:32:16.911Z error: [Oauth2Central/app.js] aa is not defined - ReferenceError: [Oauth2Central/app.js] aa is not defined
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:17:9)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T09:32:17.076Z error: [Oauth2Central/app.js] aa is not defined - ReferenceError: [Oauth2Central/app.js] aa is not defined
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:17:9)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T09:32:17.184Z error: [Oauth2Central/app.js] aa is not defined - ReferenceError: [Oauth2Central/app.js] aa is not defined
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:17:9)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T09:32:17.411Z error: [Oauth2Central/app.js] aa is not defined - ReferenceError: [Oauth2Central/app.js] aa is not defined
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:17:9)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T09:33:16.217Z error: Invalid status code <400>
+2020-07-16T09:33:55.533Z error: Invalid status code <400>
+2020-07-16T09:35:55.544Z error: Invalid status code <400>
+2020-07-16T09:38:07.412Z error: [Oauth2Central/app.js] makeHttpRequestHeader is not defined - ReferenceError: [Oauth2Central/app.js] makeHttpRequestHeader is not defined
+    at RocketchatAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:19:22)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:30:27)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:119:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T09:41:48.444Z error: Invalid status code <400>
+2020-07-16T09:49:08.720Z error: Invalid status code <400>
+2020-07-16T09:51:08.711Z error: Invalid status code <400>
+2020-07-16T09:53:38.479Z error: get user id of user: hdlinh0404 nul
+2020-07-16T09:55:38.483Z error: get user id of user: hdlinh0404 nul
+2020-07-16T10:06:23.467Z error: [Adapter/AdapterManager.js] Identifier 'ErrorCode' has already been declared - /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:5
+var ErrorCode = require("../ErrorCode/ErrorCode.js")
+    ^
 
-2020-07-14T07:54:05.321Z | test log error | undefined
-2020-07-14T07:54:05.635Z | init app fail! | undefined
-2020-07-14T07:54:05.635Z | aa is not defined | undefined
-2020-07-14T07:54:23.094Z | init app fail! | undefined
-2020-07-14T07:54:23.100Z | aa is not defined | undefined
-2020-07-14T07:55:32.376Z error: init app fail!
-2020-07-14T07:55:32.377Z error: aa is not defined - ReferenceError: aa is not defined
+SyntaxError: Identifier 'ErrorCode' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1047:16)
+    at Module._compile (internal/modules/cjs/loader.js:1097:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at new AdapterManager (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:15:31)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:39:18)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
     at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:20:5
-    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:140:3)
-    at Module._compile (internal/modules/cjs/loader.js:1133:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
-    at Module.load (internal/modules/cjs/loader.js:977:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
-    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
-    at internal/main/run_main_module.js:18:47
-2020-07-14T07:56:04.547Z error: test log error
-2020-07-14T07:56:04.864Z error: init app fail!
-2020-07-14T07:56:04.864Z error: aa is not defined - ReferenceError: aa is not defined
-    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:22:5
-    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:142:3)
-    at Module._compile (internal/modules/cjs/loader.js:1133:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
-    at Module.load (internal/modules/cjs/loader.js:977:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
-    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
-    at internal/main/run_main_module.js:18:47
-2020-07-14T07:58:26.086Z error: test log error
-2020-07-14T07:58:26.391Z error: init app fail!
-2020-07-14T07:58:26.391Z error: aa is not defined - ReferenceError: aa is not defined
-    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:22:5
-    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/app.js:142:3)
-    at Module._compile (internal/modules/cjs/loader.js:1133:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
-    at Module.load (internal/modules/cjs/loader.js:977:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
-    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
-    at internal/main/run_main_module.js:18:47
+2020-07-16T10:06:48.233Z error: [Adapter/RocketchatAdapter.js] querystring is not defined - ReferenceError: [Adapter/RocketchatAdapter.js] querystring is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:27:28
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T10:13:28.569Z error: [Adapter/RocketchatAdapter.js] Unexpected token < in JSON at position 0 - SyntaxError: [Adapter/RocketchatAdapter.js] Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:74:34)
+    at Request.self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:310:20)
+    at IncomingMessage.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:416:28)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-07-16T10:15:25.370Z error: [Adapter/RocketchatAdapter.js] Unexpected token < in JSON at position 0 - SyntaxError: [Adapter/RocketchatAdapter.js] Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:74:34)
+    at Request.self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:310:20)
+    at IncomingMessage.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:416:28)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-07-16T10:17:25.388Z error: [Adapter/RocketchatAdapter.js] Unexpected token < in JSON at position 0 - SyntaxError: [Adapter/RocketchatAdapter.js] Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:74:34)
+    at Request.self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:310:20)
+    at IncomingMessage.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:416:28)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-07-16T10:21:17.899Z error: [Adapter/RocketchatAdapter.js] Unexpected token < in JSON at position 0 - SyntaxError: [Adapter/RocketchatAdapter.js] Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:75:34)
+    at Request.self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:310:20)
+    at IncomingMessage.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:416:28)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-07-16T10:25:57.798Z error: get user id of user: hdlinh0404 null

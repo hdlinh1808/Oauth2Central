@@ -1,3 +1,4 @@
+var logger = require("../Logger/Logger.js")(module)
 const DAOImplObject = require('../DAOImpl/DAOImplObject.js')
 var Mustache = require("mustache");
 var BaseTemplate = require("../Template/BaseTemplate")
@@ -27,7 +28,7 @@ class AppController {
                 resp.send(ErrorCode.success());
             })
             .catch(function (err) {
-                console.log("err:" + err);
+                logger.error(err);
                 resp.send(ErrorCode.fail());
             })
     }
@@ -43,8 +44,8 @@ class AppController {
                 resp.send(page);
 
             }).catch(function (err) {
-                console.log("renderAdminRequestAppPage fail");
-                console.log("error: " + err)
+                logger.error("renderAdminRequestAppPage fail");
+                logger.error("error: " + err)
             });
     }
 
@@ -79,12 +80,11 @@ class AppController {
         let app = req.body.app;
         this.appDaoImpl.getListUserOfApp(app)
             .then((result) => {
-                console.log(result);
                 resp.send(result.users);
             })
             .catch((err) => {
-                console.log("get list user of app fail!")
-                console.log(err);
+                logger.error("get list user of app fail!")
+                logger.error(err);
             });
     }
 
@@ -101,12 +101,12 @@ class AppController {
                         errorCode.app = app;
                         resp.send(errorCode);
                     })
-                    .catch((err2) => {
-                        console.log(err2);
+                    .catch((err) => {
+                        logger.error(err);
                     })
             })
             .catch(function (err) {
-                console.log(err);
+                logger.error(err);
             });
     }
 
@@ -145,7 +145,6 @@ class AppController {
             errorCode.app = app;
             resp.send(errorCode);
         })
-        // console.log(param)
     }
 
     async removeFromRequest(uid, app) {

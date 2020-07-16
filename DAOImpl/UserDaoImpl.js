@@ -1,3 +1,4 @@
+var logger = require("../Logger/Logger.js")(module)
 const User = require('../entity/User.js')
 var mongoUtil = require('../DBClient/MongoUtil.js');
 var database = mongoUtil.getDb();
@@ -18,7 +19,7 @@ class UserDaoImpl {
             let user = await database.collection(USER_COLLECTION).findOne({ "_id": username });
             return user;
         } catch (err) {
-            console.log(err);
+            logger.error(err);
             return null;
         }
     }
@@ -34,7 +35,7 @@ class UserDaoImpl {
             result = await this.appDaoImpl.updateRequestApp(app, userId);
             return result;
         } catch (err) {
-            console.log("add Request App fail");
+            logger.error("add Request App fail");
             return null;
         }
     }
@@ -58,7 +59,7 @@ class UserDaoImpl {
             let result = await database.collection(USER_COLLECTION).insertOne(user);
             return true;
         } catch (err) {
-            console.log(err);
+            logger.error(err);
             return false;
         }
     }
@@ -68,7 +69,7 @@ class UserDaoImpl {
             let query = await database.collection(USER_COLLECTION).findOne({ "_id": username });
             return query != null;
         } catch (err) {
-            console.log(err);
+            logger.error(err);
             return false;
         }
     }
@@ -81,7 +82,7 @@ class UserDaoImpl {
             let result = await database.collection(USER_COLLECTION).updateOne({ "_id": username }, { $pull: data });
             return result;
         } catch (err) {
-            console.log(err);
+            logger.error(err);
             return false;
         }
     }
@@ -94,7 +95,7 @@ class UserDaoImpl {
             let result = await database.collection(USER_COLLECTION).updateOne({ "_id": username }, { $push: data });
             return result;
         } catch (err) {
-            console.log(err);
+            logger.error(err);
             return false;
         }
     }
@@ -107,7 +108,7 @@ class UserDaoImpl {
             let result = await database.collection(USER_COLLECTION).updateOne({ "_id": username }, { $pull: data });
             return result;
         } catch (err) {
-            console.log(err);
+            logger.error(err);
             return false;
         }
     }

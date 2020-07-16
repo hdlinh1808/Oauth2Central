@@ -1,3 +1,4 @@
+var logger = require("../Logger/Logger.js")(module)
 var Mustache = require("mustache");
 const querystring = require('querystring');
 var request = require('request');
@@ -32,7 +33,7 @@ class LoginController {
     execCallbackLogin(req, resp, callbackUrl) {
         var code = req.query.code;
         if (code == undefined || code == "") {
-            console.log("code not found")
+            logger.error("code not found")
             return;
         }
         var tokenParams = {
@@ -55,7 +56,6 @@ class LoginController {
             body: formData,
             method: 'POST'
         }, function (err, res, body) {
-            // console.log(this);
             let params = JSON.parse(body);
             let access_token = params.access_token;
             getUserInfo(access_token, resp, async (params) => { //success function
@@ -78,6 +78,8 @@ class LoginController {
                 resp.clearCookie("centralSession");
                 resp.redirect("/login");
             }
+        }).catch((err) => {
+            logger.error(err);
         });
 
     }
@@ -87,7 +89,7 @@ class LoginController {
     }
 
     _test() {
-        console.log('aa')
+        logger.info('aa')
     }
 }
 
