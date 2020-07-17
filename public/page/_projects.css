@@ -1,0 +1,15 @@
+.projects td {
+  vertical-align: middle;
+}
+.projects .list-inline {
+  margin-bottom: 0;
+}
+.projects img.table-avatar, .projects .table-avatar img {
+  border-radius: 50%;
+  display: inline;
+  width: 2.5rem;
+}
+.projects .project-state {
+  text-align: center;
+}
+

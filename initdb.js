@@ -87,3 +87,16 @@ db.createCollection("app", {
    }
 })
 
+db.createCollection("admin", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         properties: {
+            _id: {
+               bsonType: "string",
+            },
+         }
+      }
+   }
+})
+

@@ -237,3 +237,341 @@ SyntaxError: Identifier 'ErrorCode' has already been declared
     at endReadableNT (_stream_readable.js:1187:12)
     at processTicksAndRejections (internal/process/task_queues.js:84:21)
 2020-07-16T10:25:57.798Z error: get user id of user: hdlinh0404 null
+2020-07-16T14:26:46.761Z error: init app fail!
+2020-07-16T14:26:46.762Z error: [Oauth2Central/app.js] Identifier 'sessionId' has already been declared - /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:38
+        let sessionId = req.cookies.centralSession;
+            ^
+
+SyntaxError: Identifier 'sessionId' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1047:16)
+    at Module._compile (internal/modules/cjs/loader.js:1097:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:27:25
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T14:32:49.885Z error: [Controller/AppController.js] Cannot read property 'checkExistUser' of undefined - TypeError: [Controller/AppController.js] Cannot read property 'checkExistUser' of undefined
+    at AdapterManager.checkExistUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:38:27)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:41:28
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T14:34:03.356Z error: [Controller/AppController.js] Cannot read property 'checkExistUser' of undefined - TypeError: [Controller/AppController.js] Cannot read property 'checkExistUser' of undefined
+    at AdapterManager.checkExistUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:38:27)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:41:28
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T14:34:04.914Z error: [Controller/AppController.js] Cannot read property 'checkExistUser' of undefined - TypeError: [Controller/AppController.js] Cannot read property 'checkExistUser' of undefined
+    at AdapterManager.checkExistUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:38:27)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:41:28
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-16T16:57:51.879Z error: [Adapter/NextCloudAdapter.js] ERROR_EXIST is not defined - ReferenceError: [Adapter/NextCloudAdapter.js] ERROR_EXIST is not defined
+    at Object.errorNotExist (/media/lap12654/DATA/git/my-git/Oauth2Central/ErrorCode/ErrorCode.js:22:32)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/NextCloudAdapter.js:36:38)
+    at Request.self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:310:20)
+    at IncomingMessage.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:416:28)
+    at IncomingMessage.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-07-16T17:04:07.887Z error: add Request App fail
+2020-07-16T17:04:22.710Z error: add Request App fail
+2020-07-16T17:05:10.072Z error: add Request App fail
+2020-07-16T17:06:09.697Z error: add Request App fail
+2020-07-17T02:29:35.755Z error: [DAOImpl/AppDaoImpl.js] Cannot read property 'push' of undefined - TypeError: [DAOImpl/AppDaoImpl.js] Cannot read property 'push' of undefined
+    at new AppDaoImpl (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:22:27)
+    at new DAOImplObject (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/DAOImplObject.js:8:27)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/DAOImplObject.js:30:18)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:15:25
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-17T02:29:35.755Z error: [DAOImpl/AppDaoImpl.js] Cannot read property 'push' of undefined - TypeError: [DAOImpl/AppDaoImpl.js] Cannot read property 'push' of undefined
+    at new AppDaoImpl (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:22:27)
+    at new DAOImplObject (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/DAOImplObject.js:8:27)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/DAOImplObject.js:30:18)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:15:25
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-17T02:29:35.756Z error: [DAOImpl/AppDaoImpl.js] Cannot read property 'length' of undefined - TypeError: [DAOImpl/AppDaoImpl.js] Cannot read property 'length' of undefined
+    at AppDaoImpl.initAppData (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:39:43)
+    at new AppDaoImpl (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:29:14)
+    at new DAOImplObject (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/DAOImplObject.js:8:27)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/DAOImplObject.js:30:18)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:15:25
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-17T02:40:08.220Z error: [DAOImpl/AppDaoImpl.js] Cannot read property 'collection' of undefined - TypeError: [DAOImpl/AppDaoImpl.js] Cannot read property 'collection' of undefined
+    at AppDaoImpl.initAppData (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:43:41)
+    at new AppDaoImpl (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:31:14)
+    at new DAOImplObject (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/DAOImplObject.js:8:27)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/DAOImplObject.js:30:18)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:2:23)
+    at Module._compile (internal/modules/cjs/loader.js:1130:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+2020-07-17T04:13:20.890Z error: [Controller/AppController.js] Cannot read property 'checkExistUser' of undefined - TypeError: [Controller/AppController.js] Cannot read property 'checkExistUser' of undefined
+    at AdapterManager.checkExistUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:38:27)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:43:28
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-17T04:15:20.893Z error: [Controller/AppController.js] Cannot read property 'checkExistUser' of undefined - TypeError: [Controller/AppController.js] Cannot read property 'checkExistUser' of undefined
+    at AdapterManager.checkExistUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:38:27)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:43:28
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-17T04:18:00.728Z error: adapter of  nextcloud undefined
+2020-07-17T04:18:02.366Z error: adapter of  nextcloud undefined
+2020-07-17T04:18:04.347Z error: adapter of  nextcloud undefined
+2020-07-17T04:18:15.441Z error: adapter of  nextcloud undefined
+2020-07-17T04:18:18.465Z error: adapter of  nextcloud undefined
+2020-07-17T04:19:19.510Z error: adapter of nextcloud  undefined
+2020-07-17T04:19:20.730Z error: adapter of nextcloud  undefined
+2020-07-17T04:45:27.717Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:45:29.397Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:45:31.031Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:45:57.197Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:46:54.105Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:47:59.003Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:48:01.745Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:48:03.025Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:48:03.219Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:48:03.557Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:48:03.741Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:48:03.946Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:48:07.839Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:48:08.007Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:48:08.174Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:48:08.670Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:48:08.858Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:48:09.052Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:48:09.228Z error: get user id of user: hdlinh0404 null
+2020-07-17T04:48:09.460Z error: get user id of user: hdlinh0404 null
+2020-07-17T11:10:33.737Z error: [Controller/UserController.js] user is not defined - ReferenceError: [Controller/UserController.js] user is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:42:25
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-17T12:14:36.899Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:19:13.177Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:20:46.968Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:31.931Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:33.198Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:34.042Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:34.909Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:35.428Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:35.628Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:36.177Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:36.362Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:36.508Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:36.677Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:36.865Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:37.048Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:37.205Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:37.393Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:37.609Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:38.278Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T12:21:38.439Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T15:19:15.414Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T15:19:23.199Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T15:19:24.381Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T16:36:09.702Z error: init app fail!
+2020-07-17T16:36:09.703Z error: [Oauth2Central/app.js] Cannot find module './Middleware/RoleManager.js'
+Require stack:
+- /media/lap12654/DATA/git/my-git/Oauth2Central/Filter/Filter.js
+- /media/lap12654/DATA/git/my-git/Oauth2Central/app.js - Error: [Oauth2Central/app.js] Cannot find module './Middleware/RoleManager.js'
+Require stack:
+- /media/lap12654/DATA/git/my-git/Oauth2Central/Filter/Filter.js
+- /media/lap12654/DATA/git/my-git/Oauth2Central/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Filter/Filter.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:31:25
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-17T17:03:01.399Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:04.221Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:05.425Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:06.774Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:07.537Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:07.725Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:07.932Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:08.992Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:09.626Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:10.502Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:11.413Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:12.286Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:13.226Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:34.508Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:34.634Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:34.852Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:35.802Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:36.756Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:36.899Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:37.301Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:37.896Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:38.417Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:38.967Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:39.502Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:39.672Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:39.880Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:40.095Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:40.230Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:40.430Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:40.678Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:40.811Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:41.387Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:41.853Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:42.136Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:42.291Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:42.481Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:43.070Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:44.283Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:03:46.415Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:43.158Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:44.400Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:45.363Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:46.473Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:48.640Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:51.213Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:54.602Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:57.007Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:58.314Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:58.522Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:58.653Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:58.895Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:59.031Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:59.224Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:59.357Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:59.553Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:06:59.736Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:07:00.258Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:07:00.998Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:07:01.650Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:07:02.418Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:07:03.530Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:07:04.477Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:07:05.057Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:07:07.168Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:07:08.024Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:07:08.953Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:07:09.754Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:07:14.521Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)

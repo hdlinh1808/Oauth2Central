@@ -9,19 +9,48 @@ class NextCloudApdater extends Adapter {
         this.adminUsername = config.admin;
         this.adminPassword = config.adminPass;
         this.nextCloudDomain = config.baseUrl;
+        this.prefixName = config.prefixName;
         // console.log(this);
     }
 
-    disableUser(user, callback) {
+    checkExistUser(user, callback) {
         if (user == null) {
             code = ErrorCode.fail();
-            console.error("user null!");
+            logger.error("user null!");
             callback(code);
             return;
         }
         request({
             headers: renderHeader(this.adminUsername, this.adminPassword),
-            uri: this.nextCloudDomain + `/ocs/v1.php/cloud/users/aws_oauth2-${user.sub}/disable`,
+            uri: this.nextCloudDomain + `/ocs/v1.php/cloud/users/${this.prefixName}-${user.sub}`,
+            method: 'GET'
+        }, function (err, res, body) {
+            let code = ErrorCode.fail();
+            try {
+                let rs = xmlParser.toJson(body);
+                rs = JSON.parse(rs);
+                if(rs.ocs.meta.status == "ok"){
+                    code = ErrorCode.success();
+                }else {
+                    code = ErrorCode.errorNotExist("User isn't registered with Nextcloud")
+                }
+            } catch (err) {
+                logger.error(err);
+            }
+            callback(code);
+        })
+    }
+
+    disableUser(user, callback) {
+        if (user == null) {
+            code = ErrorCode.fail();
+            logger.error("user null!");
+            callback(code);
+            return;
+        }
+        request({
+            headers: renderHeader(this.adminUsername, this.adminPassword),
+            uri: this.nextCloudDomain + `/ocs/v1.php/cloud/users/${this.prefixName}-${user.sub}/disable`,
             method: 'PUT'
         }, function (err, res, body) {
             let code = {};
@@ -45,13 +74,13 @@ class NextCloudApdater extends Adapter {
     enableUser(user, callback) {
         if (user == null) {
             code = ErrorCode.fail();
-            console.error("user null!");
+            logger.error("user null!");
             callback(code);
             return;
         }
         request({
             headers: renderHeader(this.adminUsername, this.adminPassword),
-            uri: this.nextCloudDomain + `/ocs/v1.php/cloud/users/aws_oauth2-${user.sub}/enable`,
+            uri: this.nextCloudDomain + `/ocs/v1.php/cloud/users/${this.prefixName}-${user.sub}/enable`,
             method: 'PUT'
         }, function (err, res, body) {
             let code = {};

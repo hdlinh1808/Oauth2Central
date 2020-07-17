@@ -5,6 +5,7 @@ const userCollectionName = "user";
 const sessionCollectionName = "session";
 const appCollectionName = "app";
 const requestAppCollectionName = "request_app";
+const adminRoleCollectionName = "admin"
 const ObjectId = require('mongoose').Types.ObjectId;
 var config = require("../Config/Config.js")
 
@@ -45,6 +46,10 @@ module.exports = {
 
     getRequestAppCollection: function () {
         return requestAppCollectionName;
+    },
+
+    getAdminCollection: function(){
+        return adminRoleCollectionName;
     }
 
 

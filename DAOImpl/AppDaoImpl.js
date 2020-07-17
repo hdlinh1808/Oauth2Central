@@ -1,3 +1,4 @@
+var config = require("../Config/Config.js")
 var logger = require("../Logger/Logger.js")(module)
 const App = require('../entity/App.js')
 var mongoUtil = require('../DBClient/MongoUtil');
@@ -9,9 +10,29 @@ var REQUEST_APP_COLLECTION = mongoUtil.getRequestAppCollection();
 var REQUEST_APP_KEY = "request_app";
 class AppDaoImpl {
     constructor() {
-        this.apps = ["nextcloud", "rocketchat"];
+        let apps = Object.keys(config.app);
+        this.appInfos = [];
+        this.apps = [];
+        let appConfigs = config.app;
+        for (let i = 0; i < apps.length; i++) {
+            try {
+                let app = apps[i];
+                let appConfig = appConfigs[app];
+                let appInfo = new App(app, appConfig.image, appConfig.baseUrl, appConfig.redirectUrl, appConfig.description, appConfig.displayName);
+                this.appInfos[app] = appInfo;
+                // console.log(JSON.stringify(appInfo));
+                this.apps.push(app);
+            } catch (err) {
+                logger.error(err);
+            }
+        }
+
         logger.info("init app data")
         this.initAppData();
+    }
+
+    getAppInfo(app) {
+        return this.appInfos[app];
     }
 
     async initAppData() {

@@ -21,8 +21,35 @@ class UserController {
     }
 
     getListUser(req, resp) {
-        let users = this.userDaoImpl.getListUser(1, 2);
-        resp.send(JSON.stringify(users));
+        let nums = req.body.nums;
+        let page = req.body.page;
+        if (nums == undefined) {
+            nums = 10;
+            page = 0;
+        }
+
+        let skip = 0;
+        let limit = 10;
+        try {
+            skip = page * nums;
+            limit = parseInt(nums);
+        } catch (err) {
+            console.log(err);
+        }
+
+        this.userDaoImpl.getListUser(skip, limit).then((users) => {
+            let data = {
+                users: users,
+                recordsTotal: 10,
+                recordsFiltered: 10,
+            }
+            console.log(data);
+            resp.send(JSON.stringify(data));
+
+        }).catch((err) => {
+            logger.error(err);
+        });
+
     }
 
     renderUserDetailPage(req, resp) {
@@ -48,23 +75,22 @@ class UserController {
 
             let notAvaiIndex = 0;
             for (let i = 0; i < currentApp.length; i++) {
-                let app = currentApp[i];
 
+                let app = currentApp[i];
+                let appInfo = appDaoImpl.getAppInfo(app);
+                let element = {
+                    id: '',
+                    name: app,
+                    image: appInfo.imageUrl,
+                    appUrl: appInfo.redirectUrl,
+                }
                 if (availableApp.includes(app)) {
-                    accessRow.push({
-                        id: accessRow.length + 1,
-                        name: app,
-                    })
+                    element.id = accessRow.length + 1;
+                    accessRow.push(element);
                 } else if (requestedApp.includes(app)) {
-                    requestedRow.push({
-                        id: '',
-                        name: app,
-                    })
+                    requestedRow.push(element)
                 } else {
-                    notRequestRow.push({
-                        id: '',
-                        name: app,
-                    })
+                    notRequestRow.push(element)
                 }
             }
 

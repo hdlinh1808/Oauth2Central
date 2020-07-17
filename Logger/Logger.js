@@ -86,8 +86,11 @@ class Logger {
         if(err.message){
             err.message = this.label + err.message;
         }
-        
         logger.error(err);
+    }
+
+    warning(msg){
+        logger.warn(msg)
     }
 }
 module.exports = function (callingModule) {

@@ -15,6 +15,9 @@ var mongoUtil = require("./DBClient/MongoUtil.js");
     let DAOImplObject = require('./DAOImpl/DAOImplObject.js');
     DAOImplObject.initDaoImpl();
 
+    //init RoleManager
+    let RoleManager = require("./Middleware/RoleManager.js");
+    RoleManager.init();
 
     //init Adapter
     require("./Adapter/AdapterManager.js");
@@ -85,7 +88,7 @@ var mongoUtil = require("./DBClient/MongoUtil.js");
     })
 
     app.get("/admin/user", (req, resp) => {
-        userController.getListUser(req, resp);
+        userController.renderUserManagementPage(req, resp);
     })
 
     app.get("/user/detail", (req, resp) => {
@@ -122,6 +125,10 @@ var mongoUtil = require("./DBClient/MongoUtil.js");
 
     app.post("/admin/app/listuser/remove", (req, resp) => {
         appController.removeUserOfApp(req, resp);
+    })
+
+    app.post("/admin/user/listuser", (req, resp) => {
+        userController.getListUser(req, resp);
     })
 
     app.get("/test", (req, resp) => {

@@ -10,6 +10,10 @@ class Adapter {
         if (!this.disableUser) {
             throw new Error(this.constructor.name + " must have disableUser function!");
         }
+
+        if (!this.checkExistUser) {
+            throw new Error(this.constructor.name + " must have checkExistUser function!");
+        }
     }
 }
 module.exports = Adapter;

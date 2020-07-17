@@ -11,6 +11,25 @@ class RocketchatAdapter extends Adapter {
         this.rocketChatDomain = config.baseUrl;
     }
 
+    checkExistUser(user, callback) {
+
+        this.getUserId(user.username).then(async (userid) => {
+            try {
+                // console.log(userid);
+                let code = ErrorCode.success();
+                if (userid == null) {
+                    code = ErrorCode.errorNotExist("User isn't registered with Rocketchat");
+                    callback(code);
+                    return;
+                }
+                callback(code);
+            } catch (err) {
+                logger.error(err);
+                callback(ErrorCode.fail());
+            }
+        })
+    }
+
     disableUser(user, callback) {
         this.changeStatusOfUser(user, false, callback);
     }
@@ -49,11 +68,10 @@ class RocketchatAdapter extends Adapter {
                 callback(code);
             } catch (err) {
                 logger.error(err);
+                callback(ErrorCode.fail());
             }
-
-
-
         }).catch((err) => {
+            callback(ErrorCode.fail());
             logger.error(err);
         });
     }
@@ -70,7 +88,6 @@ class RocketchatAdapter extends Adapter {
             logger.error("get user id of user: " + username + " null");
             return null;
         }
-
         return result.user._id;
     }
 

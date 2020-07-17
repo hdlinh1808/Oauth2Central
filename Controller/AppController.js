@@ -16,21 +16,55 @@ class AppController {
     }
 
     renderDashboardPage(req, resp) {
-        let page = BaseTemplate.renderWithBaseTpl("", "Dashboard", dashboardTpl);
+        let apps = this.appDaoImpl.getListApp();
+        let appInfos = [];
+        for (let i = 0; i < apps.length; i++) {
+            let app = apps[i];
+            let appInfo = this.appDaoImpl.getAppInfo(app);
+            if(appInfo == undefined){
+                continue;
+            }
+
+            appInfos.push(appInfo);
+        }
+        let data = {
+            app: appInfos,
+        }
+        let content = BaseTemplate.renderPageWithParam(dashboardTpl, data);
+        let page = BaseTemplate.renderWithBaseTpl("", "Dashboard", content);
         resp.send(page);
     }
 
     requestApp(req, resp) {
-        let app = req.body.app;
-        let sessionId = req.cookies.centralSession;
-        this.userDaoImpl.addRequestApp(sessionId, app)
-            .then(function (result) {
-                resp.send(ErrorCode.success());
+        (async (req, resp) => {
+            let sessionId = req.cookies.centralSession;
+            let app = req.body.app;
+            let user = await this.userDaoImpl.getUserDetailBySessionId(sessionId);
+            adapterManager.checkExistUser(app, user, async (data) => {
+                try {
+                    if (data.code < 0) {
+                        resp.send(data);
+                        return;
+                    }
+
+                    let rs = await this.userDaoImpl.addRequestApp(user.username, app);
+                    if (!rs) {
+                        resp.send(ErrorCode.fail());
+                        return;
+                    }
+                    resp.send(ErrorCode.success());
+                } catch (err) {
+                    logger.error(err);
+                }
             })
-            .catch(function (err) {
-                logger.error(err);
-                resp.send(ErrorCode.fail());
-            })
+
+        })(req, resp).catch((err) => {
+            logger.error(err);
+        })
+    }
+
+    async checkUserExistAndRequestApp(resp, param, sessionId) {
+
     }
 
     renderAdminRequestAppPage(req, resp) {

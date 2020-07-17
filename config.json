@@ -6,15 +6,20 @@
             "admin": "admin",
             "adminPass": "admin",
             "adapter": "NextCloudAdapter",
-            "description": ""
+            "prefixName": "AWS-provider",
+            "description": "Nextcloud is a suite of client-server software for creating and using file hosting services.",
+            "redirectUrl": "http://localhost:8080/index.php/apps/sociallogin/custom_oauth2/AWS-provider",
+            "displayName": "Nextcloud"
         },
         "rocketchat": {
-            "image": "rocketchat.png",
+            "image": "/rocketchat.png",
             "baseUrl": "http://localhost:8090",
             "xAuthToken": "GUStmvcYRxDfCSRbibgHY4qm7D_ggosmHLq0RTqvZAu",
             "xUserId": "R2yvPmSgLyF2b7yXd",
-            "description": "",
-            "adapter": "RocketchatAdapter"
+            "description": "Rocket.Chat is a Web Chat Server, developed in JavaScript, using the Meteor full stack framework",
+            "adapter": "RocketchatAdapter",
+            "redirectUrl": "https://devlinh.auth.ap-southeast-1.amazoncognito.com/login?client_id=7n1qffmius0elg6vsoetli5t1g&redirect_uri=http%3A%2F%2Flocalhost%3A8090%2F_oauth%2Fcustomoauth2&response_type=code&state=eyJsb2dpblN0eWxlIjoicmVkaXJlY3QiLCJjcmVkZW50aWFsVG9rZW4iOiJuTmNRdnpuR093czd4VlN6eUN1UHhuUGZCaHczcHNCcHA2LWtkMHJRNVA1IiwiaXNDb3Jkb3ZhIjpmYWxzZSwicmVkaXJlY3RVcmwiOiJodHRwOi8vbG9jYWxob3N0OjgwOTAvaG9tZSJ9&scope=openid",
+            "displayName": "Rocketchat"
         }
     },
     "db": {

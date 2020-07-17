@@ -3,6 +3,7 @@ const User = require('../entity/User.js')
 var mongoUtil = require('../DBClient/MongoUtil.js');
 var database = mongoUtil.getDb();
 var USER_COLLECTION = mongoUtil.getUserCollection();
+var ADMIN_COLLECTION = mongoUtil.getAdminCollection();
 
 class UserDaoImpl {
     constructor() {
@@ -24,9 +25,7 @@ class UserDaoImpl {
         }
     }
 
-    async addRequestApp(sessionId, app) {
-        let session = await this.sessionDaoImpl.getUserSession(sessionId);
-        let userId = session.userId;
+    async addRequestApp(userId, app) {
         let updateData = {
             rapps: app,
         }
@@ -47,9 +46,13 @@ class UserDaoImpl {
         return user;
     }
 
-    getListUser(from, to) {
-        from = 1, to = 7;
-        return users.slice(from, to);
+    async getListUser(skip, limit) {
+        let users = [];
+        await database.collection(USER_COLLECTION).find({}).skip(skip).limit(limit).forEach(user => {
+            user.token = "";
+            users.push(user);
+        });
+        return users;
     }
 
     async createNewUser(username, email, access_token, sub, role, apps, rapps, callback) {
@@ -110,6 +113,20 @@ class UserDaoImpl {
         } catch (err) {
             logger.error(err);
             return false;
+        }
+    }
+
+    async getListAdminUser() {
+        try {
+            let result = await database.collection(ADMIN_COLLECTION).find({});
+            let usernames = [];
+            for (let i = 0; i < result.length; i++) {
+                usernames.push(result[i]._id);
+            }
+            return usernames;
+        } catch (err) {
+            logger.error(err);
+            return [];
         }
     }
 }

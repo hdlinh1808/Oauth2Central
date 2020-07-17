@@ -26,8 +26,8 @@
                             <td class="app">{{app}}</td>
 
                             <td>
-                                <button class="btn btn-success btn-sm accept">Accept</button>
-                                <button class="btn btn-danger btn-sm decline">Decine</button>
+                                <button class="btn btn-success btn-sm accept" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying...">Accept</button>
+                                <button class="btn btn-danger btn-sm decline" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying...">Decine</button>
                             </td>
                         </tr>
                         {{/request}}
@@ -48,11 +48,16 @@
         let $row = $this.parents('tr');
         let app = $row.find(".app").text();
         let uid = $row.find(".user").text();
+        $this.enableButtonLoading();
         declineRequestApp(app, uid, function (result) {
             console.log(result);
             if (result.code > 0 && result.app == app && result.uid == uid) {
                 $row.remove();
+                sweetToastAlertSuccess(result.msg);
+            }else {
+                sweetToastAlertError(result.msg);
             }
+            $this.resetButtonLoading();
         })
     })
 
@@ -80,11 +85,16 @@
         let $row = $this.parents('tr');
         let app = $row.find(".app").text();
         let uid = $row.find(".user").text();
+        $this.enableButtonLoading();
         acceptRequestApp(app, uid, function (result) {
             console.log(result);
             if (result.code > 0 && result.app == app && result.uid == uid) {
                 $row.remove();
+                sweetToastAlertSuccess(result.msg);
+            }else {
+                sweetToastAlertError(result.msg);
             }
+            $this.resetButtonLoading();
         })
     })
 
