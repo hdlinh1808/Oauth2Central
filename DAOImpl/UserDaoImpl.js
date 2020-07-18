@@ -46,13 +46,37 @@ class UserDaoImpl {
         return user;
     }
 
-    async getListUser(skip, limit) {
+    async getListUser(userRegex, skip, limit) {
         let users = [];
-        await database.collection(USER_COLLECTION).find({}).skip(skip).limit(limit).forEach(user => {
+
+        let params = {};
+        if (userRegex != undefined && userRegex != "") {
+            params = { _id: new RegExp("^.*" + userRegex + ".*$") }
+        }
+        await database.collection(USER_COLLECTION).find(params).skip(skip).limit(limit).forEach(user => {
             user.token = "";
             users.push(user);
         });
         return users;
+    }
+
+    async getListUserWithTotal(userRegex, skip, limit) {
+        let users = [];
+
+        let params = {};
+        if (userRegex != undefined && userRegex != "") {
+            params = { _id: new RegExp("^.*" + userRegex + ".*$") }
+        }
+        let totalRecord = await database.collection(USER_COLLECTION).countDocuments(params);
+        // console.log(totalRecords);
+        await database.collection(USER_COLLECTION).find(params).skip(skip).limit(limit).forEach(user => {
+            user.token = "";
+            users.push(user);
+        });
+        return {
+            users: users,
+            totalRecord: totalRecord,
+        };
     }
 
     async createNewUser(username, email, access_token, sub, role, apps, rapps, callback) {
@@ -118,15 +142,52 @@ class UserDaoImpl {
 
     async getListAdminUser() {
         try {
-            let result = await database.collection(ADMIN_COLLECTION).find({});
             let usernames = [];
-            for (let i = 0; i < result.length; i++) {
-                usernames.push(result[i]._id);
-            }
+            await database.collection(ADMIN_COLLECTION).find({}).forEach((item) => {
+                if (item != null) {
+                    usernames.push(item._id);
+                }
+            });
             return usernames;
         } catch (err) {
             logger.error(err);
             return [];
+        }
+    }
+
+    async setUserAdmin(username) {
+        try {
+            let data = {
+                _id: username,
+            }
+            let result = await database.collection(USER_COLLECTION).updateOne({ _id: username }, { $set: { role: "admin" } })
+            if (result && result.result.ok == 1 && result.result.n == 1) {
+                result = await database.collection(ADMIN_COLLECTION).insertOne(data);
+            } else {
+                logger.error("fail,maybe user not exist, try reset page!")
+                return null
+            }
+            return result;
+        } catch (err) {
+            logger.error(err);
+            return null;
+        }
+    }
+
+    async removeUserAdmin(username) {
+        try {
+            let result = await database.collection(USER_COLLECTION).updateOne({ _id: username }, { $set: { role: "viewer" } })
+            if (result && result.result.ok == 1 && result.result.n == 1) {
+                result = await database.collection(ADMIN_COLLECTION).deleteOne({ _id: username });
+            } else {
+                logger.error("fail,maybe user not exist, try reset page!")
+                return null
+            }
+            return result;
+
+        } catch (err) {
+            logger.error(err);
+            return null;
         }
     }
 }

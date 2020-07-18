@@ -95,10 +95,6 @@ var mongoUtil = require("./DBClient/MongoUtil.js");
         userController.renderUserDetailPage(req, resp);
     });
 
-    app.get("/admin/user/detail", (req, resp) => {
-
-    });
-
     app.get("/admin/app/request", (req, resp) => {
         appController.renderAdminRequestAppPage(req, resp);
     })
@@ -111,12 +107,21 @@ var mongoUtil = require("./DBClient/MongoUtil.js");
         appController.acceptAppRequest(req, resp);
     })
 
+    app.post("/admin/app/user/grant", (req, resp) => {
+        appController.grantUserAccess(req, resp);
+    })
+
     app.get("/admin/app", (req, resp) => {
         appController.renderAdminAppPage(req, resp);
     })
 
     app.get("/admin/app/detail", (req, resp) => {
         appController.renderAdminAppDetailPage(req, resp);
+    })
+
+    app.get("/admin/user/detail", (req, resp) => {
+        // console.log('aaaaaaaaaaaaaa')
+        userController.renderUserDetailManagementPage(req, resp);
     })
 
     app.post("/admin/app/listuser", (req, resp) => {
@@ -129,6 +134,14 @@ var mongoUtil = require("./DBClient/MongoUtil.js");
 
     app.post("/admin/user/listuser", (req, resp) => {
         userController.getListUser(req, resp);
+    })
+
+    app.post("/admin/user/admin", (req, resp) => {
+        userController.grantAdminPermission(req, resp);
+    })
+
+    app.delete("/admin/user/admin", (req, resp) => {
+        userController.removeAdminPermission(req, resp);
     })
 
     app.get("/test", (req, resp) => {

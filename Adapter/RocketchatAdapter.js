@@ -12,7 +12,6 @@ class RocketchatAdapter extends Adapter {
     }
 
     checkExistUser(user, callback) {
-
         this.getUserId(user.username).then(async (userid) => {
             try {
                 // console.log(userid);
@@ -27,6 +26,8 @@ class RocketchatAdapter extends Adapter {
                 logger.error(err);
                 callback(ErrorCode.fail());
             }
+        }).catch((err) => {
+            callback(ErrorCode.fail(err.message));
         })
     }
 
@@ -71,7 +72,7 @@ class RocketchatAdapter extends Adapter {
                 callback(ErrorCode.fail());
             }
         }).catch((err) => {
-            callback(ErrorCode.fail());
+            callback(ErrorCode.fail(err.message));
             logger.error(err);
         });
     }
@@ -82,8 +83,9 @@ class RocketchatAdapter extends Adapter {
             uri: this.rocketChatDomain + "/api/v1/users.info?username=" + username,
             method: "GET"
         }
-
+        // console.log("aaaa");
         let result = await this.makeApi(data);
+
         if (!result.success) {
             logger.error("get user id of user: " + username + " null");
             return null;
@@ -94,7 +96,9 @@ class RocketchatAdapter extends Adapter {
     makeApi(data) {
         return new Promise((resolve, reject) => {
             request(data, (error, response, body) => {
-                if (error) reject(error);
+                if (error) {
+                    reject(error);
+                }
                 // if (response.statusCode != 200) {
                 //     reject('Invalid status code <' + response.statusCode + '>');
                 // }

@@ -575,3 +575,561 @@ Require stack:
     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
 2020-07-17T17:07:14.521Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:13:21.958Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:13:22.103Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-17T17:13:22.265Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T03:05:08.032Z error: [Controller/UserController.js] username is not defined - ReferenceError: [Controller/UserController.js] username is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:123:22
+    at UserController.grantAdminPermission (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:127:11)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:135:24
+    at Layer.handle [as handle_request] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/layer.js:95:5)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/index.js:335:12)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/index.js:275:10)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:127:14)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:131:14)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:131:14)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:131:14)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:131:14)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:131:14)
+2020-07-18T03:05:09.527Z error: [Controller/UserController.js] username is not defined - ReferenceError: [Controller/UserController.js] username is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:123:22
+    at UserController.grantAdminPermission (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:127:11)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:135:24
+    at Layer.handle [as handle_request] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/layer.js:95:5)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/index.js:335:12)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/index.js:275:10)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:127:14)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:131:14)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:131:14)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:131:14)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:131:14)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:131:14)
+2020-07-18T03:05:34.989Z error: [DAOImpl/UserDaoImpl.js] result is not defined - ReferenceError: [DAOImpl/UserDaoImpl.js] result is not defined
+    at UserDaoImpl.setUserAdmin (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/UserDaoImpl.js:138:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:125:26
+2020-07-18T03:07:49.187Z error: [DAOImpl/UserDaoImpl.js] E11000 duplicate key error collection: test.admin index: _id_ dup key: { _id: "" } - MongoError: [DAOImpl/UserDaoImpl.js] E11000 duplicate key error collection: test.admin index: _id_ dup key: { _id: "" }
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T03:32:37.549Z error: fail or user not exist!
+2020-07-18T03:32:39.436Z error: fail or user not exist!
+2020-07-18T04:31:29.749Z error: [Controller/UserController.js] this.users.remove is not a function - TypeError: [Controller/UserController.js] this.users.remove is not a function
+    at RoleManager.removeUserAdmin (/media/lap12654/DATA/git/my-git/Oauth2Central/Middleware/RoleManager.js:18:20)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:143:29
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T04:31:42.770Z error: [Controller/UserController.js] this.users.remove is not a function - TypeError: [Controller/UserController.js] this.users.remove is not a function
+    at RoleManager.removeUserAdmin (/media/lap12654/DATA/git/my-git/Oauth2Central/Middleware/RoleManager.js:18:20)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:143:29
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T04:32:35.944Z error: [Controller/UserController.js] this.users.remove is not a function - TypeError: [Controller/UserController.js] this.users.remove is not a function
+    at RoleManager.removeUserAdmin (/media/lap12654/DATA/git/my-git/Oauth2Central/Middleware/RoleManager.js:18:20)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:147:29
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T04:32:36.853Z error: [Controller/UserController.js] this.users.remove is not a function - TypeError: [Controller/UserController.js] this.users.remove is not a function
+    at RoleManager.removeUserAdmin (/media/lap12654/DATA/git/my-git/Oauth2Central/Middleware/RoleManager.js:18:20)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:147:29
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T04:32:43.628Z error: [Controller/UserController.js] this.users.remove is not a function - TypeError: [Controller/UserController.js] this.users.remove is not a function
+    at RoleManager.removeUserAdmin (/media/lap12654/DATA/git/my-git/Oauth2Central/Middleware/RoleManager.js:18:20)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:147:29
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T05:16:48.222Z error: [Controller/UserController.js] getDataUserInfo is not defined - ReferenceError: [Controller/UserController.js] getDataUserInfo is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:60:24
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T05:17:01.598Z error: [Controller/UserController.js] Cannot read property 'getDataUserInfo' of undefined - TypeError: [Controller/UserController.js] Cannot read property 'getDataUserInfo' of undefined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:60:29
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T05:17:03.666Z error: [Controller/UserController.js] Cannot read property 'getDataUserInfo' of undefined - TypeError: [Controller/UserController.js] Cannot read property 'getDataUserInfo' of undefined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:60:29
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T05:17:33.856Z error: [Controller/UserController.js] Cannot read property 'getDataUserInfo' of undefined - TypeError: [Controller/UserController.js] Cannot read property 'getDataUserInfo' of undefined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:60:29
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T05:17:54.844Z error: [Controller/UserController.js] appDaoImpl is not defined - ReferenceError: [Controller/UserController.js] appDaoImpl is not defined
+    at UserController.getDataUserInfo (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:91:26)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:61:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T05:19:44.916Z error: [Controller/UserController.js] appDaoImpl is not defined - ReferenceError: [Controller/UserController.js] appDaoImpl is not defined
+    at UserController.getDataUserInfo (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:99:27)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:62:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T05:20:40.009Z error: [Oauth2Central/app.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T05:21:58.127Z error: [Oauth2Central/app.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T05:22:31.726Z error: [Oauth2Central/app.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T05:23:11.751Z error: [Oauth2Central/app.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T05:23:46.198Z error: [Oauth2Central/app.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T05:24:12.211Z error: [Oauth2Central/app.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T05:24:34.476Z error: [Oauth2Central/app.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T05:25:32.382Z error: [Controller/AppController.js] adapter is not defined - ReferenceError: [Controller/AppController.js] adapter is not defined
+    at RocketchatAdapter.checkExistUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/RocketchatAdapter.js:15:21)
+    at AdapterManager.checkExistUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:57:17)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:44:28
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T05:25:48.750Z error: [Oauth2Central/app.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T05:26:32.357Z error: [Oauth2Central/app.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T05:27:23.258Z error: [Oauth2Central/app.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T05:28:01.649Z error: [Oauth2Central/app.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T05:28:48.461Z error: [Oauth2Central/app.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T05:29:23.469Z error: [Oauth2Central/app.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T05:30:49.170Z error: [Oauth2Central/app.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:03:21.621Z error: adapter of  undefined
+2020-07-18T07:03:23.712Z error: adapter of  undefined
+2020-07-18T07:03:24.578Z error: adapter of  undefined
+2020-07-18T07:03:33.532Z error: adapter of  undefined
+2020-07-18T07:03:34.704Z error: adapter of  undefined
+2020-07-18T07:06:42.169Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:06:43.475Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:06:44.317Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:07:18.465Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:07:19.666Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:08:35.644Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:08:36.942Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:12:53.805Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:12:54.915Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:12:55.416Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:12:57.359Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:12:57.844Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:12:58.031Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:12:58.528Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:13:00.093Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:13:45.506Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:13:46.279Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:13:46.394Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:13:46.582Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:13:46.738Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:13:46.913Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:13:47.091Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:15:06.301Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:15:12.160Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:18:09.363Z error: fail or user not exist!
+2020-07-18T07:18:23.254Z error: fail or user not exist!
+2020-07-18T07:18:24.419Z error: fail or user not exist!
+2020-07-18T07:18:24.644Z error: fail or user not exist!
+2020-07-18T07:18:24.866Z error: fail or user not exist!
+2020-07-18T07:18:25.122Z error: fail or user not exist!
+2020-07-18T07:18:25.287Z error: fail or user not exist!
+2020-07-18T07:18:25.546Z error: fail or user not exist!
+2020-07-18T07:18:25.656Z error: fail or user not exist!
+2020-07-18T07:18:26.831Z error: fail or user not exist!
+2020-07-18T07:18:27.005Z error: fail or user not exist!
+2020-07-18T07:18:27.208Z error: fail or user not exist!
+2020-07-18T07:18:27.390Z error: fail or user not exist!
+2020-07-18T07:18:27.549Z error: fail or user not exist!
+2020-07-18T07:18:27.718Z error: fail or user not exist!
+2020-07-18T07:18:27.837Z error: fail or user not exist!
+2020-07-18T07:18:28.271Z error: fail or user not exist!
+2020-07-18T07:18:28.584Z error: fail or user not exist!
+2020-07-18T07:18:28.761Z error: fail or user not exist!
+2020-07-18T07:19:18.704Z error: fail or user not exist!
+2020-07-18T07:19:20.475Z error: fail or user not exist!
+2020-07-18T07:19:39.034Z error: fail or user not exist!
+2020-07-18T07:19:39.630Z error: fail or user not exist!
+2020-07-18T07:19:39.806Z error: fail or user not exist!
+2020-07-18T07:19:39.963Z error: fail or user not exist!
+2020-07-18T07:19:40.154Z error: fail or user not exist!
+2020-07-18T07:19:40.338Z error: fail or user not exist!
+2020-07-18T07:19:40.488Z error: fail or user not exist!
+2020-07-18T07:19:40.671Z error: fail or user not exist!
+2020-07-18T07:19:47.846Z error: fail or user not exist!
+2020-07-18T07:31:47.342Z error: fail or user not exist!
+2020-07-18T07:32:08.555Z error: fail or user not exist!
+2020-07-18T07:33:17.469Z error: [DAOImpl/UserDaoImpl.js] E11000 duplicate key error collection: test.admin index: _id_ dup key: { _id: "linhtest" } - MongoError: [DAOImpl/UserDaoImpl.js] E11000 duplicate key error collection: test.admin index: _id_ dup key: { _id: "linhtest" }
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T07:33:19.384Z error: [DAOImpl/UserDaoImpl.js] E11000 duplicate key error collection: test.admin index: _id_ dup key: { _id: "linhtest" } - MongoError: [DAOImpl/UserDaoImpl.js] E11000 duplicate key error collection: test.admin index: _id_ dup key: { _id: "linhtest" }
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T07:35:41.734Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:50:29.444Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:58:39.963Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T07:58:41.066Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T08:16:30.310Z error: [DAOImpl/AppDaoImpl.js] database.collection.find is not a function - TypeError: [DAOImpl/AppDaoImpl.js] database.collection.find is not a function
+    at AppDaoImpl.getListUserOfAppLazy (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:144:52)
+    at AppController.getListUserOfApp (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:133:25)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:128:23
+    at Layer.handle [as handle_request] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/layer.js:95:5)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/index.js:335:12)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/index.js:275:10)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:127:14)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:131:14)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:131:14)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:131:14)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:131:14)
+    at next (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/router/route.js:131:14)
+2020-07-18T08:16:30.311Z error: get list user of app fail!
+2020-07-18T08:16:30.311Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:18:04.305Z error: [DAOImpl/AppDaoImpl.js] $slice limit must be positive - MongoError: [DAOImpl/AppDaoImpl.js] $slice limit must be positive
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:263:20)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+2020-07-18T08:18:04.305Z error: get list user of app fail!
+2020-07-18T08:18:04.306Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:18:29.203Z error: [DAOImpl/AppDaoImpl.js] $slice limit must be positive - MongoError: [DAOImpl/AppDaoImpl.js] $slice limit must be positive
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:263:20)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+2020-07-18T08:18:29.207Z error: get list user of app fail!
+2020-07-18T08:18:29.208Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:19:04.724Z error: [DAOImpl/AppDaoImpl.js] $slice limit must be positive - MongoError: [DAOImpl/AppDaoImpl.js] $slice limit must be positive
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:263:20)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+2020-07-18T08:19:04.725Z error: get list user of app fail!
+2020-07-18T08:19:04.726Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:20:07.242Z error: [DAOImpl/AppDaoImpl.js] username is not defined - ReferenceError: [DAOImpl/AppDaoImpl.js] username is not defined
+    at AppDaoImpl.getListUserOfAppLazy (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:149:25)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:20:07.243Z error: get list user of app fail!
+2020-07-18T08:20:07.243Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:20:52.279Z error: [DAOImpl/AppDaoImpl.js] username is not defined - ReferenceError: [DAOImpl/AppDaoImpl.js] username is not defined
+    at AppDaoImpl.getListUserOfAppLazy (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:149:25)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:20:52.279Z error: get list user of app fail!
+2020-07-18T08:20:52.280Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:21:29.030Z error: [DAOImpl/AppDaoImpl.js] username is not defined - ReferenceError: [DAOImpl/AppDaoImpl.js] username is not defined
+    at AppDaoImpl.getListUserOfAppLazy (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:150:25)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:21:29.031Z error: get list user of app fail!
+2020-07-18T08:21:29.031Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:22:03.336Z error: [DAOImpl/AppDaoImpl.js] username is not defined - ReferenceError: [DAOImpl/AppDaoImpl.js] username is not defined
+    at AppDaoImpl.getListUserOfAppLazy (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:150:25)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:22:03.337Z error: get list user of app fail!
+2020-07-18T08:22:03.337Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:22:20.042Z error: [DAOImpl/AppDaoImpl.js] username is not defined - ReferenceError: [DAOImpl/AppDaoImpl.js] username is not defined
+    at AppDaoImpl.getListUserOfAppLazy (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:150:25)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:22:20.043Z error: get list user of app fail!
+2020-07-18T08:22:20.043Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:22:35.229Z error: [DAOImpl/AppDaoImpl.js] username is not defined - ReferenceError: [DAOImpl/AppDaoImpl.js] username is not defined
+    at AppDaoImpl.getListUserOfAppLazy (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:150:25)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:22:35.229Z error: get list user of app fail!
+2020-07-18T08:22:35.229Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:23:04.216Z error: [DAOImpl/AppDaoImpl.js] result is not defined - ReferenceError: [DAOImpl/AppDaoImpl.js] result is not defined
+    at AppDaoImpl.getListUserOfAppLazy (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:151:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:23:04.217Z error: get list user of app fail!
+2020-07-18T08:23:04.217Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:23:45.086Z error: [DAOImpl/AppDaoImpl.js] result is not defined - ReferenceError: [DAOImpl/AppDaoImpl.js] result is not defined
+    at AppDaoImpl.getListUserOfAppLazy (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:152:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:23:45.088Z error: get list user of app fail!
+2020-07-18T08:23:45.089Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:24:17.523Z error: [DAOImpl/AppDaoImpl.js] result is not defined - ReferenceError: [DAOImpl/AppDaoImpl.js] result is not defined
+    at AppDaoImpl.getListUserOfAppLazy (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:150:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:24:17.523Z error: get list user of app fail!
+2020-07-18T08:24:17.524Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:26:13.233Z error: [DAOImpl/AppDaoImpl.js] result is not defined - ReferenceError: [DAOImpl/AppDaoImpl.js] result is not defined
+    at AppDaoImpl.getListUserOfAppLazy (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:150:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:26:13.234Z error: get list user of app fail!
+2020-07-18T08:26:13.234Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:26:17.524Z error: [DAOImpl/AppDaoImpl.js] result is not defined - ReferenceError: [DAOImpl/AppDaoImpl.js] result is not defined
+    at AppDaoImpl.getListUserOfAppLazy (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:150:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:26:17.525Z error: get list user of app fail!
+2020-07-18T08:26:17.526Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:28:17.528Z error: [DAOImpl/AppDaoImpl.js] result is not defined - ReferenceError: [DAOImpl/AppDaoImpl.js] result is not defined
+    at AppDaoImpl.getListUserOfAppLazy (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:150:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:28:17.529Z error: get list user of app fail!
+2020-07-18T08:28:17.530Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:34:10.342Z error: [DAOImpl/AppDaoImpl.js] result is not defined - ReferenceError: [DAOImpl/AppDaoImpl.js] result is not defined
+    at AppDaoImpl.getListUserOfAppLazy (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:149:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:34:10.343Z error: get list user of app fail!
+2020-07-18T08:34:10.344Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:36:10.345Z error: [DAOImpl/AppDaoImpl.js] result is not defined - ReferenceError: [DAOImpl/AppDaoImpl.js] result is not defined
+    at AppDaoImpl.getListUserOfAppLazy (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:149:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:36:10.346Z error: get list user of app fail!
+2020-07-18T08:36:10.347Z error: [Controller/AppController.js] Cannot read property 'users' of null - TypeError: [Controller/AppController.js] Cannot read property 'users' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:135:34
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T08:43:22.284Z error: get list user of app fail!
+2020-07-18T08:43:22.284Z error: [Controller/AppController.js] result is not defined - ReferenceError: [Controller/AppController.js] result is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:140:27
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T09:44:01.282Z error: [DAOImpl/AppDaoImpl.js] a group specification must include an _id - MongoError: [DAOImpl/AppDaoImpl.js] a group specification must include an _id
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:263:20)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+2020-07-18T09:44:33.753Z error: [DAOImpl/AppDaoImpl.js] The field 'id' must be an accumulator object - MongoError: [DAOImpl/AppDaoImpl.js] The field 'id' must be an accumulator object
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:263:20)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+2020-07-18T09:46:00.495Z error: [DAOImpl/AppDaoImpl.js] The field 'id' must be an accumulator object - MongoError: [DAOImpl/AppDaoImpl.js] The field 'id' must be an accumulator object
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:263:20)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+2020-07-18T09:58:02.637Z error: init app fail!
+2020-07-18T09:58:02.638Z error: [Oauth2Central/app.js] Unexpected token '{' - /media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/AppDaoImpl.js:156
+                { $group: { _id: '$_id', list: { $push: '$users' } } }
+                ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (internal/modules/cjs/loader.js:1047:16)
+    at Module._compile (internal/modules/cjs/loader.js:1097:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/DAOImpl/DAOImplObject.js:1:20)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:15:25
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-18T09:58:15.377Z error: [DAOImpl/AppDaoImpl.js] A pipeline stage specification object must contain exactly one field. - MongoError: [DAOImpl/AppDaoImpl.js] A pipeline stage specification object must contain exactly one field.
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:263:20)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+2020-07-18T10:04:45.819Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:04:46.906Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:08:26.338Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:10:33.891Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:10:35.076Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:10:35.680Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:10:35.924Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:10:36.091Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:10:36.245Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:10:36.392Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:10:36.553Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:10:36.707Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:10:36.875Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:10:37.584Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:10:37.761Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:10:37.927Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:11:58.885Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:11:59.892Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:12:00.064Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T10:13:38.461Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)

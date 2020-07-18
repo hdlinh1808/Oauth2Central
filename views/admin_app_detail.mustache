@@ -1,6 +1,11 @@
 <script src="/plugins/datatable/js/jquery.dataTables.min.js"></script>
 <script src="/plugins/datatable/js/dataTables.bootstrap4.min.js"></script>
+<script src="/plugins/datatable/js/dataTables.rowReorder.min.js"></script>
+<script src="/plugins/datatable/js/dataTables.responsive.min.js"></script>
+
 <link rel="stylesheet" href="/plugins/datatable/css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="/plugins/datatable/css/rowReorder.dataTables.min.css">
+<link rel="stylesheet" href="/plugins/datatable/css/responsive.dataTables.min.css">
 
 <div class="row">
     <div class="col-12">
@@ -10,7 +15,8 @@
             </div>
             <div class="card-body">
                 <div class="col-lg-8 offset-lg-2">
-                    <table class="table table-striped table-bordered table-hover" id="dataTable">
+                    <table class="table table-striped table-bordered table-hover display nowrap" id="dataTable"
+                        style="width: 100%;">
                         <thead>
                             <tr>
                                 <!-- <th></th> -->
@@ -31,9 +37,65 @@
 <input type="hidden" id="_app_" value="{{app}}">
 <script>
     $(function () {
-        dataTable = $('#dataTable').DataTable();
-        initData();
+        // initData();
+        var DEFAULT_PAGE_LENGTH = 10;
+        initDataTable(DEFAULT_PAGE_LENGTH);
     })
+
+    function initDataTable(defaultPageLength) {
+        dataTable = $('#dataTable').DataTable({
+            "iDisplayLength": defaultPageLength,
+            responsive: true,
+            serverSide: true,
+            "processing": true,
+            searchDelay: 100,
+            ajax: {
+                url: "/admin/app/listuser",
+                type: "post",
+                "data": function (obj) {
+                    var num = 0;
+                    var page = 0;
+                    console.log(obj);
+                    try {
+                        num = dataTable.page.len();
+                        page = dataTable.page.info().page;
+                    } catch (err) {
+                        num = defaultPageLength;
+                        page = 0;
+                    }
+                    return {
+                        "nums": num,
+                        "page": page,
+                        "search": obj.search.value,
+                        "app": $('#_app_').val(),
+                    }
+                },
+                dataSrc: function (data) {
+                    let initIndex = 0;
+                    try {
+                        let num = dataTable.page.len();
+                        let page = dataTable.page.info().page;
+                        initIndex = num * page + 1;
+                    } catch (err) {
+                        // console.log(err);
+                    }
+                    try {
+                        let rows = [];
+                        let users = data.users;
+                        for (let i = 0; i < users.length; i++) {
+                            let row = [`<span class="user">${users[i]}</span>`, renderButton()];
+                            rows.push(row);
+                        }
+                        return rows;
+                    } catch (err) {
+                        console.log(err);
+                    }
+                }
+
+
+            },
+        });
+    }
 
     function initData() {
         let app = $('#_app_').val()
@@ -80,7 +142,7 @@
             if (result.code > 0 && result.app == app && result.username == username) {
                 dataTable.row($row).remove().draw();
                 sweetToastAlertSuccess(result.msg);
-            }else {
+            } else {
                 sweetToastAlertError(result.msg);
             }
 

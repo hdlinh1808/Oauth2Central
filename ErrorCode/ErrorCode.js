@@ -14,8 +14,11 @@ module.exports = {
         return renderErrorCode(SUCCESS, "Success");
     },
 
-    fail: function(){
-        return renderErrorCode(FAIL, "Fail"); 
+    fail: function(msg){
+        if(msg == undefined){
+            msg = 'Fail';
+        }
+        return renderErrorCode(FAIL, msg); 
     },
 
     errorNotExist: function(msg){

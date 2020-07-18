@@ -15,7 +15,7 @@ class RoleManager {
     }
 
     removeUserAdmin(username) {
-        this.users.remove(username);
+        this.users.delete(username);
     }
 
     addUserAdmin(username) {

@@ -137,5 +137,34 @@ class AppDaoImpl {
             return null;
         }
     }
+
+    async getListUserOfAppLazy(app, skip, limit, userRegex) {
+        try {
+            let users = [];
+
+            let params = { $exists: true };
+            if (userRegex != undefined && userRegex != "") {
+                params = new RegExp("^.*" + userRegex + ".*$");
+            }
+            let cursor = await database.collection(APP_COLLECTION).aggregate([
+                { $match: { _id: app } },
+                { $unwind: '$users' },
+                { $match: { 'users': params } },
+                { $skip: skip },
+                { $limit: limit },
+                { $group: { _id: '$_id', list: { $push: '$users' } } }
+            ])
+
+            while (await cursor.hasNext()) {
+                const doc = await cursor.next();
+                // console.log(doc);
+                users = doc.list;
+            }
+            return users;
+        } catch (err) {
+            logger.error(err);
+            return null;
+        }
+    }
 }
 module.exports = AppDaoImpl;

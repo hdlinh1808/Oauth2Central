@@ -41,7 +41,7 @@
     $(function () {
         // initSearchInput();
         var DEFAULT_PAGE_LENGTH = 10;
-        var dataTable = $('#dataTable').DataTable({
+        dataTable = $('#dataTable').DataTable({
             "iDisplayLength": DEFAULT_PAGE_LENGTH,
             // rowReorder: {
             //     selector: 'td:nth-child(2)'
@@ -56,6 +56,7 @@
             ],
             serverSide: true,
             "processing": true,
+            searchDelay: 100,
             ajax: {
                 url: "/admin/user/listuser",
                 type: "post",
@@ -79,31 +80,32 @@
                 dataSrc: function (data) {
                     // console.log(data);
                     let initIndex = 0;
-                    try{
+                    try {
                         let num = dataTable.page.len();
                         let page = dataTable.page.info().page;
                         initIndex = num * page + 1;
-                    }catch(err){
+                    } catch (err) {
                         // console.log(err);
                     }
                     try {
                         let users = data.users;
-                        let rows = [];  
+                        let rows = [];
                         for (let i = 0; i < users.length; i++) {
                             let user = users[i];
-                            let username = `<span class="text-info" class="username">${user.username}</span>`
+                            let username = `<a href='/admin/user/detail?username=${user.username}' class="username">${user.username}</a>`
                             let apps = [];
                             user.apps.forEach((value, index) => {
                                 apps.push(` <a href="/admin/app/detail?app=${value}">${value}</a>`)
                             })
                             let btn = "";
-                            if(user.role != "admin"){
+                            if (user.role != "admin") {
                                 btn = renderButtonSetAdmin();
+                            } else {
+                                btn = renderButtonRemoveAdmin();
                             }
                             let row = [initIndex++, username, apps.join(", "), user.role, btn];
                             rows.push(row);
                         }
-                        console.log(rows);
                         return rows;
                     } catch (err) {
                         console.log(err);
@@ -117,11 +119,11 @@
     })
 
     function renderButtonSetAdmin() {
-        return `<button class="btn btn-primary btn-xs btnSetAdmin" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying..."><i class="fas fa-users-cog"></i> Set admin</button>`
+        return `<button class="btn btn-primary btn-xs btn-set-admin" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying..."><i class="fas fa-users-cog"></i> Set admin</button>`
     }
 
-    function renderButtonRemoveAdmin(){
-        return `<button class="btn btn-warning btn-xs btnSetAdmin" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying..."><i class="fas fa-user-times"></i> Remove admin</button>`
+    function renderButtonRemoveAdmin() {
+        return `<button class="btn btn-warning btn-xs btn-remove-admin" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying..."><i class="fas fa-user-times"></i> Remove admin</button>`
     }
 
     function initSearchInput() {
@@ -145,5 +147,78 @@
                 callback.apply(context, args);
             }, ms || 0);
         };
+    }
+
+    $('#dataTable').on("click", ".btn-set-admin", function () {
+        let $this = $(this);
+        let $row = $this.parents('tr');
+        let username = $row.find(".username").text();
+        console.log(username);
+        $this.enableButtonLoading();
+        requestSetAdmin(username, function (result) {
+            if (result.code > 0) {
+                sweetToastAlertSuccess(result.msg);
+                dataTable.search(dataTable.search()).draw(false)
+            } else {
+                sweetToastAlertError(result.msg);
+            }
+
+            $this.resetButtonLoading();
+        })
+    })
+
+    function requestSetAdmin(username, callback) {
+        console.log(username);
+        $.ajax({
+            url: "/admin/user/admin",
+            type: "POST",
+            data: {
+                username: username,
+            },
+            success: function (result) {
+                callback(result);
+            },
+            error: function (msg) {
+                console.log(msg);
+            },
+        })
+    }
+
+    $('#dataTable').on("click", ".btn-remove-admin", function () {
+        let $this = $(this);
+        let $row = $this.parents('tr');
+        let username = $row.find(".username").text();
+        $this.enableButtonLoading();
+        requestRemoveAdmin(username, function (result) {
+            if (result.code > 0) {
+                sweetToastAlertSuccess(result.msg);
+                dataTable.search(dataTable.search()).draw(false)
+
+            } else {
+                sweetToastAlertError(result.msg);
+            }
+
+            $this.resetButtonLoading();
+        })
+    })
+
+    function requestRemoveAdmin(username, callback) {
+        $.ajax({
+            url: "/admin/user/admin",
+            type: "DELETE",
+            data: {
+                username: username,
+            },
+            success: function (result) {
+                callback(result);
+            },
+            error: function (msg) {
+                console.log(msg);
+            },
+        })
+    }
+
+    function searchTable(){
+
     }
 </script>

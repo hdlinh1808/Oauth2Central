@@ -21,7 +21,7 @@ class AppController {
         for (let i = 0; i < apps.length; i++) {
             let app = apps[i];
             let appInfo = this.appDaoImpl.getAppInfo(app);
-            if(appInfo == undefined){
+            if (appInfo == undefined) {
                 continue;
             }
 
@@ -40,6 +40,7 @@ class AppController {
             let sessionId = req.cookies.centralSession;
             let app = req.body.app;
             let user = await this.userDaoImpl.getUserDetailBySessionId(sessionId);
+
             adapterManager.checkExistUser(app, user, async (data) => {
                 try {
                     if (data.code < 0) {
@@ -74,7 +75,7 @@ class AppController {
                     request: result.request_app,
                 }
                 let content = BaseTemplate.renderPageWithParam(adminRequestAppTpl, data)
-                let page = BaseTemplate.renderWithBaseAdminTpl("Request App", content);
+                let page = BaseTemplate.renderWithBaseAdminTpl("Request App", content, req.query.username);
                 resp.send(page);
 
             }).catch(function (err) {
@@ -96,7 +97,7 @@ class AppController {
             app: rows,
         }
         let content = BaseTemplate.renderPageWithParam(adminAppTpl, data);
-        let page = BaseTemplate.renderWithBaseAdminTpl("Apps", content);
+        let page = BaseTemplate.renderWithBaseAdminTpl("Apps", content, req.query.username);
         resp.send(page);
     }
 
@@ -106,15 +107,37 @@ class AppController {
             app: app
         }
         let content = BaseTemplate.renderPageWithParam(adminAppDetailTpl, data);
-        let page = BaseTemplate.renderWithBaseAdminTpl("App detail", content);
+        let page = BaseTemplate.renderWithBaseAdminTpl("App detail", content, req.query.username);
         resp.send(page);
     }
 
     getListUserOfApp(req, resp) {
         let app = req.body.app;
-        this.appDaoImpl.getListUserOfApp(app)
-            .then((result) => {
-                resp.send(result.users);
+        let nums = req.body.nums;
+        let page = req.body.page;
+        let userRegex = req.body.search;
+        if (nums == undefined) {
+            nums = 10;
+            page = 0;
+        }
+
+        let skip = 0;
+        let limit = 10;
+        try {
+            skip = page * nums;
+            limit = parseInt(nums);
+        } catch (err) {
+            console.log(err);
+        }
+
+        this.appDaoImpl.getListUserOfAppLazy(app, skip, limit, userRegex)
+            .then((users) => {
+                let data = {
+                    users: users,
+                    // recordsTotal: -1,
+                    // recordsFiltered: -1,
+                }
+                resp.send(data);
             })
             .catch((err) => {
                 logger.error("get list user of app fail!")
@@ -126,6 +149,10 @@ class AppController {
         let param = req.body;
         let uid = param.uid;//username
         let app = param.app;
+        if (!this.appDaoImpl.containApp(app)) {
+            resp.send(ErrorCode.fail('app not found!'));
+            return;
+        }
         this.appDaoImpl.removeFromListRequest(uid, app)
             .then((rs1) => {
                 this.userDaoImpl.removeFromListRequest(uid, app)
@@ -144,15 +171,54 @@ class AppController {
             });
     }
 
+    async grantUserAccess(req, resp) {
+        let param = req.body;
+        let uid = param.uid;//username
+        let app = param.app;
+        if (!this.appDaoImpl.containApp(app)) {
+            resp.send(ErrorCode.fail('app not found!'));
+            return;
+        }
+
+        adapterManager.enableUser(app, user, async function (data) {
+            if (data.code < 0) {
+                resp.send(data);
+                return;
+            }
+
+            let rs = await $this.appDaoImpl.addUserToApp(app, uid);
+            if (!rs) {
+                resp.send(ErrorCode.fail());
+                return;
+            }
+
+            rs = await $this.userDaoImpl.addAppToUser(uid, app);
+            if (!rs) {
+                resp.send(ErrorCode.fail());
+                return;
+            }
+
+            let errorCode = ErrorCode.success();
+            errorCode.uid = uid;
+            errorCode.app = app;
+            resp.send(errorCode);
+        })
+
+    }
+
     async acceptAppRequest(req, resp) {
         let param = req.body;
         let uid = param.uid;//username
         let app = param.app;
         let user = await this.userDaoImpl.getUserDetail(uid);
         let $this = this;
+        if (!this.appDaoImpl.containApp(app)) {
+            resp.send(ErrorCode.fail('app not found!'));
+            return;
+        }
         adapterManager.enableUser(app, user, async function (data) {
             if (data.code < 0) {
-                resp.send(ErrorCode.fail());
+                resp.send(data);
                 return;
             }
 
@@ -197,7 +263,7 @@ class AppController {
         let $this = this;
         adapterManager.disableUser(app, user, async function (data) {
             if (data.code < 0) {
-                resp.send(ErrorCode.fail());
+                resp.send(data);
                 return;
             }
             let rs = await $this.userDaoImpl.removeAppFromUser(username, app);

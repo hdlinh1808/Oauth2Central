@@ -190,3 +190,17 @@ ReferenceError: err is not defined
     at emitErrorNT (internal/streams/destroy.js:92:8)
     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
     at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-07-18T06:19:00.594Z error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1449:7)
+    at Function.listen (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/application.js:618:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:147:9
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) - Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1449:7)
+    at Function.listen (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/express/lib/application.js:618:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:147:9
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)

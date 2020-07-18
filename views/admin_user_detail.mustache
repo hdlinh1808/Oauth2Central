@@ -1,0 +1,418 @@
+<script src="/plugins/datatable/js/jquery.dataTables.min.js"></script>
+<script src="/plugins/datatable/js/dataTables.bootstrap4.min.js"></script>
+<script src="/plugins/datatable/js/dataTables.rowReorder.min.js"></script>
+<script src="/plugins/datatable/js/dataTables.responsive.min.js"></script>
+
+<link rel="stylesheet" href="/plugins/datatable/css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="/plugins/datatable/css/rowReorder.dataTables.min.css">
+<link rel="stylesheet" href="/plugins/datatable/css/responsive.dataTables.min.css">
+
+<link rel="stylesheet" href="/page/_projects.css">
+<input type="hidden" id="_username_" value="{{username}}">
+<div class="row">
+    <div class="col-12">
+        <div class="card card-outline card-primary">
+            <div class="card-header">
+                <h3 class="card-title">User info</h3>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped table-bordered table-hover projects" id="userInfo">
+                    <tr>
+                        <td><span class="text-info">Username</span></td>
+                        <td>{{username}}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="text-info">Email</span></td>
+                        <td>{{email}}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="text-info">Role</span></td>
+                        <td><span id="role">{{role}}</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div id="btnRole">
+
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card card-outline card-primary">
+            <div class="card-header">
+                <h3 class="card-title">Available apps</h3>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped table-bordered table-hover projects  display nowrap" id="avail"
+                    style="width: 100%;">
+                    <thead>
+                        <tr>
+                            <!-- <td style="width: 10%;"></td> -->
+                            <td style="width: 25%;">App</td>
+                            <td style="width: 25%;">Status</td>
+                            <td style="width: 40%;">Action</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#accessRow}}
+                        <tr>
+                            <!-- <td>{{id}}</td> -->
+                            <td>
+                                <a href="{{appUrl}}"><img class="table-avatar" src="{{image}}"> <span
+                                        class="name">{{name}}</span></a>
+                            </td>
+                            <td><span class="badge bg-danger">Access allowed</span> </td>
+                            <td>
+                                <button class="btn btn-danger btn-sm grant remove"
+                                    data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying...">Remove</button>
+                            </td>
+                        </tr>
+                        {{/accessRow}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <div class="card card-outline card-primary">
+            <div class="card-header">
+                <h3 class="card-title">Not available apps</h3>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped table-bordered table-hover projects display nowrap" id="notAvail"
+                    style="width: 100%;">
+                    <thead>
+                        <tr>
+                            <!-- <td style="width: 10%;"></td> -->
+                            <td style="width: 25%;">App</td>
+                            <td style="width: 25%;">Status</td>
+                            <td style="width: 40%;">Action</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#notRequest}}
+                        <tr>
+                            <!-- <td class="id">{{id}}</td> -->
+                            <td class=""> <a href="{{appUrl}}"><img class="table-avatar" src="{{image}}"> <span
+                                        class="name">{{name}}</span></a>
+                            </td>
+                            <td class="status">
+                                <span class="badge bg-info">Not request</span>
+                            </td>
+                            <td>
+                                <button class="btn btn-warning btn-sm grant"
+                                    data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying...">Grant
+                                    access</button>
+                            </td>
+                        </tr>
+                        {{/notRequest}}
+                        {{#requested}}
+                        <tr>
+                            <!-- <td class="id">{{id}}</td> -->
+                            <td class=""> <a href="{{appUrl}}"><img class="table-avatar" src="{{image}}"> <span
+                                        class="name">{{name}}</span></a></td>
+                            <td class="status">
+                                <span class="badge bg-success">Requested</span>
+                            </td>
+                            <td>
+                                <button class="btn btn-success btn-sm accept"
+                                    data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying...">Accept</button>
+                                <button class="btn btn-danger btn-sm decline"
+                                    data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying...">Decine</button>
+                            </td>
+                        </tr>
+                        {{/requested}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        initTable();
+        initRole();
+    })
+
+    function initTable() {
+        notAvail = $('#notAvail').DataTable({
+            responsive: true,
+        })
+        avail = $('#avail').DataTable({
+            responsive: true,
+        })
+
+        $('#notAvail').find('tbody tr').each(function (index, value) {
+            $(this).find('.id').text(index + 1);
+        })
+    }
+
+    function initRole() {
+        let role = $('#role').text();
+        let btnHtml = "";
+        if (role == "admin") {
+            btnHtml = renderBtnRemoveAdmin();
+        } else {
+            btnHtml = renderBtnSetAdmin();
+        }
+        $('#btnRole').html(btnHtml);
+    }
+
+    function renderBtnRemoveAdmin() {
+        return `<button class="btn btn-warning btn-sm btn-remove-admin" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying..."><i class="fas fa-user-times"></i> Remove admin</button>`
+    }
+
+    function renderBtnSetAdmin() {
+        return `<button class="btn btn-primary btn-sm btn-set-admin" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying..."><i class="fas fa-users-cog"></i> Set admin</button>`
+    }
+
+    function getUsername() {
+        return $('#_username_').val();
+    }
+
+    $('#avail').on("click", ".remove", function () {
+        let $this = $(this);
+        let $row = $this.parents('tr');
+        let username = getUsername();
+        let app = $row.find('.name').text();
+        $this.enableButtonLoading();
+        removeUserFromApp(app, username, function (result) {
+            console.log(result);
+            if (result.code > 0 && result.app == app && result.username == username) {
+                avail.row($row).remove().draw();
+                let imgSrc = $row.find('img').attr('src');
+                let appUrl = $row.find('a').attr('href');
+                notAvail.row.add([
+                    `<a href="${appUrl}"><img class="table-avatar" src="${imgSrc}"> <span class="name">${app}</span>`,
+                    '<span class="badge bg-info">Not request</span>',
+                    `<button class="btn btn-warning btn-sm grant" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying...">Grant access</button>`
+                ]).draw(true);
+                sweetToastAlertSuccess(result.msg);
+            } else {
+                sweetToastAlertError(result.msg);
+            }
+
+            $this.resetButtonLoading();
+        })
+    })
+
+    function removeUserFromApp(app, username, callback) {
+        $.ajax({
+            url: "/admin/app/listuser/remove",
+            type: "POST",
+            data: {
+                app: app,
+                username: username,
+            },
+            success: function (result) {
+                callback(result);
+            },
+            error: function (msg) {
+                console.log(msg);
+            },
+        })
+    }
+
+    $('#notAvail').on("click", ".decline", function () {
+        let $this = $(this);
+        let $row = $this.parents('tr');
+        let app = $row.find(".name").text();
+        let uid = getUsername();
+        $this.enableButtonLoading();
+        console.log(app);
+        declineRequestApp(app, uid, function (result) {
+            console.log(result);
+            if (result.code > 0 && result.app == app && result.uid == uid) {
+                $row.remove();
+                sweetToastAlertSuccess(result.msg);
+            } else {
+                sweetToastAlertError(result.msg);
+            }
+            $this.resetButtonLoading();
+        })
+    })
+
+
+    function declineRequestApp(app, uid, callback) {
+        $.ajax({
+            url: "/admin/app/request/decline",
+            type: "POST",
+            data: {
+                app: app,
+                uid: uid,
+            },
+            success: function (result) {
+
+                callback(result);
+            },
+            error: function (msg) {
+                console.log(msg);
+            },
+        })
+    }
+
+    $('#notAvail').on("click", ".accept", function () {
+        let $this = $(this);
+        let $row = $this.parents('tr');
+        let app = $row.find(".name").text();
+        let uid = getUsername();
+        $this.enableButtonLoading();
+        acceptRequestApp(app, uid, function (result) {
+            console.log(result);
+            if (result.code > 0 && result.app == app && result.uid == uid) {
+                sweetToastAlertSuccess(result.msg);
+                notAvail.row($row).remove().draw();
+                let imgSrc = $row.find('img').attr('src');
+                let appUrl = $row.find('a').attr('href');
+                avail.row.add([
+                    `<a href="${appUrl}"><img class="table-avatar" src="${imgSrc}"> <span class="name">${app}</span>`,
+                    '<span class="badge bg-danger">Access allowed</span>',
+                    `<button class="btn btn-danger btn-sm grant remove"
+                                    data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying...">Remove</button>`
+                ]).draw(true);
+
+            } else {
+                sweetToastAlertError(result.msg);
+            }
+            $this.resetButtonLoading();
+        })
+    })
+
+    function acceptRequestApp(app, uid, callback) {
+        $.ajax({
+            url: "/admin/app/request/accept",
+            type: "POST",
+            data: {
+                app: app,
+                uid: uid,
+            },
+            success: function (result) {
+
+                callback(result);
+            },
+            error: function (msg) {
+                console.log(msg);
+            },
+        })
+    }
+
+    $('#notAvail').on("click", ".grant", function () {
+        let $this = $(this);
+        let $row = $this.parents('tr');
+        let app = $row.find(".name").text();
+        let uid = getUsername();
+        $this.enableButtonLoading();
+        acceptRequestApp(app, uid, function (result) {
+            console.log(result);
+            if (result.code > 0 && result.app == app && result.uid == uid) {
+                sweetToastAlertSuccess(result.msg);
+                notAvail.row($row).remove().draw();
+                let imgSrc = $row.find('img').attr('src');
+                let appUrl = $row.find('a').attr('href');
+                avail.row.add([
+                    `<a href="${appUrl}"><img class="table-avatar" src="${imgSrc}"> <span class="name">${app}</span>`,
+                    '<span class="badge bg-danger">Access allowed</span>',
+                    `<button class="btn btn-danger btn-sm grant remove"
+                                    data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying...">Remove</button>`
+                ]).draw(true);
+
+            } else {
+                sweetToastAlertError(result.msg);
+            }
+            $this.resetButtonLoading();
+        })
+    })
+
+    function grandUserToApp(app, uid, callback) {
+        $.ajax({
+            url: "/admin/app/user/grant",
+            type: "POST",
+            data: {
+                app: app,
+                uid: uid,
+            },
+            success: function (result) {
+
+                callback(result);
+            },
+            error: function (msg) {
+                console.log(msg);
+            },
+        })
+    }
+
+    $('#userInfo').on("click", ".btn-set-admin", function () {
+        let username = getUsername();
+        console.log(username);
+        let $this = $(this)
+        $this.enableButtonLoading();
+        requestSetAdmin(username, function (result) {
+            if (result.code > 0) {
+                sweetToastAlertSuccess(result.msg);
+                $('#btnRole').html(renderBtnRemoveAdmin());
+                $('#role').text('admin');
+            } else {
+                sweetToastAlertError(result.msg);
+            }
+            $this.resetButtonLoading();
+        })
+    })
+
+    $('#userInfo').on("click", ".btn-remove-admin", function () {
+        let username = getUsername();
+        let $this = $(this)
+        $this.enableButtonLoading();
+        requestRemoveAdmin(username, function (result) {
+            if (result.code > 0) {
+                sweetToastAlertSuccess(result.msg);
+                $('#btnRole').html(renderBtnSetAdmin());
+                $('#role').text('viewer');
+            } else {
+                sweetToastAlertError(result.msg);
+            }
+            $this.resetButtonLoading();
+        })
+    })
+
+    function requestSetAdmin(username, callback) {
+        console.log(username);
+        $.ajax({
+            url: "/admin/user/admin",
+            type: "POST",
+            data: {
+                username: username,
+            },
+            success: function (result) {
+                callback(result);
+            },
+            error: function (msg) {
+                console.log(msg);
+            },
+        })
+    }
+
+    function requestRemoveAdmin(username, callback) {
+        $.ajax({
+            url: "/admin/user/admin",
+            type: "DELETE",
+            data: {
+                username: username,
+            },
+            success: function (result) {
+                callback(result);
+            },
+            error: function (msg) {
+                console.log(msg);
+            },
+        })
+    }
+</script>

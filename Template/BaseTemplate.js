@@ -15,11 +15,14 @@ class BaseTemplate {
         return Mustache.render(this.baseTpl, { content: content, title: title, subtitle: subtitle })
     }
 
-    renderWithBaseAdminTpl(title, content){
-        return Mustache.render(this.baseAdminTpl, { content: content, title: title })
+    renderWithBaseAdminTpl(title, content, username) {
+        if (username == undefined) {
+            username = "";
+        }
+        return Mustache.render(this.baseAdminTpl, { content: content, title: title, username: username });
     }
 
-    renderPageWithParam(page, params){
+    renderPageWithParam(page, params) {
         return Mustache.render(page, params);
     }
 }

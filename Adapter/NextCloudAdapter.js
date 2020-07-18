@@ -15,7 +15,6 @@ class NextCloudApdater extends Adapter {
 
     checkExistUser(user, callback) {
         if (user == null) {
-            code = ErrorCode.fail();
             logger.error("user null!");
             callback(code);
             return;
@@ -90,7 +89,7 @@ class NextCloudApdater extends Adapter {
                 if (rs.ocs.meta.status == "ok") {
                     code = ErrorCode.success();
                 } else {
-                    code = ErrorCode.fail();
+                    code = ErrorCode.errorNotExist("User isn't registered with Nextcloud")
                 }
             } catch (err) {
                 code = ErrorCode.fail();
