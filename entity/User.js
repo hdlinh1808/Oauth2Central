@@ -1,12 +1,9 @@
 class User {
-    constructor(username, email, token, sub, role, apps, rapps) {
-        this.email = email;
+    constructor (username, token, role, apps){
         this.username = username;
         this.token = token;
         this.role = role;
         this.apps = apps;
-        this.rapps = rapps;
-        this.sub = sub;
     }
 }
 

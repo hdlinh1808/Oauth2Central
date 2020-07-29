@@ -9437,3 +9437,1300 @@ SyntaxError: Unexpected token '{'
 2020-07-18T10:29:18.712Z info: init 3rd apps adapter done!
 2020-07-18T10:29:18.732Z info: Example app listening at http://localhost:3000
 2020-07-18T10:29:18.749Z info: init app data success!
+2020-07-18T15:38:27.035Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:28.269Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:28.419Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:28.643Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:28.802Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:29.012Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:29.374Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:29.533Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:29.774Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:31.300Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:31.524Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:33.849Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:34.485Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:34.687Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:34.834Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:35.050Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:40.780Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T15:38:48.625Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T15:38:53.123Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T15:39:38.551Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T15:39:43.729Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T15:40:12.963Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T15:45:23.435Z info: APP IS STARTING...
+2020-07-18T15:45:23.437Z info: Load config..
+2020-07-18T15:45:23.438Z info: Load config done!
+2020-07-18T15:45:23.806Z info: init database..
+2020-07-18T15:45:23.829Z info: init database done!
+2020-07-18T15:45:23.841Z info: init app data
+2020-07-18T15:45:23.850Z info: init 3rd apps adapter...
+2020-07-18T15:45:23.850Z info: init apdapter for: nextcloud...
+2020-07-18T15:45:24.195Z info: init apdapter for: nextcloud done!
+2020-07-18T15:45:24.195Z info: init apdapter for: rocketchat...
+2020-07-18T15:45:24.196Z info: init apdapter for: rocketchat done!
+2020-07-18T15:45:24.196Z info: init 3rd apps adapter done!
+2020-07-18T15:45:24.218Z info: Example app listening at http://localhost:3000
+2020-07-18T15:45:24.227Z info: init app data success!
+2020-07-18T15:45:49.369Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:50:37.210Z info: APP IS STARTING...
+2020-07-18T15:50:37.212Z info: Load config..
+2020-07-18T15:50:37.213Z info: Load config done!
+2020-07-18T15:50:37.649Z info: init database..
+2020-07-18T15:50:37.683Z info: init database done!
+2020-07-18T15:50:37.687Z info: init app data
+2020-07-18T15:50:37.704Z info: init 3rd apps adapter...
+2020-07-18T15:50:37.704Z info: init apdapter for: nextcloud...
+2020-07-18T15:50:37.987Z info: init apdapter for: nextcloud done!
+2020-07-18T15:50:37.988Z info: init apdapter for: rocketchat...
+2020-07-18T15:50:37.988Z info: init apdapter for: rocketchat done!
+2020-07-18T15:50:37.988Z info: init 3rd apps adapter done!
+2020-07-18T15:50:38.000Z info: Example app listening at http://localhost:3000
+2020-07-18T15:50:38.007Z info: init app data success!
+2020-07-18T15:51:59.007Z info: APP IS STARTING...
+2020-07-18T15:51:59.009Z info: Load config..
+2020-07-18T15:51:59.009Z info: Load config done!
+2020-07-18T15:51:59.345Z info: init database..
+2020-07-18T15:51:59.369Z info: init database done!
+2020-07-18T15:51:59.380Z info: init app data
+2020-07-18T15:51:59.388Z info: init 3rd apps adapter...
+2020-07-18T15:51:59.388Z info: init apdapter for: nextcloud...
+2020-07-18T15:51:59.655Z info: init apdapter for: nextcloud done!
+2020-07-18T15:51:59.656Z info: init apdapter for: rocketchat...
+2020-07-18T15:51:59.656Z info: init apdapter for: rocketchat done!
+2020-07-18T15:51:59.656Z info: init 3rd apps adapter done!
+2020-07-18T15:51:59.667Z info: Example app listening at http://localhost:3000
+2020-07-18T15:51:59.675Z info: init app data success!
+2020-07-18T15:52:08.064Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T15:52:31.985Z info: APP IS STARTING...
+2020-07-18T15:52:31.987Z info: Load config..
+2020-07-18T15:52:31.988Z info: Load config done!
+2020-07-18T15:52:32.371Z info: init database..
+2020-07-18T15:52:32.413Z info: init database done!
+2020-07-18T15:52:32.421Z info: init app data
+2020-07-18T15:52:32.432Z info: init 3rd apps adapter...
+2020-07-18T15:52:32.432Z info: init apdapter for: nextcloud...
+2020-07-18T15:52:32.794Z info: init apdapter for: nextcloud done!
+2020-07-18T15:52:32.794Z info: init apdapter for: rocketchat...
+2020-07-18T15:52:32.795Z info: init apdapter for: rocketchat done!
+2020-07-18T15:52:32.795Z info: init 3rd apps adapter done!
+2020-07-18T15:52:32.806Z info: Example app listening at http://localhost:3000
+2020-07-18T15:52:32.813Z info: init app data success!
+2020-07-18T15:52:48.100Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T15:52:51.654Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T15:56:30.833Z error: renderAdminRequestAppPage fail
+2020-07-18T15:56:30.834Z error: error: TypeError: Cannot read property 'request_app' of null
+2020-07-18T15:56:34.826Z error: renderAdminRequestAppPage fail
+2020-07-18T15:56:34.826Z error: error: TypeError: Cannot read property 'request_app' of null
+2020-07-18T15:57:01.037Z info: APP IS STARTING...
+2020-07-18T15:57:01.040Z info: Load config..
+2020-07-18T15:57:01.040Z info: Load config done!
+2020-07-18T15:57:01.351Z info: init database..
+2020-07-18T15:57:01.378Z info: init database done!
+2020-07-18T15:57:01.383Z info: init app data
+2020-07-18T15:57:01.398Z info: init 3rd apps adapter...
+2020-07-18T15:57:01.398Z info: init apdapter for: nextcloud...
+2020-07-18T15:57:01.635Z info: init apdapter for: nextcloud done!
+2020-07-18T15:57:01.636Z info: init apdapter for: rocketchat...
+2020-07-18T15:57:01.640Z info: init apdapter for: rocketchat done!
+2020-07-18T15:57:01.640Z info: init 3rd apps adapter done!
+2020-07-18T15:57:01.653Z info: Example app listening at http://localhost:3000
+2020-07-18T15:57:01.661Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2020-07-18T15:57:01.661Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2020-07-18T15:57:01.661Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2020-07-18T15:57:01.662Z info: init app data success!
+2020-07-18T15:57:23.186Z error: renderAdminRequestAppPage fail
+2020-07-18T15:57:23.186Z error: error: TypeError: Cannot read property 'request_app' of null
+2020-07-18T15:59:22.647Z info: APP IS STARTING...
+2020-07-18T15:59:22.649Z info: Load config..
+2020-07-18T15:59:22.649Z info: Load config done!
+2020-07-18T15:59:22.980Z info: init database..
+2020-07-18T15:59:23.009Z info: init database done!
+2020-07-18T15:59:23.014Z info: init app data
+2020-07-18T15:59:23.031Z info: init 3rd apps adapter...
+2020-07-18T15:59:23.031Z info: init apdapter for: nextcloud...
+2020-07-18T15:59:23.353Z info: init apdapter for: nextcloud done!
+2020-07-18T15:59:23.353Z info: init apdapter for: rocketchat...
+2020-07-18T15:59:23.354Z info: init apdapter for: rocketchat done!
+2020-07-18T15:59:23.354Z info: init 3rd apps adapter done!
+2020-07-18T15:59:23.365Z info: Example app listening at http://localhost:3000
+2020-07-18T15:59:23.372Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2020-07-18T15:59:23.373Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2020-07-18T15:59:23.373Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2020-07-18T15:59:23.375Z info: init app data success!
+2020-07-18T16:03:44.172Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T16:03:57.776Z error: [DAOImpl/UserDaoImpl.js] Document failed validation - MongoError: [DAOImpl/UserDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:03:59.952Z error: [DAOImpl/UserDaoImpl.js] Document failed validation - MongoError: [DAOImpl/UserDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:04:57.159Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T16:05:00.452Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T16:05:50.881Z error: [DAOImpl/UserDaoImpl.js] Document failed validation - MongoError: [DAOImpl/UserDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:06:42.828Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T16:07:08.546Z error: [DAOImpl/UserDaoImpl.js] Document failed validation - MongoError: [DAOImpl/UserDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:07:21.937Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T16:08:22.614Z info: APP IS STARTING...
+2020-07-18T16:08:22.616Z info: Load config..
+2020-07-18T16:08:22.617Z info: Load config done!
+2020-07-18T16:08:22.982Z info: init database..
+2020-07-18T16:08:23.015Z info: init database done!
+2020-07-18T16:08:23.021Z info: init app data
+2020-07-18T16:08:23.029Z info: init 3rd apps adapter...
+2020-07-18T16:08:23.030Z info: init apdapter for: nextcloud...
+2020-07-18T16:08:23.379Z info: init apdapter for: nextcloud done!
+2020-07-18T16:08:23.379Z info: init apdapter for: rocketchat...
+2020-07-18T16:08:23.380Z info: init apdapter for: rocketchat done!
+2020-07-18T16:08:23.380Z info: init 3rd apps adapter done!
+2020-07-18T16:08:23.393Z info: Example app listening at http://localhost:3000
+2020-07-18T16:08:23.401Z info: init app data success!
+2020-07-18T16:08:36.545Z error: [DAOImpl/AppDaoImpl.js] Document failed validation - MongoError: [DAOImpl/AppDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:08:51.542Z error: [DAOImpl/AppDaoImpl.js] Document failed validation - MongoError: [DAOImpl/AppDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:08:58.993Z error: [DAOImpl/AppDaoImpl.js] Document failed validation - MongoError: [DAOImpl/AppDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:09:02.927Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T16:09:16.526Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T16:09:25.301Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T16:09:35.546Z error: [DAOImpl/AppDaoImpl.js] Document failed validation - MongoError: [DAOImpl/AppDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:09:50.184Z info: APP IS STARTING...
+2020-07-18T16:09:50.186Z info: Load config..
+2020-07-18T16:09:50.186Z info: Load config done!
+2020-07-18T16:09:50.533Z info: init database..
+2020-07-18T16:09:50.561Z info: init database done!
+2020-07-18T16:09:50.567Z info: init app data
+2020-07-18T16:09:50.583Z info: init 3rd apps adapter...
+2020-07-18T16:09:50.583Z info: init apdapter for: nextcloud...
+2020-07-18T16:09:50.886Z info: init apdapter for: nextcloud done!
+2020-07-18T16:09:50.886Z info: init apdapter for: rocketchat...
+2020-07-18T16:09:50.886Z info: init apdapter for: rocketchat done!
+2020-07-18T16:09:50.887Z info: init 3rd apps adapter done!
+2020-07-18T16:09:50.898Z info: Example app listening at http://localhost:3000
+2020-07-18T16:09:50.906Z info: init app data success!
+2020-07-18T16:09:56.030Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T16:10:05.665Z error: [DAOImpl/AppDaoImpl.js] Document failed validation - MongoError: [DAOImpl/AppDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:13:10.971Z info: APP IS STARTING...
+2020-07-18T16:13:10.973Z info: Load config..
+2020-07-18T16:13:10.973Z info: Load config done!
+2020-07-18T16:13:11.284Z info: init database..
+2020-07-18T16:13:11.302Z info: init database done!
+2020-07-18T16:13:11.307Z info: init app data
+2020-07-18T16:13:11.321Z info: init 3rd apps adapter...
+2020-07-18T16:13:11.321Z info: init apdapter for: nextcloud...
+2020-07-18T16:13:11.618Z info: init apdapter for: nextcloud done!
+2020-07-18T16:13:11.618Z info: init apdapter for: rocketchat...
+2020-07-18T16:13:11.619Z info: init apdapter for: rocketchat done!
+2020-07-18T16:13:11.619Z info: init 3rd apps adapter done!
+2020-07-18T16:13:11.638Z info: Example app listening at http://localhost:3000
+2020-07-18T16:13:11.647Z info: init app data success!
+2020-07-18T16:13:21.560Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T16:13:24.521Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T16:13:35.155Z error: [DAOImpl/AppDaoImpl.js] Document failed validation - MongoError: [DAOImpl/AppDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:14:36.519Z info: APP IS STARTING...
+2020-07-18T16:14:36.521Z info: Load config..
+2020-07-18T16:14:36.521Z info: Load config done!
+2020-07-18T16:14:36.832Z info: init database..
+2020-07-18T16:14:36.858Z info: init database done!
+2020-07-18T16:14:36.862Z info: init app data
+2020-07-18T16:14:36.878Z info: init 3rd apps adapter...
+2020-07-18T16:14:36.879Z info: init apdapter for: nextcloud...
+2020-07-18T16:14:37.178Z info: init apdapter for: nextcloud done!
+2020-07-18T16:14:37.179Z info: init apdapter for: rocketchat...
+2020-07-18T16:14:37.180Z info: init apdapter for: rocketchat done!
+2020-07-18T16:14:37.180Z info: init 3rd apps adapter done!
+2020-07-18T16:14:37.194Z info: Example app listening at http://localhost:3000
+2020-07-18T16:14:37.202Z info: init app data success!
+2020-07-18T16:14:41.009Z error: [DAOImpl/AppDaoImpl.js] Document failed validation - MongoError: [DAOImpl/AppDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:49:23.153Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T16:49:24.323Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T16:49:31.424Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T16:55:12.119Z info: APP IS STARTING...
+2020-07-18T16:55:12.122Z info: Load config..
+2020-07-18T16:55:12.122Z info: Load config done!
+2020-07-18T16:55:12.539Z info: init database..
+2020-07-18T16:55:12.566Z info: init database done!
+2020-07-18T16:55:12.580Z info: init app data
+2020-07-18T16:55:12.589Z info: init 3rd apps adapter...
+2020-07-18T16:55:12.589Z info: init apdapter for: nextcloud...
+2020-07-18T16:55:12.818Z info: init apdapter for: nextcloud done!
+2020-07-18T16:55:12.818Z info: init apdapter for: rocketchat...
+2020-07-18T16:55:12.819Z info: init apdapter for: rocketchat done!
+2020-07-18T16:55:12.819Z info: init 3rd apps adapter done!
+2020-07-18T16:55:12.831Z info: Example app listening at http://localhost:3000
+2020-07-18T16:55:12.850Z info: init app data success!
+2020-07-18T16:56:37.179Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-18T16:56:53.067Z info: <?xml version="1.0"?>
+<ocs>
+ <meta>
+  <status>ok</status>
+  <statuscode>100</statuscode>
+  <message>OK</message>
+  <totalitems></totalitems>
+  <itemsperpage></itemsperpage>
+ </meta>
+ <data/>
+</ocs>
+
+2020-07-19T04:31:23.903Z info: APP IS STARTING...
+2020-07-19T04:31:23.905Z info: Load config..
+2020-07-19T04:31:23.905Z info: Load config done!
+2020-07-19T04:31:24.242Z info: init database..
+2020-07-19T04:31:24.269Z info: init database done!
+2020-07-19T04:31:24.274Z info: init app data
+2020-07-19T04:31:24.281Z info: init 3rd apps adapter...
+2020-07-19T04:31:24.281Z info: init apdapter for: nextcloud...
+2020-07-19T04:31:24.491Z info: init apdapter for: nextcloud done!
+2020-07-19T04:31:24.492Z info: init apdapter for: rocketchat...
+2020-07-19T04:31:24.492Z info: init apdapter for: rocketchat done!
+2020-07-19T04:31:24.493Z info: init 3rd apps adapter done!
+2020-07-19T04:31:24.503Z info: Example app listening at http://localhost:3000
+2020-07-19T04:31:24.513Z info: init app data success!
+2020-07-19T04:32:51.870Z info: APP IS STARTING...
+2020-07-19T04:32:51.873Z info: Load config..
+2020-07-19T04:32:51.874Z info: Load config done!
+2020-07-19T04:32:52.171Z info: init database..
+2020-07-19T04:32:52.191Z info: init database done!
+2020-07-19T04:32:52.195Z info: init app data
+2020-07-19T04:32:52.201Z info: init 3rd apps adapter...
+2020-07-19T04:32:52.202Z info: init apdapter for: nextcloud...
+2020-07-19T04:32:52.429Z info: init apdapter for: nextcloud done!
+2020-07-19T04:32:52.429Z info: init apdapter for: rocketchat...
+2020-07-19T04:32:52.430Z info: init apdapter for: rocketchat done!
+2020-07-19T04:32:52.430Z info: init 3rd apps adapter done!
+2020-07-19T04:32:52.442Z info: Example app listening at http://localhost:3000
+2020-07-19T04:32:52.449Z info: init app data success!
+2020-07-19T04:36:57.439Z info: APP IS STARTING...
+2020-07-19T04:36:57.441Z info: Load config..
+2020-07-19T04:36:57.442Z info: Load config done!
+2020-07-19T04:36:57.755Z info: init database..
+2020-07-19T04:36:57.784Z info: init database done!
+2020-07-19T04:36:57.789Z info: init app data
+2020-07-19T04:36:57.798Z info: init 3rd apps adapter...
+2020-07-19T04:36:57.798Z info: init apdapter for: nextcloud...
+2020-07-19T04:36:58.069Z info: init apdapter for: nextcloud done!
+2020-07-19T04:36:58.070Z info: init apdapter for: rocketchat...
+2020-07-19T04:36:58.073Z info: init apdapter for: rocketchat done!
+2020-07-19T04:36:58.074Z info: init 3rd apps adapter done!
+2020-07-19T04:36:58.090Z info: Example app listening at http://localhost:3000
+2020-07-19T04:36:58.172Z info: init app data success!
+2020-07-19T04:37:35.026Z info: APP IS STARTING...
+2020-07-19T04:37:35.028Z info: Load config..
+2020-07-19T04:37:35.029Z info: Load config done!
+2020-07-19T04:37:35.340Z info: init database..
+2020-07-19T04:37:35.360Z info: init database done!
+2020-07-19T04:37:35.369Z info: init app data
+2020-07-19T04:37:35.380Z info: init 3rd apps adapter...
+2020-07-19T04:37:35.380Z info: init apdapter for: nextcloud...
+2020-07-19T04:37:35.620Z info: init apdapter for: nextcloud done!
+2020-07-19T04:37:35.620Z info: init apdapter for: rocketchat...
+2020-07-19T04:37:35.621Z info: init apdapter for: rocketchat done!
+2020-07-19T04:37:35.621Z info: init 3rd apps adapter done!
+2020-07-19T04:37:35.633Z info: Example app listening at http://localhost:3000
+2020-07-19T04:37:35.639Z info: init app data success!
+2020-07-19T04:39:01.489Z info: APP IS STARTING...
+2020-07-19T04:39:01.491Z info: Load config..
+2020-07-19T04:39:01.492Z info: Load config done!
+2020-07-19T04:39:01.784Z info: init database..
+2020-07-19T04:39:01.805Z info: init database done!
+2020-07-19T04:39:01.809Z info: init app data
+2020-07-19T04:39:01.816Z info: init 3rd apps adapter...
+2020-07-19T04:39:01.816Z info: init apdapter for: nextcloud...
+2020-07-19T04:39:02.056Z info: init apdapter for: nextcloud done!
+2020-07-19T04:39:02.057Z info: init apdapter for: rocketchat...
+2020-07-19T04:39:02.059Z info: init apdapter for: rocketchat done!
+2020-07-19T04:39:02.060Z info: init 3rd apps adapter done!
+2020-07-19T04:39:02.075Z info: Example app listening at http://localhost:3000
+2020-07-19T04:39:02.083Z info: init app data success!
+2020-07-19T04:40:36.392Z info: APP IS STARTING...
+2020-07-19T04:40:36.395Z info: Load config..
+2020-07-19T04:40:36.395Z info: Load config done!
+2020-07-19T04:40:36.694Z info: init database..
+2020-07-19T04:40:36.714Z info: init database done!
+2020-07-19T04:40:36.718Z info: init app data
+2020-07-19T04:40:36.727Z info: init 3rd apps adapter...
+2020-07-19T04:40:36.727Z info: init apdapter for: nextcloud...
+2020-07-19T04:40:36.957Z info: init apdapter for: nextcloud done!
+2020-07-19T04:40:36.957Z info: init apdapter for: rocketchat...
+2020-07-19T04:40:36.958Z info: init apdapter for: rocketchat done!
+2020-07-19T04:40:36.958Z info: init 3rd apps adapter done!
+2020-07-19T04:40:36.968Z info: Example app listening at http://localhost:3000
+2020-07-19T04:40:36.976Z info: init app data success!
+2020-07-19T04:41:17.424Z info: APP IS STARTING...
+2020-07-19T04:41:17.427Z info: Load config..
+2020-07-19T04:41:17.427Z info: Load config done!
+2020-07-19T04:41:17.728Z info: init database..
+2020-07-19T04:41:17.747Z info: init database done!
+2020-07-19T04:41:17.751Z info: init app data
+2020-07-19T04:41:17.762Z info: init 3rd apps adapter...
+2020-07-19T04:41:17.762Z info: init apdapter for: nextcloud...
+2020-07-19T04:41:18.051Z info: init apdapter for: nextcloud done!
+2020-07-19T04:41:18.052Z info: init apdapter for: rocketchat...
+2020-07-19T04:41:18.053Z info: init apdapter for: rocketchat done!
+2020-07-19T04:41:18.053Z info: init 3rd apps adapter done!
+2020-07-19T04:41:18.073Z info: Example app listening at http://localhost:3000
+2020-07-19T04:41:18.087Z info: init app data success!
+2020-07-19T04:41:43.766Z info: APP IS STARTING...
+2020-07-19T04:41:43.768Z info: Load config..
+2020-07-19T04:41:43.769Z info: Load config done!
+2020-07-19T04:41:44.061Z info: init database..
+2020-07-19T04:41:44.082Z info: init database done!
+2020-07-19T04:41:44.086Z info: init app data
+2020-07-19T04:41:44.096Z info: init 3rd apps adapter...
+2020-07-19T04:41:44.096Z info: init apdapter for: nextcloud...
+2020-07-19T04:41:44.307Z info: init apdapter for: nextcloud done!
+2020-07-19T04:41:44.308Z info: init apdapter for: rocketchat...
+2020-07-19T04:41:44.308Z info: init apdapter for: rocketchat done!
+2020-07-19T04:41:44.308Z info: init 3rd apps adapter done!
+2020-07-19T04:41:44.319Z info: Example app listening at http://localhost:3000
+2020-07-19T04:41:44.327Z info: init app data success!
+2020-07-19T04:52:21.527Z info: APP IS STARTING...
+2020-07-19T04:52:21.529Z info: Load config..
+2020-07-19T04:52:21.529Z info: Load config done!
+2020-07-19T04:52:21.836Z info: init database..
+2020-07-19T04:52:21.856Z info: init database done!
+2020-07-19T04:52:21.860Z info: init app data
+2020-07-19T04:52:21.868Z info: init 3rd apps adapter...
+2020-07-19T04:52:21.869Z info: init apdapter for: nextcloud...
+2020-07-19T04:52:22.081Z info: init apdapter for: nextcloud done!
+2020-07-19T04:52:22.082Z info: init apdapter for: rocketchat...
+2020-07-19T04:52:22.082Z info: init apdapter for: rocketchat done!
+2020-07-19T04:52:22.082Z info: init 3rd apps adapter done!
+2020-07-19T04:52:22.094Z info: Example app listening at http://localhost:3000
+2020-07-19T04:52:22.101Z info: init app data success!
+2020-07-19T04:52:51.430Z info: APP IS STARTING...
+2020-07-19T04:52:51.433Z info: Load config..
+2020-07-19T04:52:51.433Z info: Load config done!
+2020-07-19T04:52:51.748Z info: init database..
+2020-07-19T04:52:51.767Z info: init database done!
+2020-07-19T04:52:51.772Z info: init app data
+2020-07-19T04:52:51.779Z info: init 3rd apps adapter...
+2020-07-19T04:52:51.779Z info: init apdapter for: nextcloud...
+2020-07-19T04:52:51.996Z info: init apdapter for: nextcloud done!
+2020-07-19T04:52:51.996Z info: init apdapter for: rocketchat...
+2020-07-19T04:52:51.997Z info: init apdapter for: rocketchat done!
+2020-07-19T04:52:51.997Z info: init 3rd apps adapter done!
+2020-07-19T04:52:52.008Z info: Example app listening at http://localhost:3000
+2020-07-19T04:52:52.016Z info: init app data success!
+2020-07-19T04:53:28.559Z info: APP IS STARTING...
+2020-07-19T04:53:28.561Z info: Load config..
+2020-07-19T04:53:28.562Z info: Load config done!
+2020-07-19T04:53:28.852Z info: init database..
+2020-07-19T04:53:28.872Z info: init database done!
+2020-07-19T04:53:28.876Z info: init app data
+2020-07-19T04:53:28.883Z info: init 3rd apps adapter...
+2020-07-19T04:53:28.884Z info: init apdapter for: nextcloud...
+2020-07-19T04:53:29.098Z info: init apdapter for: nextcloud done!
+2020-07-19T04:53:29.098Z info: init apdapter for: rocketchat...
+2020-07-19T04:53:29.099Z info: init apdapter for: rocketchat done!
+2020-07-19T04:53:29.099Z info: init 3rd apps adapter done!
+2020-07-19T04:53:29.110Z info: Example app listening at http://localhost:3000
+2020-07-19T04:53:29.118Z info: init app data success!
+2020-07-19T04:54:24.462Z info: APP IS STARTING...
+2020-07-19T04:54:24.464Z info: Load config..
+2020-07-19T04:54:24.464Z info: Load config done!
+2020-07-19T04:54:24.754Z info: init database..
+2020-07-19T04:54:24.774Z info: init database done!
+2020-07-19T04:54:24.778Z info: init app data
+2020-07-19T04:54:24.785Z info: init 3rd apps adapter...
+2020-07-19T04:54:24.786Z info: init apdapter for: nextcloud...
+2020-07-19T04:54:24.999Z info: init apdapter for: nextcloud done!
+2020-07-19T04:54:24.999Z info: init apdapter for: rocketchat...
+2020-07-19T04:54:25.000Z info: init apdapter for: rocketchat done!
+2020-07-19T04:54:25.000Z info: init 3rd apps adapter done!
+2020-07-19T04:54:25.011Z info: Example app listening at http://localhost:3000
+2020-07-19T04:54:25.019Z info: init app data success!
+2020-07-19T04:56:21.939Z info: APP IS STARTING...
+2020-07-19T04:56:21.941Z info: Load config..
+2020-07-19T04:56:21.942Z info: Load config done!
+2020-07-19T04:56:22.230Z info: init database..
+2020-07-19T04:56:22.250Z info: init database done!
+2020-07-19T04:56:22.254Z info: init app data
+2020-07-19T04:56:22.262Z info: init 3rd apps adapter...
+2020-07-19T04:56:22.262Z info: init apdapter for: nextcloud...
+2020-07-19T04:56:22.473Z info: init apdapter for: nextcloud done!
+2020-07-19T04:56:22.473Z info: init apdapter for: rocketchat...
+2020-07-19T04:56:22.474Z info: init apdapter for: rocketchat done!
+2020-07-19T04:56:22.474Z info: init 3rd apps adapter done!
+2020-07-19T04:56:22.487Z info: Example app listening at http://localhost:3000
+2020-07-19T04:56:22.494Z info: init app data success!
+2020-07-19T04:56:48.835Z info: APP IS STARTING...
+2020-07-19T04:56:48.844Z info: Load config..
+2020-07-19T04:56:48.845Z info: Load config done!
+2020-07-19T04:56:49.768Z info: init database..
+2020-07-19T04:56:49.824Z info: init database done!
+2020-07-19T04:56:49.834Z info: init app data
+2020-07-19T04:56:49.850Z info: init 3rd apps adapter...
+2020-07-19T04:56:49.851Z info: init apdapter for: nextcloud...
+2020-07-19T04:56:50.461Z info: init apdapter for: nextcloud done!
+2020-07-19T04:56:50.462Z info: init apdapter for: rocketchat...
+2020-07-19T04:56:50.463Z info: init apdapter for: rocketchat done!
+2020-07-19T04:56:50.463Z info: init 3rd apps adapter done!
+2020-07-19T04:56:50.495Z info: Example app listening at http://localhost:3000
+2020-07-19T04:56:50.515Z info: init app data success!
+2020-07-19T04:57:04.877Z info: APP IS STARTING...
+2020-07-19T04:57:04.880Z info: Load config..
+2020-07-19T04:57:04.880Z info: Load config done!
+2020-07-19T04:57:05.185Z info: init database..
+2020-07-19T04:57:05.204Z info: init database done!
+2020-07-19T04:57:05.209Z info: init app data
+2020-07-19T04:57:05.217Z info: init 3rd apps adapter...
+2020-07-19T04:57:05.217Z info: init apdapter for: nextcloud...
+2020-07-19T04:57:05.434Z info: init apdapter for: nextcloud done!
+2020-07-19T04:57:05.434Z info: init apdapter for: rocketchat...
+2020-07-19T04:57:05.435Z info: init apdapter for: rocketchat done!
+2020-07-19T04:57:05.435Z info: init 3rd apps adapter done!
+2020-07-19T04:57:05.448Z info: Example app listening at http://localhost:3000
+2020-07-19T04:57:05.455Z info: init app data success!
+2020-07-19T04:58:30.843Z info: APP IS STARTING...
+2020-07-19T04:58:30.845Z info: Load config..
+2020-07-19T04:58:30.845Z info: Load config done!
+2020-07-19T04:58:31.155Z info: init database..
+2020-07-19T04:58:31.174Z info: init database done!
+2020-07-19T04:58:31.178Z info: init app data
+2020-07-19T04:58:31.185Z info: init 3rd apps adapter...
+2020-07-19T04:58:31.185Z info: init apdapter for: nextcloud...
+2020-07-19T04:58:31.408Z info: init apdapter for: nextcloud done!
+2020-07-19T04:58:31.408Z info: init apdapter for: rocketchat...
+2020-07-19T04:58:31.409Z info: init apdapter for: rocketchat done!
+2020-07-19T04:58:31.409Z info: init 3rd apps adapter done!
+2020-07-19T04:58:31.420Z info: Example app listening at http://localhost:3000
+2020-07-19T04:58:31.429Z info: init app data success!
+2020-07-21T13:00:56.240Z info: APP IS STARTING...
+2020-07-21T13:00:56.252Z info: Load config..
+2020-07-21T13:00:56.254Z info: Load config done!
+2020-07-21T13:00:57.940Z info: init database..
+2020-07-21T13:00:58.022Z info: init database done!
+2020-07-21T13:00:58.071Z info: init app data
+2020-07-21T13:00:58.098Z info: init 3rd apps adapter...
+2020-07-21T13:00:58.099Z info: init apdapter for: nextcloud...
+2020-07-21T13:00:59.040Z info: init apdapter for: nextcloud done!
+2020-07-21T13:00:59.041Z info: init apdapter for: rocketchat...
+2020-07-21T13:00:59.046Z info: init apdapter for: rocketchat done!
+2020-07-21T13:00:59.047Z info: init 3rd apps adapter done!
+2020-07-21T13:00:59.086Z info: Example app listening at http://localhost:3000
+2020-07-21T13:00:59.114Z info: init app data success!
+2020-07-21T13:10:49.066Z info: APP IS STARTING...
+2020-07-21T13:10:49.068Z info: Load config..
+2020-07-21T13:10:49.069Z info: Load config done!
+2020-07-21T13:10:49.357Z info: init database..
+2020-07-21T13:10:49.376Z info: init database done!
+2020-07-21T13:10:49.380Z info: init app data
+2020-07-21T13:10:49.387Z info: init 3rd apps adapter...
+2020-07-21T13:10:49.387Z info: init apdapter for: nextcloud...
+2020-07-21T13:10:49.587Z info: init apdapter for: nextcloud done!
+2020-07-21T13:10:49.587Z info: init apdapter for: rocketchat...
+2020-07-21T13:10:49.588Z info: init apdapter for: rocketchat done!
+2020-07-21T13:10:49.588Z info: init 3rd apps adapter done!
+2020-07-21T13:10:49.602Z info: Example app listening at http://localhost:3000
+2020-07-21T13:10:49.609Z info: init app data success!
+2020-07-23T14:56:56.706Z info: APP IS STARTING...
+2020-07-23T14:56:56.709Z info: Load config..
+2020-07-23T14:56:56.709Z info: Load config done!
+2020-07-23T14:56:57.041Z info: init database..
+2020-07-23T14:56:57.061Z info: init database done!
+2020-07-23T14:56:57.065Z info: init app data
+2020-07-23T14:56:57.073Z info: init 3rd apps adapter...
+2020-07-23T14:56:57.073Z info: init apdapter for: nextcloud...
+2020-07-23T14:56:57.327Z info: init apdapter for: nextcloud done!
+2020-07-23T14:56:57.327Z info: init apdapter for: rocketchat...
+2020-07-23T14:56:57.328Z info: init apdapter for: rocketchat done!
+2020-07-23T14:56:57.328Z info: init apdapter for: wordpress...
+2020-07-23T14:56:57.328Z error: [Adapter/AdapterManager.js] Cannot find module './undefined.js'
+Require stack:
+- /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js
+- /media/lap12654/DATA/git/my-git/Oauth2Central/app.js - Error: [Adapter/AdapterManager.js] Cannot find module './undefined.js'
+Require stack:
+- /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js
+- /media/lap12654/DATA/git/my-git/Oauth2Central/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at new AdapterManager (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:16:31)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:65:18)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:23:5
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-23T14:56:57.329Z info: init 3rd apps adapter done!
+2020-07-23T14:56:57.340Z info: Example app listening at http://localhost:3000
+2020-07-23T14:56:57.349Z info: init app data success!
+2020-07-23T14:57:36.574Z info: APP IS STARTING...
+2020-07-23T14:57:36.577Z info: Load config..
+2020-07-23T14:57:36.577Z info: Load config done!
+2020-07-23T14:57:36.911Z info: init database..
+2020-07-23T14:57:36.930Z info: init database done!
+2020-07-23T14:57:36.934Z info: init app data
+2020-07-23T14:57:36.942Z info: init 3rd apps adapter...
+2020-07-23T14:57:36.943Z info: init apdapter for: nextcloud...
+2020-07-23T14:57:37.183Z info: init apdapter for: nextcloud done!
+2020-07-23T14:57:37.183Z info: init apdapter for: rocketchat...
+2020-07-23T14:57:37.183Z info: init apdapter for: rocketchat done!
+2020-07-23T14:57:37.184Z info: init apdapter for: wordpress...
+2020-07-23T14:57:37.184Z error: [Adapter/AdapterManager.js] require(...) is not a function - TypeError: [Adapter/AdapterManager.js] require(...) is not a function
+    at new AdapterManager (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:16:66)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:65:18)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:23:5
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-23T14:57:37.185Z info: init 3rd apps adapter done!
+2020-07-23T14:57:37.196Z info: Example app listening at http://localhost:3000
+2020-07-23T14:57:37.205Z info: init app data success!
+2020-07-23T14:58:19.385Z info: APP IS STARTING...
+2020-07-23T14:58:19.387Z info: Load config..
+2020-07-23T14:58:19.388Z info: Load config done!
+2020-07-23T14:58:19.764Z info: init database..
+2020-07-23T14:58:19.784Z info: init database done!
+2020-07-23T14:58:19.787Z info: init app data
+2020-07-23T14:58:19.797Z info: init 3rd apps adapter...
+2020-07-23T14:58:19.797Z info: init apdapter for: nextcloud...
+2020-07-23T14:58:20.042Z info: init apdapter for: nextcloud done!
+2020-07-23T14:58:20.042Z info: init apdapter for: rocketchat...
+2020-07-23T14:58:20.043Z info: init apdapter for: rocketchat done!
+2020-07-23T14:58:20.043Z info: init apdapter for: wordpress...
+2020-07-23T14:58:20.044Z info: init apdapter for: wordpress done!
+2020-07-23T14:58:20.044Z info: init 3rd apps adapter done!
+2020-07-23T14:58:20.056Z info: Example app listening at http://localhost:3000
+2020-07-23T14:58:20.065Z info: init app data success!
+2020-07-23T15:33:11.909Z info: APP IS STARTING...
+2020-07-23T15:33:11.911Z info: Load config..
+2020-07-23T15:33:11.911Z info: Load config done!
+2020-07-23T15:33:12.202Z info: init database..
+2020-07-23T15:33:12.222Z info: init database done!
+2020-07-23T15:33:12.225Z info: init app data
+2020-07-23T15:33:12.234Z info: init 3rd apps adapter...
+2020-07-23T15:33:12.235Z info: init apdapter for: nextcloud...
+2020-07-23T15:33:12.440Z info: init apdapter for: nextcloud done!
+2020-07-23T15:33:12.441Z info: init apdapter for: rocketchat...
+2020-07-23T15:33:12.441Z info: init apdapter for: rocketchat done!
+2020-07-23T15:33:12.441Z info: init apdapter for: wordpress...
+2020-07-23T15:33:12.442Z info: init apdapter for: wordpress done!
+2020-07-23T15:33:12.442Z info: init 3rd apps adapter done!
+2020-07-23T15:33:12.453Z info: Example app listening at http://localhost:3000
+2020-07-23T15:33:12.463Z info: init app data success!
+2020-07-23T15:40:32.886Z info: APP IS STARTING...
+2020-07-23T15:40:32.889Z info: Load config..
+2020-07-23T15:40:32.889Z info: Load config done!
+2020-07-23T15:40:33.180Z info: init database..
+2020-07-23T15:40:33.202Z info: init database done!
+2020-07-23T15:40:33.206Z info: init app data
+2020-07-23T15:40:33.216Z info: init 3rd apps adapter...
+2020-07-23T15:40:33.216Z info: init apdapter for: nextcloud...
+2020-07-23T15:40:33.418Z info: init apdapter for: nextcloud done!
+2020-07-23T15:40:33.419Z info: init apdapter for: rocketchat...
+2020-07-23T15:40:33.419Z info: init apdapter for: rocketchat done!
+2020-07-23T15:40:33.419Z info: init apdapter for: wordpress...
+2020-07-23T15:40:33.420Z info: init apdapter for: wordpress done!
+2020-07-23T15:40:33.420Z info: init 3rd apps adapter done!
+2020-07-23T15:40:33.431Z info: Example app listening at http://localhost:3000
+2020-07-23T15:40:33.442Z info: init app data success!
+2020-07-23T15:41:27.608Z info: APP IS STARTING...
+2020-07-23T15:41:27.612Z info: Load config..
+2020-07-23T15:41:27.614Z info: Load config done!
+2020-07-23T15:41:28.215Z info: init database..
+2020-07-23T15:41:28.244Z info: init database done!
+2020-07-23T15:41:28.252Z info: init app data
+2020-07-23T15:41:28.265Z info: init 3rd apps adapter...
+2020-07-23T15:41:28.265Z info: init apdapter for: nextcloud...
+2020-07-23T15:41:28.687Z info: init apdapter for: nextcloud done!
+2020-07-23T15:41:28.687Z info: init apdapter for: rocketchat...
+2020-07-23T15:41:28.689Z info: init apdapter for: rocketchat done!
+2020-07-23T15:41:28.689Z info: init apdapter for: wordpress...
+2020-07-23T15:41:28.690Z info: init apdapter for: wordpress done!
+2020-07-23T15:41:28.690Z info: init 3rd apps adapter done!
+2020-07-23T15:41:28.710Z info: Example app listening at http://localhost:3000
+2020-07-23T15:41:28.725Z info: init app data success!
+2020-07-23T15:42:44.597Z info: APP IS STARTING...
+2020-07-23T15:42:44.601Z info: Load config..
+2020-07-23T15:42:44.602Z info: Load config done!
+2020-07-23T15:42:45.181Z info: init database..
+2020-07-23T15:42:45.224Z info: init database done!
+2020-07-23T15:42:45.232Z info: init app data
+2020-07-23T15:42:45.253Z info: init 3rd apps adapter...
+2020-07-23T15:42:45.254Z info: init apdapter for: nextcloud...
+2020-07-23T15:42:46.119Z info: init apdapter for: nextcloud done!
+2020-07-23T15:42:46.120Z info: init apdapter for: rocketchat...
+2020-07-23T15:42:46.121Z info: init apdapter for: rocketchat done!
+2020-07-23T15:42:46.121Z info: init apdapter for: wordpress...
+2020-07-23T15:42:46.122Z info: init apdapter for: wordpress done!
+2020-07-23T15:42:46.122Z info: init 3rd apps adapter done!
+2020-07-23T15:42:46.150Z info: Example app listening at http://localhost:3000
+2020-07-23T15:42:46.171Z info: init app data success!
+2020-07-23T15:42:49.223Z error: [Adapter/WordpressAdapter.js] aa is not defined - ReferenceError: [Adapter/WordpressAdapter.js] aa is not defined
+    at WordpressAdapter.getUserId (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/WordpressAdapter.js:44:13)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/WordpressAdapter.js:18:37
+    at WordpressAdapter.checkExistUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/WordpressAdapter.js:20:11)
+    at AdapterManager.checkExistUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:57:17)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:44:28
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-23T15:43:22.011Z info: APP IS STARTING...
+2020-07-23T15:43:22.017Z info: Load config..
+2020-07-23T15:43:22.018Z info: Load config done!
+2020-07-23T15:43:23.167Z info: init database..
+2020-07-23T15:43:23.239Z info: init database done!
+2020-07-23T15:43:23.252Z info: init app data
+2020-07-23T15:43:23.263Z info: init 3rd apps adapter...
+2020-07-23T15:43:23.263Z info: init apdapter for: nextcloud...
+2020-07-23T15:43:23.761Z info: init apdapter for: nextcloud done!
+2020-07-23T15:43:23.762Z info: init apdapter for: rocketchat...
+2020-07-23T15:43:23.765Z info: init apdapter for: rocketchat done!
+2020-07-23T15:43:23.766Z info: init apdapter for: wordpress...
+2020-07-23T15:43:23.771Z info: init apdapter for: wordpress done!
+2020-07-23T15:43:23.771Z info: init 3rd apps adapter done!
+2020-07-23T15:43:23.792Z info: Example app listening at http://localhost:3000
+2020-07-23T15:43:23.813Z info: init app data success!
+2020-07-23T15:43:25.910Z error: check exist user error!
+2020-07-23T15:43:25.910Z error: [Adapter/WordpressAdapter.js] aa is not defined - ReferenceError: [Adapter/WordpressAdapter.js] aa is not defined
+    at WordpressAdapter.getUserId (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/WordpressAdapter.js:45:13)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/WordpressAdapter.js:18:37
+    at WordpressAdapter.checkExistUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/WordpressAdapter.js:20:11)
+    at AdapterManager.checkExistUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:57:17)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:44:28
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-23T15:44:11.680Z info: APP IS STARTING...
+2020-07-23T15:44:11.689Z info: Load config..
+2020-07-23T15:44:11.690Z info: Load config done!
+2020-07-23T15:44:12.544Z info: init database..
+2020-07-23T15:44:12.610Z info: init database done!
+2020-07-23T15:44:12.624Z info: init app data
+2020-07-23T15:44:12.643Z info: init 3rd apps adapter...
+2020-07-23T15:44:12.643Z info: init apdapter for: nextcloud...
+2020-07-23T15:44:13.276Z info: init apdapter for: nextcloud done!
+2020-07-23T15:44:13.276Z info: init apdapter for: rocketchat...
+2020-07-23T15:44:13.277Z info: init apdapter for: rocketchat done!
+2020-07-23T15:44:13.277Z info: init apdapter for: wordpress...
+2020-07-23T15:44:13.278Z info: init apdapter for: wordpress done!
+2020-07-23T15:44:13.279Z info: init 3rd apps adapter done!
+2020-07-23T15:44:13.307Z info: Example app listening at http://localhost:3000
+2020-07-23T15:44:13.335Z info: init app data success!
+2020-07-23T15:46:27.517Z info: APP IS STARTING...
+2020-07-23T15:46:27.519Z info: Load config..
+2020-07-23T15:46:27.519Z info: Load config done!
+2020-07-23T15:46:27.814Z info: init database..
+2020-07-23T15:46:27.834Z info: init database done!
+2020-07-23T15:46:27.838Z info: init app data
+2020-07-23T15:46:27.849Z info: init 3rd apps adapter...
+2020-07-23T15:46:27.849Z info: init apdapter for: nextcloud...
+2020-07-23T15:46:28.124Z info: init apdapter for: nextcloud done!
+2020-07-23T15:46:28.124Z info: init apdapter for: rocketchat...
+2020-07-23T15:46:28.125Z info: init apdapter for: rocketchat done!
+2020-07-23T15:46:28.125Z info: init apdapter for: wordpress...
+2020-07-23T15:46:28.126Z info: init apdapter for: wordpress done!
+2020-07-23T15:46:28.126Z info: init 3rd apps adapter done!
+2020-07-23T15:46:28.137Z info: Example app listening at http://localhost:3000
+2020-07-23T15:46:28.151Z info: init app data success!
+2020-07-23T15:54:55.334Z info: APP IS STARTING...
+2020-07-23T15:54:55.337Z info: Load config..
+2020-07-23T15:54:55.337Z info: Load config done!
+2020-07-23T15:54:55.972Z info: init database..
+2020-07-23T15:54:56.008Z info: init database done!
+2020-07-23T15:54:56.014Z info: init app data
+2020-07-23T15:54:56.026Z info: init 3rd apps adapter...
+2020-07-23T15:54:56.026Z info: init apdapter for: nextcloud...
+2020-07-23T15:54:56.405Z info: init apdapter for: nextcloud done!
+2020-07-23T15:54:56.405Z info: init apdapter for: rocketchat...
+2020-07-23T15:54:56.406Z info: init apdapter for: rocketchat done!
+2020-07-23T15:54:56.406Z info: init apdapter for: wordpress...
+2020-07-23T15:54:56.407Z info: init apdapter for: wordpress done!
+2020-07-23T15:54:56.407Z info: init 3rd apps adapter done!
+2020-07-23T15:54:56.433Z info: Example app listening at http://localhost:3000
+2020-07-23T15:54:56.450Z info: init app data success!
+2020-07-23T15:54:59.935Z error: changeRoleOfUser error!
+2020-07-23T15:54:59.935Z error: [Adapter/WordpressAdapter.js] dataRequest is not defined - ReferenceError: [Adapter/WordpressAdapter.js] dataRequest is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/WordpressAdapter.js:52:45
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-23T15:55:20.975Z info: APP IS STARTING...
+2020-07-23T15:55:20.977Z info: Load config..
+2020-07-23T15:55:20.978Z info: Load config done!
+2020-07-23T15:55:21.286Z info: init database..
+2020-07-23T15:55:21.308Z info: init database done!
+2020-07-23T15:55:21.312Z info: init app data
+2020-07-23T15:55:21.321Z info: init 3rd apps adapter...
+2020-07-23T15:55:21.321Z info: init apdapter for: nextcloud...
+2020-07-23T15:55:21.537Z info: init apdapter for: nextcloud done!
+2020-07-23T15:55:21.537Z info: init apdapter for: rocketchat...
+2020-07-23T15:55:21.538Z info: init apdapter for: rocketchat done!
+2020-07-23T15:55:21.538Z info: init apdapter for: wordpress...
+2020-07-23T15:55:21.539Z info: init apdapter for: wordpress done!
+2020-07-23T15:55:21.539Z info: init 3rd apps adapter done!
+2020-07-23T15:55:21.551Z info: Example app listening at http://localhost:3000
+2020-07-23T15:55:21.563Z info: init app data success!
+2020-07-23T15:55:35.509Z info: APP IS STARTING...
+2020-07-23T15:55:35.512Z info: Load config..
+2020-07-23T15:55:35.512Z info: Load config done!
+2020-07-23T15:55:35.839Z info: init database..
+2020-07-23T15:55:35.860Z info: init database done!
+2020-07-23T15:55:35.869Z info: init app data
+2020-07-23T15:55:35.878Z info: init 3rd apps adapter...
+2020-07-23T15:55:35.879Z info: init apdapter for: nextcloud...
+2020-07-23T15:55:36.159Z info: init apdapter for: nextcloud done!
+2020-07-23T15:55:36.160Z info: init apdapter for: rocketchat...
+2020-07-23T15:55:36.161Z info: init apdapter for: rocketchat done!
+2020-07-23T15:55:36.161Z info: init apdapter for: wordpress...
+2020-07-23T15:55:36.162Z info: init apdapter for: wordpress done!
+2020-07-23T15:55:36.162Z info: init 3rd apps adapter done!
+2020-07-23T15:55:36.179Z info: Example app listening at http://localhost:3000
+2020-07-23T15:55:36.197Z info: init app data success!
+2020-07-23T15:57:10.737Z info: APP IS STARTING...
+2020-07-23T15:57:10.740Z info: Load config..
+2020-07-23T15:57:10.740Z info: Load config done!
+2020-07-23T15:57:11.033Z info: init database..
+2020-07-23T15:57:11.053Z info: init database done!
+2020-07-23T15:57:11.057Z info: init app data
+2020-07-23T15:57:11.066Z info: init 3rd apps adapter...
+2020-07-23T15:57:11.067Z info: init apdapter for: nextcloud...
+2020-07-23T15:57:11.277Z info: init apdapter for: nextcloud done!
+2020-07-23T15:57:11.277Z info: init apdapter for: rocketchat...
+2020-07-23T15:57:11.278Z info: init apdapter for: rocketchat done!
+2020-07-23T15:57:11.278Z info: init apdapter for: wordpress...
+2020-07-23T15:57:11.278Z info: init apdapter for: wordpress done!
+2020-07-23T15:57:11.279Z info: init 3rd apps adapter done!
+2020-07-23T15:57:11.289Z info: Example app listening at http://localhost:3000
+2020-07-23T15:57:11.298Z info: init app data success!
+2020-07-23T15:57:20.670Z info: APP IS STARTING...
+2020-07-23T15:57:20.672Z info: Load config..
+2020-07-23T15:57:20.672Z info: Load config done!
+2020-07-23T15:57:20.981Z info: init database..
+2020-07-23T15:57:21.001Z info: init database done!
+2020-07-23T15:57:21.005Z info: init app data
+2020-07-23T15:57:21.013Z info: init 3rd apps adapter...
+2020-07-23T15:57:21.013Z info: init apdapter for: nextcloud...
+2020-07-23T15:57:21.231Z info: init apdapter for: nextcloud done!
+2020-07-23T15:57:21.231Z info: init apdapter for: rocketchat...
+2020-07-23T15:57:21.232Z info: init apdapter for: rocketchat done!
+2020-07-23T15:57:21.232Z info: init apdapter for: wordpress...
+2020-07-23T15:57:21.233Z info: init apdapter for: wordpress done!
+2020-07-23T15:57:21.233Z info: init 3rd apps adapter done!
+2020-07-23T15:57:21.244Z info: Example app listening at http://localhost:3000
+2020-07-23T15:57:21.254Z info: init app data success!
+2020-07-23T15:57:56.082Z info: APP IS STARTING...
+2020-07-23T15:57:56.084Z info: Load config..
+2020-07-23T15:57:56.085Z info: Load config done!
+2020-07-23T15:57:56.383Z info: init database..
+2020-07-23T15:57:56.403Z info: init database done!
+2020-07-23T15:57:56.407Z info: init app data
+2020-07-23T15:57:56.416Z info: init 3rd apps adapter...
+2020-07-23T15:57:56.416Z info: init apdapter for: nextcloud...
+2020-07-23T15:57:56.737Z info: init apdapter for: nextcloud done!
+2020-07-23T15:57:56.737Z info: init apdapter for: rocketchat...
+2020-07-23T15:57:56.739Z info: init apdapter for: rocketchat done!
+2020-07-23T15:57:56.739Z info: init apdapter for: wordpress...
+2020-07-23T15:57:56.741Z info: init apdapter for: wordpress done!
+2020-07-23T15:57:56.741Z info: init 3rd apps adapter done!
+2020-07-23T15:57:56.760Z info: Example app listening at http://localhost:3000
+2020-07-23T15:57:56.775Z info: init app data success!
+2020-07-23T16:00:42.871Z error: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer - TypeError: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer
+    at Parser.parse (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:23:22)
+    at Object.module.exports [as toJson] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:172:17)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/NextCloudAdapter.js:86:36)
+    at self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.onRequestError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:310:20)
+    at Socket.socketErrorListener (_http_client.js:426:9)
+    at Socket.emit (events.js:310:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-07-23T16:00:44.158Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-23T16:09:56.784Z info: APP IS STARTING...
+2020-07-23T16:09:56.787Z info: Load config..
+2020-07-23T16:09:56.787Z info: Load config done!
+2020-07-23T16:09:57.186Z info: init database..
+2020-07-23T16:09:57.212Z info: init database done!
+2020-07-23T16:09:57.218Z info: init app data
+2020-07-23T16:09:57.230Z info: init 3rd apps adapter...
+2020-07-23T16:09:57.230Z info: init apdapter for: nextcloud...
+2020-07-23T16:09:57.610Z info: init apdapter for: nextcloud done!
+2020-07-23T16:09:57.610Z info: init apdapter for: rocketchat...
+2020-07-23T16:09:57.611Z info: init apdapter for: rocketchat done!
+2020-07-23T16:09:57.611Z info: init apdapter for: wordpress...
+2020-07-23T16:09:57.612Z info: init apdapter for: wordpress done!
+2020-07-23T16:09:57.612Z info: init 3rd apps adapter done!
+2020-07-23T16:09:57.641Z info: Example app listening at http://localhost:3000
+2020-07-23T16:09:57.661Z info: init app data success!
+2020-07-23T16:10:33.503Z error: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer - TypeError: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer
+    at Parser.parse (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:23:22)
+    at Object.module.exports [as toJson] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:172:17)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/NextCloudAdapter.js:29:36)
+    at self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.onRequestError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:310:20)
+    at Socket.socketErrorListener (_http_client.js:426:9)
+    at Socket.emit (events.js:310:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-07-23T16:10:35.737Z error: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer - TypeError: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer
+    at Parser.parse (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:23:22)
+    at Object.module.exports [as toJson] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:172:17)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/NextCloudAdapter.js:29:36)
+    at self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.onRequestError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:310:20)
+    at Socket.socketErrorListener (_http_client.js:426:9)
+    at Socket.emit (events.js:310:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-07-29T14:08:03.995Z info: APP IS STARTING...
+2020-07-29T14:08:03.998Z info: Load config..
+2020-07-29T14:08:03.999Z info: Load config done!
+2020-07-29T14:08:04.504Z info: init database..
+2020-07-29T14:08:04.524Z info: init database done!
+2020-07-29T14:08:04.528Z info: init app data
+2020-07-29T14:08:04.537Z info: init 3rd apps adapter...
+2020-07-29T14:08:04.537Z info: init apdapter for: nextcloud...
+2020-07-29T14:08:04.786Z info: init apdapter for: nextcloud done!
+2020-07-29T14:08:04.786Z info: init apdapter for: rocketchat...
+2020-07-29T14:08:04.787Z info: init apdapter for: rocketchat done!
+2020-07-29T14:08:04.787Z info: init apdapter for: wordpress...
+2020-07-29T14:08:04.788Z info: init apdapter for: wordpress done!
+2020-07-29T14:08:04.788Z info: init 3rd apps adapter done!
+2020-07-29T14:08:04.800Z info: Example app listening at http://localhost:3000
+2020-07-29T14:08:04.866Z info: init app data success!

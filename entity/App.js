@@ -1,11 +1,9 @@
 class App {
-    constructor(name, imageUrl, baseUrl, redirectUrl, description, displayName){
+    constructor(name, imageUrl, baseUrl, users){
         this.name = name;
         this.imageUrl = imageUrl;
         this.baseUrl = baseUrl;
-        this.redirectUrl = redirectUrl;
-        this.description = description;
-        this.displayName = displayName;
+        this.users = users;
     }
 }
 module.exports = App

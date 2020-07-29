@@ -21,7 +21,7 @@ class NextCloudApdater extends Adapter {
         }
         request({
             headers: renderHeader(this.adminUsername, this.adminPassword),
-            uri: this.nextCloudDomain + `/ocs/v1.php/cloud/users/${this.prefixName}-${user.sub}`,
+            uri: this.nextCloudDomain + `/ocs/v1.php/cloud/users/${this.prefixName}-${user.username}`,
             method: 'GET'
         }, function (err, res, body) {
             let code = ErrorCode.fail();
@@ -49,13 +49,12 @@ class NextCloudApdater extends Adapter {
         }
         request({
             headers: renderHeader(this.adminUsername, this.adminPassword),
-            uri: this.nextCloudDomain + `/ocs/v1.php/cloud/users/${this.prefixName}-${user.sub}/disable`,
+            uri: this.nextCloudDomain + `/ocs/v1.php/cloud/users/${this.prefixName}-${user.username}/disable`,
             method: 'PUT'
         }, function (err, res, body) {
             let code = {};
             try {
                 let rs = xmlParser.toJson(body);
-                logger.info(body);
                 rs = JSON.parse(rs);
                 if (rs.ocs.meta.status == "ok") {
                     code = ErrorCode.success();
@@ -79,7 +78,7 @@ class NextCloudApdater extends Adapter {
         }
         request({
             headers: renderHeader(this.adminUsername, this.adminPassword),
-            uri: this.nextCloudDomain + `/ocs/v1.php/cloud/users/${this.prefixName}-${user.sub}/enable`,
+            uri: this.nextCloudDomain + `/ocs/v1.php/cloud/users/${this.prefixName}-${user.username}/enable`,
             method: 'PUT'
         }, function (err, res, body) {
             let code = {};

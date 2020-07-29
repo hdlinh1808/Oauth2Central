@@ -8,7 +8,7 @@ class Filter {
 
             if (centralSession != undefined && centralSession != "" && session != undefined && session._id == centralSession) {
                 let path = req.originalUrl;
-                req.query.username = session.userId;
+                req.query.usernameAdmin= session.userId;
                 if (path == "/" && RoleManager.isUserAdmin(session.userId)) {
                     resp.redirect("/admin/app/request");
                     return;

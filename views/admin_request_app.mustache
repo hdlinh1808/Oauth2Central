@@ -1,6 +1,11 @@
 <script src="/plugins/datatable/js/jquery.dataTables.min.js"></script>
 <script src="/plugins/datatable/js/dataTables.bootstrap4.min.js"></script>
+<script src="/plugins/datatable/js/dataTables.rowReorder.min.js"></script>
+<script src="/plugins/datatable/js/dataTables.responsive.min.js"></script>
+
 <link rel="stylesheet" href="/plugins/datatable/css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="/plugins/datatable/css/rowReorder.dataTables.min.css">
+<link rel="stylesheet" href="/plugins/datatable/css/responsive.dataTables.min.css">
 
 <div class="row">
     <div class="col-12">
@@ -9,7 +14,8 @@
                 <h3 class="card-title">Requests</h3>
             </div>
             <div class="card-body">
-                <table class="table table-striped table-bordered table-hover" id="requestTable">
+                <table class="table table-striped table-bordered table-hover display nowrap" style="width: 100%;"
+                    id="requestTable">
                     <thead>
                         <tr>
                             <th>#</th>
@@ -26,8 +32,12 @@
                             <td class="app">{{app}}</td>
 
                             <td>
-                                <button class="btn btn-success btn-sm accept" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying...">Accept</button>
-                                <button class="btn btn-danger btn-sm decline" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying...">Decine</button>
+                                <button class="btn btn-success btn-sm accept"
+                                    data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying..."
+                                    user="{{uid}}" app="{{app}}">Accept</button>
+                                <button class="btn btn-danger btn-sm decline"
+                                    data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying..."
+                                    user="{{uid}}" app="{{app}}">Decine</button>
                             </td>
                         </tr>
                         {{/request}}
@@ -39,27 +49,48 @@
 </div>
 
 <script>
-    $(function(){
-        $('#requestTable').DataTable();
+    $(function () {
+        dataTable = $('#requestTable').DataTable({
+            responsive: true,
+        });
     })
 
     $('#requestTable').on("click", ".decline", function () {
         let $this = $(this);
         let $row = $this.parents('tr');
-        let app = $row.find(".app").text();
-        let uid = $row.find(".user").text();
+        // let app = $row.find(".app").text();
+        // let uid = $row.find(".user").text();
+        let app = $this.attr('app');
+        console.log(app);
+        let uid = $this.attr('user');
+        console.log(uid);
         $this.enableButtonLoading();
         declineRequestApp(app, uid, function (result) {
             console.log(result);
             if (result.code > 0 && result.app == app && result.uid == uid) {
-                $row.remove();
+                // $row.remove();
+                removeRow($row, dataTable);
+                // dataTable.row($row).remove().draw();
                 sweetToastAlertSuccess(result.msg);
-            }else {
+            } else {
                 sweetToastAlertError(result.msg);
             }
             $this.resetButtonLoading();
         })
     })
+
+    function removeRow($row, dataTable) {
+        let r = $row;
+        if ($row.hasClass('child')) {
+            console.log($row.prev('tr'));
+            dataTable.row($row.prev('tr')).remove().draw();
+        } else {
+            dataTable
+                .row(r)
+                .remove()
+                .draw();
+        }
+    }
 
 
     function declineRequestApp(app, uid, callback) {
@@ -83,15 +114,17 @@
     $('#requestTable').on("click", ".accept", function () {
         let $this = $(this);
         let $row = $this.parents('tr');
-        let app = $row.find(".app").text();
-        let uid = $row.find(".user").text();
+        // let app = $row.find(".app").text();
+        // let uid = $row.find(".user").text();
+        let app = $this.attr('app');
+        let uid = $this.attr('user');
         $this.enableButtonLoading();
         acceptRequestApp(app, uid, function (result) {
             console.log(result);
             if (result.code > 0 && result.app == app && result.uid == uid) {
-                $row.remove();
+                removeRow($row, dataTable);
                 sweetToastAlertSuccess(result.msg);
-            }else {
+            } else {
                 sweetToastAlertError(result.msg);
             }
             $this.resetButtonLoading();

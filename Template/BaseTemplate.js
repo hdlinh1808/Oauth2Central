@@ -19,7 +19,7 @@ class BaseTemplate {
         if (username == undefined) {
             username = "";
         }
-        return Mustache.render(this.baseAdminTpl, { content: content, title: title, username: username });
+        return Mustache.render(this.baseAdminTpl, { content: content, title: title, usernameAdmin: username });
     }
 
     renderPageWithParam(page, params) {

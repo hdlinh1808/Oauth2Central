@@ -21,26 +21,8 @@ db.createCollection("user", {
       }
    }
 })
-/* app */
-db.createCollection("app", {
-   validator: {
-      $jsonSchema: {
-         bsonType: "object",
-         properties: {
-            name: {
-               bsonType: "string"
-            },
-            user: {
-               bsonType: "array",
-               uniqueItems: true,
-               items: {
-                  bsonType: "string",
-               }
-            },
-         }
-      }
-   }
-})
+
+
 
 db.createCollection("request_app", {
    validator: {

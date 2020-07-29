@@ -1133,3 +1133,326 @@ SyntaxError: Unexpected token '{'
     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
 2020-07-18T10:13:38.461Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:27.035Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:28.269Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:28.419Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:28.643Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:28.802Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:29.012Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:29.374Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:29.533Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:29.774Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:31.300Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:31.524Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:33.849Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:34.485Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:34.687Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:34.834Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:38:35.050Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:45:49.369Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T15:56:30.833Z error: renderAdminRequestAppPage fail
+2020-07-18T15:56:30.834Z error: error: TypeError: Cannot read property 'request_app' of null
+2020-07-18T15:56:34.826Z error: renderAdminRequestAppPage fail
+2020-07-18T15:56:34.826Z error: error: TypeError: Cannot read property 'request_app' of null
+2020-07-18T15:57:23.186Z error: renderAdminRequestAppPage fail
+2020-07-18T15:57:23.186Z error: error: TypeError: Cannot read property 'request_app' of null
+2020-07-18T16:03:57.776Z error: [DAOImpl/UserDaoImpl.js] Document failed validation - MongoError: [DAOImpl/UserDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:03:59.952Z error: [DAOImpl/UserDaoImpl.js] Document failed validation - MongoError: [DAOImpl/UserDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:05:50.881Z error: [DAOImpl/UserDaoImpl.js] Document failed validation - MongoError: [DAOImpl/UserDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:07:08.546Z error: [DAOImpl/UserDaoImpl.js] Document failed validation - MongoError: [DAOImpl/UserDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:08:36.545Z error: [DAOImpl/AppDaoImpl.js] Document failed validation - MongoError: [DAOImpl/AppDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:08:51.542Z error: [DAOImpl/AppDaoImpl.js] Document failed validation - MongoError: [DAOImpl/AppDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:08:58.993Z error: [DAOImpl/AppDaoImpl.js] Document failed validation - MongoError: [DAOImpl/AppDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:09:35.546Z error: [DAOImpl/AppDaoImpl.js] Document failed validation - MongoError: [DAOImpl/AppDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:10:05.665Z error: [DAOImpl/AppDaoImpl.js] Document failed validation - MongoError: [DAOImpl/AppDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:13:35.155Z error: [DAOImpl/AppDaoImpl.js] Document failed validation - MongoError: [DAOImpl/AppDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:14:41.009Z error: [DAOImpl/AppDaoImpl.js] Document failed validation - MongoError: [DAOImpl/AppDaoImpl.js] Document failed validation
+    at Function.create (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/error.js:51:12)
+    at toError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/utils.js:149:22)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection_pool.js:356:13
+    at handleOperationResult (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/core/sdam/server.js:493:5)
+    at MessageStream.messageHandler (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/connection.js:272:5)
+    at MessageStream.emit (events.js:310:20)
+    at processIncomingData (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (_stream_readable.js:695:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+2020-07-18T16:49:23.153Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-18T16:49:24.323Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-23T14:56:57.328Z error: [Adapter/AdapterManager.js] Cannot find module './undefined.js'
+Require stack:
+- /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js
+- /media/lap12654/DATA/git/my-git/Oauth2Central/app.js - Error: [Adapter/AdapterManager.js] Cannot find module './undefined.js'
+Require stack:
+- /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js
+- /media/lap12654/DATA/git/my-git/Oauth2Central/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at new AdapterManager (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:16:31)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:65:18)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:23:5
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-23T14:57:37.184Z error: [Adapter/AdapterManager.js] require(...) is not a function - TypeError: [Adapter/AdapterManager.js] require(...) is not a function
+    at new AdapterManager (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:16:66)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:65:18)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:23:5
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-23T15:42:49.223Z error: [Adapter/WordpressAdapter.js] aa is not defined - ReferenceError: [Adapter/WordpressAdapter.js] aa is not defined
+    at WordpressAdapter.getUserId (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/WordpressAdapter.js:44:13)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/WordpressAdapter.js:18:37
+    at WordpressAdapter.checkExistUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/WordpressAdapter.js:20:11)
+    at AdapterManager.checkExistUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:57:17)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:44:28
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-23T15:43:25.910Z error: check exist user error!
+2020-07-23T15:43:25.910Z error: [Adapter/WordpressAdapter.js] aa is not defined - ReferenceError: [Adapter/WordpressAdapter.js] aa is not defined
+    at WordpressAdapter.getUserId (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/WordpressAdapter.js:45:13)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/WordpressAdapter.js:18:37
+    at WordpressAdapter.checkExistUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/WordpressAdapter.js:20:11)
+    at AdapterManager.checkExistUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:57:17)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:44:28
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-23T15:54:59.935Z error: changeRoleOfUser error!
+2020-07-23T15:54:59.935Z error: [Adapter/WordpressAdapter.js] dataRequest is not defined - ReferenceError: [Adapter/WordpressAdapter.js] dataRequest is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/WordpressAdapter.js:52:45
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-07-23T16:00:42.871Z error: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer - TypeError: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer
+    at Parser.parse (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:23:22)
+    at Object.module.exports [as toJson] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:172:17)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/NextCloudAdapter.js:86:36)
+    at self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.onRequestError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:310:20)
+    at Socket.socketErrorListener (_http_client.js:426:9)
+    at Socket.emit (events.js:310:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-07-23T16:00:44.158Z error: [Adapter/RocketchatAdapter.js] connect ECONNREFUSED 127.0.0.1:8090 - Error: connect ECONNREFUSED 127.0.0.1:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-23T16:10:33.503Z error: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer - TypeError: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer
+    at Parser.parse (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:23:22)
+    at Object.module.exports [as toJson] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:172:17)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/NextCloudAdapter.js:29:36)
+    at self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.onRequestError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:310:20)
+    at Socket.socketErrorListener (_http_client.js:426:9)
+    at Socket.emit (events.js:310:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-07-23T16:10:35.737Z error: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer - TypeError: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer
+    at Parser.parse (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:23:22)
+    at Object.module.exports [as toJson] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:172:17)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/NextCloudAdapter.js:29:36)
+    at self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.onRequestError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:310:20)
+    at Socket.socketErrorListener (_http_client.js:426:9)
+    at Socket.emit (events.js:310:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)

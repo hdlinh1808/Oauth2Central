@@ -228,11 +228,13 @@
         let app = $row.find(".name").text();
         let uid = getUsername();
         $this.enableButtonLoading();
+        let $cell = $this.parents('td');
         console.log(app);
         declineRequestApp(app, uid, function (result) {
             console.log(result);
             if (result.code > 0 && result.app == app && result.uid == uid) {
-                $row.remove();
+                // $row.remove();
+                $cell.html(`<button class="btn btn-warning btn-sm grant" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying...">Grant access</button>`)
                 sweetToastAlertSuccess(result.msg);
             } else {
                 sweetToastAlertError(result.msg);

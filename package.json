@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "aws-sdk": "^2.712.0",
     "cookie-parser": "^1.4.5",

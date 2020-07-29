@@ -12,7 +12,7 @@ class RocketchatAdapter extends Adapter {
     }
 
     checkExistUser(user, callback) {
-        this.getUserId(user.username).then(async (userid) => {
+        this.getUserId(user.email).then(async (userid) => {
             try {
                 // console.log(userid);
                 let code = ErrorCode.success();
@@ -40,7 +40,7 @@ class RocketchatAdapter extends Adapter {
     }
 
     changeStatusOfUser(user, status, callback) {
-        this.getUserId(user.username).then(async (userid) => {
+        this.getUserId(user.email).then(async (userid) => {
             try {
                 let code = ErrorCode.success();
                 if (userid == null) {

@@ -99,9 +99,9 @@
                             })
                             let btn = "";
                             if (user.role != "admin") {
-                                btn = renderButtonSetAdmin();
+                                btn = renderButtonSetAdmin(user.username);
                             } else {
-                                btn = renderButtonRemoveAdmin();
+                                btn = renderButtonRemoveAdmin(user.username);
                             }
                             let row = [initIndex++, username, apps.join(", "), user.role, btn];
                             rows.push(row);
@@ -118,12 +118,12 @@
         });
     })
 
-    function renderButtonSetAdmin() {
-        return `<button class="btn btn-primary btn-xs btn-set-admin" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying..."><i class="fas fa-users-cog"></i> Set admin</button>`
+    function renderButtonSetAdmin(username) {
+        return `<button class="btn btn-primary btn-xs btn-set-admin" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying..."  username="${username}"><i class="fas fa-users-cog"></i> Set admin</button>`
     }
 
-    function renderButtonRemoveAdmin() {
-        return `<button class="btn btn-warning btn-xs btn-remove-admin" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying..."><i class="fas fa-user-times"></i> Remove admin</button>`
+    function renderButtonRemoveAdmin(username) {
+        return `<button class="btn btn-warning btn-xs btn-remove-admin" data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying..."  username="${username}"><i class="fas fa-user-times"></i> Remove admin</button>`
     }
 
     function initSearchInput() {
@@ -152,7 +152,8 @@
     $('#dataTable').on("click", ".btn-set-admin", function () {
         let $this = $(this);
         let $row = $this.parents('tr');
-        let username = $row.find(".username").text();
+        // let username = $row.find(".username").text();
+        let username = $this.attr('username');
         console.log(username);
         $this.enableButtonLoading();
         requestSetAdmin(username, function (result) {
@@ -187,7 +188,8 @@
     $('#dataTable').on("click", ".btn-remove-admin", function () {
         let $this = $(this);
         let $row = $this.parents('tr');
-        let username = $row.find(".username").text();
+        // let username = $row.find(".username").text();
+        let username = $this.attr('username');
         $this.enableButtonLoading();
         requestRemoveAdmin(username, function (result) {
             if (result.code > 0) {
@@ -218,7 +220,20 @@
         })
     }
 
-    function searchTable(){
+    function removeRow($row, dataTable) {
+        let r = $row;
+        if ($row.hasClass('child')) {
+            console.log($row.prev('tr'));
+            dataTable.row($row.prev('tr')).remove().draw();
+        } else {
+            dataTable
+                .row(r)
+                .remove()
+                .draw();
+        }
+    }
+
+    function searchTable() {
 
     }
 </script>
