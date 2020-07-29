@@ -10734,3 +10734,19 @@ Require stack:
 2020-07-29T14:08:04.788Z info: init 3rd apps adapter done!
 2020-07-29T14:08:04.800Z info: Example app listening at http://localhost:3000
 2020-07-29T14:08:04.866Z info: init app data success!
+2020-07-29T14:46:46.208Z info: APP IS STARTING...
+2020-07-29T14:46:46.215Z info: Load config..
+2020-07-29T14:46:46.216Z info: Load config done!
+2020-07-29T14:46:47.101Z info: init database..
+2020-07-29T14:46:47.140Z info: init database done!
+2020-07-29T14:46:47.149Z info: init app data
+2020-07-29T14:46:47.168Z info: init 3rd apps adapter...
+2020-07-29T14:46:47.169Z info: init apdapter for: nextcloud...
+2020-07-29T14:46:47.703Z info: init apdapter for: nextcloud done!
+2020-07-29T14:46:47.703Z info: init apdapter for: rocketchat...
+2020-07-29T14:46:47.706Z info: init apdapter for: rocketchat done!
+2020-07-29T14:46:47.706Z info: init apdapter for: wordpress...
+2020-07-29T14:46:47.708Z info: init apdapter for: wordpress done!
+2020-07-29T14:46:47.709Z info: init 3rd apps adapter done!
+2020-07-29T14:46:47.737Z info: Example app listening at http://localhost:3000
+2020-07-29T14:46:47.800Z info: init app data success!
