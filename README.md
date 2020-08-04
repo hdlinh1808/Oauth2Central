@@ -1,6 +1,6 @@
 # Oauth2Central
 ### Installation
-This app support only mongodb. Start with run schema validators in *initdb.js* 
+This app support only mongodb. Start with running all schema validators in *initdb.js* 
 
 run:\
 `yarn install`
