@@ -113,7 +113,7 @@ callback once time with code parameter, example:
     ```
     to make callback know that this action is fail.
     
-    With appropriate error code, callback will decide whether to store new info to mongodb or not.
+    With appropriate error code, callback will decide whether to push new info to mongodb or not.
 * `checkExistUser`: check if a user exists with the app or not. it is called when a user press button `Request app`.
 * `disableUser`, `enableUser`: disable or enable a user in child-app. Called when admin press `accept` or `remove`.
 
