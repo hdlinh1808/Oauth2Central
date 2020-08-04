@@ -101,7 +101,7 @@ module.exports = function (config) {
 
 * `constructor`: will load corresponding config of JSON in *config.js*  
 `checkExistUser`, `disableUser`, `enableUser` are required function. If these functions isn't defined, error will show when starting app. These functions need to call 
-callback with code parameter, example: 
+callback once time with code parameter, example: 
     ```javascript 
     callback(ErrorCode.success())
     ```
@@ -113,8 +113,8 @@ callback with code parameter, example:
     ```
     to make callback know that this action is fail.
     
-    With appropriate error code, callback will decide whether to store to mongodb or not.
+    With appropriate error code, callback will decide whether to store ninfo to mongodb or not.
 * `checkExistUser`: check if a user exists with the app or not. it is called when a user press button `Request app`.
-* `disableUser`, `enableUser`: disable or enable a user in child-app. Called when admin press *accept* or *remove*
+* `disableUser`, `enableUser`: disable or enable a user in child-app. Called when admin press `accept` or `remove`.
 
 
