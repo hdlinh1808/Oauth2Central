@@ -10750,3 +10750,2176 @@ Require stack:
 2020-07-29T14:46:47.709Z info: init 3rd apps adapter done!
 2020-07-29T14:46:47.737Z info: Example app listening at http://localhost:3000
 2020-07-29T14:46:47.800Z info: init app data success!
+2020-07-29T14:47:17.843Z info: APP IS STARTING...
+2020-07-29T14:47:17.847Z info: Load config..
+2020-07-29T14:47:17.848Z info: Load config done!
+2020-07-29T14:47:18.584Z info: init database..
+2020-07-29T14:47:18.632Z info: init database done!
+2020-07-29T14:47:18.645Z info: init app data
+2020-07-29T14:47:18.662Z info: init 3rd apps adapter...
+2020-07-29T14:47:18.662Z info: init apdapter for: nextcloud...
+2020-07-29T14:47:19.126Z info: init apdapter for: nextcloud done!
+2020-07-29T14:47:19.126Z info: init apdapter for: rocketchat...
+2020-07-29T14:47:19.127Z info: init apdapter for: rocketchat done!
+2020-07-29T14:47:19.127Z info: init apdapter for: wordpress...
+2020-07-29T14:47:19.129Z info: init apdapter for: wordpress done!
+2020-07-29T14:47:19.129Z info: init 3rd apps adapter done!
+2020-07-29T14:47:19.152Z info: Example app listening at http://localhost:3000
+2020-07-29T14:47:19.173Z info: init app data success!
+2020-07-29T14:47:31.713Z error: check exist user error!
+2020-07-29T14:47:31.714Z error: [Adapter/WordpressAdapter.js] connect ECONNREFUSED 127.0.0.1:9000 - Error: connect ECONNREFUSED 127.0.0.1:9000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-07-30T15:35:39.881Z info: APP IS STARTING...
+2020-07-30T15:35:39.884Z info: Load config..
+2020-07-30T15:35:39.884Z info: Load config done!
+2020-07-30T15:35:40.253Z info: init database..
+2020-07-30T15:35:40.271Z info: init database done!
+2020-07-30T15:35:40.276Z info: init app data
+2020-07-30T15:35:40.283Z info: init 3rd apps adapter...
+2020-07-30T15:35:40.283Z info: init apdapter for: nextcloud...
+2020-07-30T15:35:40.530Z info: init apdapter for: nextcloud done!
+2020-07-30T15:35:40.530Z info: init apdapter for: rocketchat...
+2020-07-30T15:35:40.531Z info: init apdapter for: rocketchat done!
+2020-07-30T15:35:40.531Z info: init apdapter for: wordpress...
+2020-07-30T15:35:40.532Z info: init apdapter for: wordpress done!
+2020-07-30T15:35:40.532Z info: init 3rd apps adapter done!
+2020-07-30T15:35:40.544Z info: Example app listening at http://localhost:3000
+2020-07-30T15:35:40.702Z info: init app data success!
+2020-08-03T16:22:46.641Z info: APP IS STARTING...
+2020-08-03T16:22:46.643Z info: Load config..
+2020-08-03T16:22:46.644Z info: Load config done!
+2020-08-03T16:22:47.216Z info: init database..
+2020-08-03T16:22:47.237Z info: init database done!
+2020-08-03T16:22:47.242Z info: init app data
+2020-08-03T16:22:47.251Z info: init 3rd apps adapter...
+2020-08-03T16:22:47.251Z info: init apdapter for: nextcloud...
+2020-08-03T16:22:47.632Z info: init apdapter for: nextcloud done!
+2020-08-03T16:22:47.632Z info: init apdapter for: rocketchat...
+2020-08-03T16:22:47.633Z info: init apdapter for: rocketchat done!
+2020-08-03T16:22:47.633Z info: init apdapter for: wordpress...
+2020-08-03T16:22:47.634Z info: init apdapter for: wordpress done!
+2020-08-03T16:22:47.634Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:22:47.636Z error: [Adapter/AdapterManager.js] Adapter is not defined - ReferenceError: [Adapter/AdapterManager.js] Adapter is not defined
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:3:33)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at new AdapterManager (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:16:31)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:65:18)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:23:5
+2020-08-03T16:22:47.637Z info: init 3rd apps adapter done!
+2020-08-03T16:22:47.653Z info: Example app listening at http://localhost:3000
+2020-08-03T16:22:47.773Z info: init app data success!
+2020-08-03T16:23:09.363Z info: APP IS STARTING...
+2020-08-03T16:23:09.366Z info: Load config..
+2020-08-03T16:23:09.367Z info: Load config done!
+2020-08-03T16:23:09.745Z info: init database..
+2020-08-03T16:23:09.766Z info: init database done!
+2020-08-03T16:23:09.770Z info: init app data
+2020-08-03T16:23:09.778Z info: init 3rd apps adapter...
+2020-08-03T16:23:09.778Z info: init apdapter for: nextcloud...
+2020-08-03T16:23:10.024Z info: init apdapter for: nextcloud done!
+2020-08-03T16:23:10.025Z info: init apdapter for: rocketchat...
+2020-08-03T16:23:10.025Z info: init apdapter for: rocketchat done!
+2020-08-03T16:23:10.026Z info: init apdapter for: wordpress...
+2020-08-03T16:23:10.026Z info: init apdapter for: wordpress done!
+2020-08-03T16:23:10.026Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:23:10.028Z error: [Adapter/AdapterManager.js] require(...) is not a function - TypeError: [Adapter/AdapterManager.js] require(...) is not a function
+    at new AdapterManager (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:16:66)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:65:18)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:23:5
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-03T16:23:10.028Z info: init 3rd apps adapter done!
+2020-08-03T16:23:10.042Z info: Example app listening at http://localhost:3000
+2020-08-03T16:23:10.053Z info: init app data success!
+2020-08-03T16:24:12.916Z info: APP IS STARTING...
+2020-08-03T16:24:12.921Z info: Load config..
+2020-08-03T16:24:12.921Z info: Load config done!
+2020-08-03T16:24:13.788Z info: init database..
+2020-08-03T16:24:13.832Z info: init database done!
+2020-08-03T16:24:13.841Z info: init app data
+2020-08-03T16:24:13.861Z info: init 3rd apps adapter...
+2020-08-03T16:24:13.861Z info: init apdapter for: nextcloud...
+2020-08-03T16:24:14.471Z info: init apdapter for: nextcloud done!
+2020-08-03T16:24:14.471Z info: init apdapter for: rocketchat...
+2020-08-03T16:24:14.473Z info: init apdapter for: rocketchat done!
+2020-08-03T16:24:14.474Z info: init apdapter for: wordpress...
+2020-08-03T16:24:14.477Z info: init apdapter for: wordpress done!
+2020-08-03T16:24:14.477Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:24:14.480Z info: init apdapter for: jitsi-meeting done!
+2020-08-03T16:24:14.481Z info: init 3rd apps adapter done!
+2020-08-03T16:24:14.504Z info: Example app listening at http://localhost:3000
+2020-08-03T16:24:14.528Z info: init app data success!
+2020-08-03T16:24:57.999Z info: APP IS STARTING...
+2020-08-03T16:24:58.002Z info: Load config..
+2020-08-03T16:24:58.002Z info: Load config done!
+2020-08-03T16:24:58.358Z info: init database..
+2020-08-03T16:24:58.380Z info: init database done!
+2020-08-03T16:24:58.385Z info: init app data
+2020-08-03T16:24:58.393Z info: init 3rd apps adapter...
+2020-08-03T16:24:58.393Z info: init apdapter for: nextcloud...
+2020-08-03T16:24:58.643Z info: init apdapter for: nextcloud done!
+2020-08-03T16:24:58.644Z info: init apdapter for: rocketchat...
+2020-08-03T16:24:58.644Z info: init apdapter for: rocketchat done!
+2020-08-03T16:24:58.645Z info: init apdapter for: wordpress...
+2020-08-03T16:24:58.646Z info: init apdapter for: wordpress done!
+2020-08-03T16:24:58.646Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:24:58.647Z info: init apdapter for: jitsi-meeting done!
+2020-08-03T16:24:58.647Z info: init 3rd apps adapter done!
+2020-08-03T16:24:58.660Z info: Example app listening at http://localhost:3000
+2020-08-03T16:24:58.669Z info: init app data success!
+2020-08-03T16:25:46.400Z info: APP IS STARTING...
+2020-08-03T16:25:46.402Z info: Load config..
+2020-08-03T16:25:46.403Z info: Load config done!
+2020-08-03T16:25:46.763Z info: init database..
+2020-08-03T16:25:46.784Z info: init database done!
+2020-08-03T16:25:46.788Z info: init app data
+2020-08-03T16:25:46.798Z info: init 3rd apps adapter...
+2020-08-03T16:25:46.798Z info: init apdapter for: nextcloud...
+2020-08-03T16:25:47.042Z info: init apdapter for: nextcloud done!
+2020-08-03T16:25:47.043Z info: init apdapter for: rocketchat...
+2020-08-03T16:25:47.043Z info: init apdapter for: rocketchat done!
+2020-08-03T16:25:47.043Z info: init apdapter for: wordpress...
+2020-08-03T16:25:47.044Z info: init apdapter for: wordpress done!
+2020-08-03T16:25:47.044Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:25:47.046Z info: init apdapter for: jitsi-meeting done!
+2020-08-03T16:25:47.046Z info: init 3rd apps adapter done!
+2020-08-03T16:25:47.058Z info: Example app listening at http://localhost:3000
+2020-08-03T16:25:47.066Z info: init app data success!
+2020-08-03T16:27:06.274Z info: APP IS STARTING...
+2020-08-03T16:27:06.277Z info: Load config..
+2020-08-03T16:27:06.278Z info: Load config done!
+2020-08-03T16:27:06.647Z info: init database..
+2020-08-03T16:27:06.678Z info: init database done!
+2020-08-03T16:27:06.683Z info: init app data
+2020-08-03T16:27:06.695Z info: init 3rd apps adapter...
+2020-08-03T16:27:06.695Z info: init apdapter for: nextcloud...
+2020-08-03T16:27:07.145Z info: init apdapter for: nextcloud done!
+2020-08-03T16:27:07.145Z info: init apdapter for: rocketchat...
+2020-08-03T16:27:07.146Z info: init apdapter for: rocketchat done!
+2020-08-03T16:27:07.146Z info: init apdapter for: wordpress...
+2020-08-03T16:27:07.149Z info: init apdapter for: wordpress done!
+2020-08-03T16:27:07.149Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:27:07.154Z info: init apdapter for: jitsi-meeting done!
+2020-08-03T16:27:07.155Z info: init 3rd apps adapter done!
+2020-08-03T16:27:07.175Z info: Example app listening at http://localhost:3000
+2020-08-03T16:27:07.190Z info: init app data success!
+2020-08-03T16:47:37.254Z info: APP IS STARTING...
+2020-08-03T16:47:37.257Z info: Load config..
+2020-08-03T16:47:37.257Z info: Load config done!
+2020-08-03T16:47:37.603Z info: init database..
+2020-08-03T16:47:37.624Z info: init database done!
+2020-08-03T16:47:37.628Z info: init app data
+2020-08-03T16:47:37.636Z info: init 3rd apps adapter...
+2020-08-03T16:47:37.637Z info: init apdapter for: nextcloud...
+2020-08-03T16:47:37.868Z info: init apdapter for: nextcloud done!
+2020-08-03T16:47:37.868Z info: init apdapter for: rocketchat...
+2020-08-03T16:47:37.869Z info: init apdapter for: rocketchat done!
+2020-08-03T16:47:37.869Z info: init apdapter for: wordpress...
+2020-08-03T16:47:37.870Z info: init apdapter for: wordpress done!
+2020-08-03T16:47:37.870Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:47:37.871Z info: init apdapter for: jitsi-meeting done!
+2020-08-03T16:47:37.871Z info: init 3rd apps adapter done!
+2020-08-03T16:47:37.883Z info: Example app listening at http://localhost:3000
+2020-08-03T16:47:37.892Z info: init app data success!
+2020-08-03T16:48:05.336Z info: APP IS STARTING...
+2020-08-03T16:48:05.339Z info: Load config..
+2020-08-03T16:48:05.340Z info: Load config done!
+2020-08-03T16:48:06.282Z info: init database..
+2020-08-03T16:48:06.318Z info: init database done!
+2020-08-03T16:48:06.326Z info: init app data
+2020-08-03T16:48:06.338Z info: init 3rd apps adapter...
+2020-08-03T16:48:06.339Z info: init apdapter for: nextcloud...
+2020-08-03T16:48:06.752Z info: init apdapter for: nextcloud done!
+2020-08-03T16:48:06.752Z info: init apdapter for: rocketchat...
+2020-08-03T16:48:06.753Z info: init apdapter for: rocketchat done!
+2020-08-03T16:48:06.753Z info: init apdapter for: wordpress...
+2020-08-03T16:48:06.756Z info: init apdapter for: wordpress done!
+2020-08-03T16:48:06.756Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:48:06.758Z info: init apdapter for: jitsi-meeting done!
+2020-08-03T16:48:06.758Z info: init 3rd apps adapter done!
+2020-08-03T16:48:06.779Z info: Example app listening at http://localhost:3000
+2020-08-03T16:48:06.796Z info: init app data success!
+2020-08-03T16:49:52.777Z info: APP IS STARTING...
+2020-08-03T16:49:52.780Z info: Load config..
+2020-08-03T16:49:52.780Z info: Load config done!
+2020-08-03T16:49:53.120Z info: init database..
+2020-08-03T16:49:53.141Z info: init database done!
+2020-08-03T16:49:53.145Z info: init app data
+2020-08-03T16:49:53.154Z info: init 3rd apps adapter...
+2020-08-03T16:49:53.154Z info: init apdapter for: nextcloud...
+2020-08-03T16:49:53.498Z info: init apdapter for: nextcloud done!
+2020-08-03T16:49:53.498Z info: init apdapter for: rocketchat...
+2020-08-03T16:49:53.499Z info: init apdapter for: rocketchat done!
+2020-08-03T16:49:53.499Z info: init apdapter for: wordpress...
+2020-08-03T16:49:53.500Z info: init apdapter for: wordpress done!
+2020-08-03T16:49:53.501Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:49:53.502Z info: init apdapter for: jitsi-meeting done!
+2020-08-03T16:49:53.503Z info: init 3rd apps adapter done!
+2020-08-03T16:49:53.523Z info: Example app listening at http://localhost:3000
+2020-08-03T16:49:53.542Z info: init app data success!
+2020-08-03T16:50:22.785Z info: APP IS STARTING...
+2020-08-03T16:50:22.789Z info: Load config..
+2020-08-03T16:50:22.789Z info: Load config done!
+2020-08-03T16:50:23.424Z info: init database..
+2020-08-03T16:50:23.460Z info: init database done!
+2020-08-03T16:50:23.471Z info: init app data
+2020-08-03T16:50:23.487Z info: init 3rd apps adapter...
+2020-08-03T16:50:23.487Z info: init apdapter for: nextcloud...
+2020-08-03T16:50:23.935Z info: init apdapter for: nextcloud done!
+2020-08-03T16:50:23.935Z info: init apdapter for: rocketchat...
+2020-08-03T16:50:23.936Z info: init apdapter for: rocketchat done!
+2020-08-03T16:50:23.936Z info: init apdapter for: wordpress...
+2020-08-03T16:50:23.937Z info: init apdapter for: wordpress done!
+2020-08-03T16:50:23.937Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:50:23.939Z info: init apdapter for: jitsi-meeting done!
+2020-08-03T16:50:23.939Z info: init 3rd apps adapter done!
+2020-08-03T16:50:23.958Z info: Example app listening at http://localhost:3000
+2020-08-03T16:50:23.974Z info: init app data success!
+2020-08-03T16:55:40.622Z info: APP IS STARTING...
+2020-08-03T16:55:40.624Z info: Load config..
+2020-08-03T16:55:40.625Z info: Load config done!
+2020-08-03T16:55:40.957Z info: init database..
+2020-08-03T16:55:40.978Z info: init database done!
+2020-08-03T16:55:40.982Z info: init app data
+2020-08-03T16:55:40.991Z info: init 3rd apps adapter...
+2020-08-03T16:55:40.991Z info: init apdapter for: nextcloud...
+2020-08-03T16:55:41.368Z info: init apdapter for: nextcloud done!
+2020-08-03T16:55:41.369Z info: init apdapter for: rocketchat...
+2020-08-03T16:55:41.370Z info: init apdapter for: rocketchat done!
+2020-08-03T16:55:41.370Z info: init apdapter for: wordpress...
+2020-08-03T16:55:41.371Z info: init apdapter for: wordpress done!
+2020-08-03T16:55:41.371Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:55:41.372Z error: [Adapter/AdapterManager.js] Identifier 'stdout' has already been declared - /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:26
+            const { stdout, stderr } = await exec('linhhd');
+                    ^
+
+SyntaxError: Identifier 'stdout' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at new AdapterManager (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:16:31)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:65:18)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:23:5
+2020-08-03T16:55:41.372Z info: init 3rd apps adapter done!
+2020-08-03T16:55:41.491Z info: Example app listening at http://localhost:3000
+2020-08-03T16:55:41.507Z info: init app data success!
+2020-08-03T16:55:55.000Z info: APP IS STARTING...
+2020-08-03T16:55:55.003Z info: Load config..
+2020-08-03T16:55:55.003Z info: Load config done!
+2020-08-03T16:55:55.410Z info: init database..
+2020-08-03T16:55:55.442Z info: init database done!
+2020-08-03T16:55:55.450Z info: init app data
+2020-08-03T16:55:55.465Z info: init 3rd apps adapter...
+2020-08-03T16:55:55.465Z info: init apdapter for: nextcloud...
+2020-08-03T16:55:55.838Z info: init apdapter for: nextcloud done!
+2020-08-03T16:55:55.839Z info: init apdapter for: rocketchat...
+2020-08-03T16:55:55.841Z info: init apdapter for: rocketchat done!
+2020-08-03T16:55:55.841Z info: init apdapter for: wordpress...
+2020-08-03T16:55:55.843Z info: init apdapter for: wordpress done!
+2020-08-03T16:55:55.843Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:55:55.845Z info: init apdapter for: jitsi-meeting done!
+2020-08-03T16:55:55.846Z info: init 3rd apps adapter done!
+2020-08-03T16:55:55.862Z info: Example app listening at http://localhost:3000
+2020-08-03T16:55:55.877Z info: init app data success!
+2020-08-03T16:56:44.249Z info: APP IS STARTING...
+2020-08-03T16:56:44.252Z info: Load config..
+2020-08-03T16:56:44.253Z info: Load config done!
+2020-08-03T16:56:44.860Z info: init database..
+2020-08-03T16:56:44.895Z info: init database done!
+2020-08-03T16:56:44.900Z info: init app data
+2020-08-03T16:56:44.913Z info: init 3rd apps adapter...
+2020-08-03T16:56:44.913Z info: init apdapter for: nextcloud...
+2020-08-03T16:56:45.294Z info: init apdapter for: nextcloud done!
+2020-08-03T16:56:45.294Z info: init apdapter for: rocketchat...
+2020-08-03T16:56:45.295Z info: init apdapter for: rocketchat done!
+2020-08-03T16:56:45.295Z info: init apdapter for: wordpress...
+2020-08-03T16:56:45.296Z info: init apdapter for: wordpress done!
+2020-08-03T16:56:45.296Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:56:45.298Z info: init apdapter for: jitsi-meeting done!
+2020-08-03T16:56:45.298Z info: init 3rd apps adapter done!
+2020-08-03T16:56:45.314Z info: Example app listening at http://localhost:3000
+2020-08-03T16:56:45.326Z info: init app data success!
+2020-08-03T16:56:53.965Z info: APP IS STARTING...
+2020-08-03T16:56:53.968Z info: Load config..
+2020-08-03T16:56:53.969Z info: Load config done!
+2020-08-03T16:56:54.502Z info: init database..
+2020-08-03T16:56:54.543Z info: init database done!
+2020-08-03T16:56:54.550Z info: init app data
+2020-08-03T16:56:54.567Z info: init 3rd apps adapter...
+2020-08-03T16:56:54.567Z info: init apdapter for: nextcloud...
+2020-08-03T16:56:55.164Z info: init apdapter for: nextcloud done!
+2020-08-03T16:56:55.164Z info: init apdapter for: rocketchat...
+2020-08-03T16:56:55.166Z info: init apdapter for: rocketchat done!
+2020-08-03T16:56:55.166Z info: init apdapter for: wordpress...
+2020-08-03T16:56:55.167Z info: init apdapter for: wordpress done!
+2020-08-03T16:56:55.168Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:56:55.171Z info: init apdapter for: jitsi-meeting done!
+2020-08-03T16:56:55.172Z info: init 3rd apps adapter done!
+2020-08-03T16:56:55.202Z info: Example app listening at http://localhost:3000
+2020-08-03T16:56:55.229Z info: init app data success!
+2020-08-03T16:57:08.724Z info: APP IS STARTING...
+2020-08-03T16:57:08.726Z info: Load config..
+2020-08-03T16:57:08.727Z info: Load config done!
+2020-08-03T16:57:09.231Z info: init database..
+2020-08-03T16:57:09.264Z info: init database done!
+2020-08-03T16:57:09.271Z info: init app data
+2020-08-03T16:57:09.280Z info: init 3rd apps adapter...
+2020-08-03T16:57:09.280Z info: init apdapter for: nextcloud...
+2020-08-03T16:57:09.684Z info: init apdapter for: nextcloud done!
+2020-08-03T16:57:09.685Z info: init apdapter for: rocketchat...
+2020-08-03T16:57:09.686Z info: init apdapter for: rocketchat done!
+2020-08-03T16:57:09.686Z info: init apdapter for: wordpress...
+2020-08-03T16:57:09.687Z info: init apdapter for: wordpress done!
+2020-08-03T16:57:09.687Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:57:09.688Z info: init apdapter for: jitsi-meeting done!
+2020-08-03T16:57:09.689Z info: init 3rd apps adapter done!
+2020-08-03T16:57:09.702Z info: Example app listening at http://localhost:3000
+2020-08-03T16:57:09.713Z info: init app data success!
+2020-08-03T16:57:15.986Z info: APP IS STARTING...
+2020-08-03T16:57:15.989Z info: Load config..
+2020-08-03T16:57:15.990Z info: Load config done!
+2020-08-03T16:57:16.473Z info: init database..
+2020-08-03T16:57:16.504Z info: init database done!
+2020-08-03T16:57:16.510Z info: init app data
+2020-08-03T16:57:16.521Z info: init 3rd apps adapter...
+2020-08-03T16:57:16.521Z info: init apdapter for: nextcloud...
+2020-08-03T16:57:16.863Z info: init apdapter for: nextcloud done!
+2020-08-03T16:57:16.863Z info: init apdapter for: rocketchat...
+2020-08-03T16:57:16.865Z info: init apdapter for: rocketchat done!
+2020-08-03T16:57:16.866Z info: init apdapter for: wordpress...
+2020-08-03T16:57:16.867Z info: init apdapter for: wordpress done!
+2020-08-03T16:57:16.867Z info: init apdapter for: jitsi-meeting...
+2020-08-03T16:57:16.869Z info: init apdapter for: jitsi-meeting done!
+2020-08-03T16:57:16.869Z info: init 3rd apps adapter done!
+2020-08-03T16:57:16.887Z info: Example app listening at http://localhost:3000
+2020-08-03T16:57:16.903Z info: init app data success!
+2020-08-04T16:20:11.166Z info: APP IS STARTING...
+2020-08-04T16:20:11.168Z info: Load config..
+2020-08-04T16:20:11.169Z info: Load config done!
+2020-08-04T16:20:11.809Z info: init database..
+2020-08-04T16:20:11.830Z info: init database done!
+2020-08-04T16:20:11.835Z info: init app data
+2020-08-04T16:20:11.845Z info: init 3rd apps adapter...
+2020-08-04T16:20:11.845Z info: init apdapter for: nextcloud...
+2020-08-04T16:20:12.199Z info: init apdapter for: nextcloud done!
+2020-08-04T16:20:12.199Z info: init apdapter for: rocketchat...
+2020-08-04T16:20:12.200Z info: init apdapter for: rocketchat done!
+2020-08-04T16:20:12.200Z info: init apdapter for: wordpress...
+2020-08-04T16:20:12.201Z info: init apdapter for: wordpress done!
+2020-08-04T16:20:12.201Z info: init apdapter for: jitsi-meeting...
+2020-08-04T16:20:12.202Z info: init apdapter for: jitsi-meeting done!
+2020-08-04T16:20:12.203Z info: init 3rd apps adapter done!
+2020-08-04T16:20:12.217Z info: Example app listening at http://localhost:3000
+2020-08-04T16:20:12.323Z info: init app data success!
+2020-08-04T16:21:40.402Z info: APP IS STARTING...
+2020-08-04T16:21:40.405Z info: Load config..
+2020-08-04T16:21:40.406Z info: Load config done!
+2020-08-04T16:21:41.024Z info: init database..
+2020-08-04T16:21:41.057Z info: init database done!
+2020-08-04T16:21:41.067Z info: init app data
+2020-08-04T16:21:41.081Z info: init 3rd apps adapter...
+2020-08-04T16:21:41.081Z info: init apdapter for: nextcloud...
+2020-08-04T16:21:41.629Z info: init apdapter for: nextcloud done!
+2020-08-04T16:21:41.630Z info: init apdapter for: rocketchat...
+2020-08-04T16:21:41.632Z info: init apdapter for: rocketchat done!
+2020-08-04T16:21:41.633Z info: init apdapter for: wordpress...
+2020-08-04T16:21:41.636Z info: init apdapter for: wordpress done!
+2020-08-04T16:21:41.636Z info: init apdapter for: jitsi-meeting...
+2020-08-04T16:21:41.640Z info: init apdapter for: jitsi-meeting done!
+2020-08-04T16:21:41.640Z info: init 3rd apps adapter done!
+2020-08-04T16:21:41.672Z info: Example app listening at http://localhost:3000
+2020-08-04T16:21:41.699Z info: init app data success!
+2020-08-04T16:22:04.392Z info: APP IS STARTING...
+2020-08-04T16:22:04.396Z info: Load config..
+2020-08-04T16:22:04.396Z info: Load config done!
+2020-08-04T16:22:05.103Z info: init database..
+2020-08-04T16:22:05.143Z info: init database done!
+2020-08-04T16:22:05.149Z info: init app data
+2020-08-04T16:22:05.164Z info: init 3rd apps adapter...
+2020-08-04T16:22:05.164Z info: init apdapter for: nextcloud...
+2020-08-04T16:22:05.776Z info: init apdapter for: nextcloud done!
+2020-08-04T16:22:05.776Z info: init apdapter for: rocketchat...
+2020-08-04T16:22:05.778Z info: init apdapter for: rocketchat done!
+2020-08-04T16:22:05.778Z info: init apdapter for: wordpress...
+2020-08-04T16:22:05.780Z info: init apdapter for: wordpress done!
+2020-08-04T16:22:05.780Z info: init apdapter for: jitsi-meeting...
+2020-08-04T16:22:05.783Z info: init apdapter for: jitsi-meeting done!
+2020-08-04T16:22:05.783Z info: init 3rd apps adapter done!
+2020-08-04T16:22:05.819Z info: Example app listening at http://localhost:3000
+2020-08-04T16:22:05.846Z info: init app data success!
+2020-08-04T16:22:19.741Z info: APP IS STARTING...
+2020-08-04T16:22:19.746Z info: Load config..
+2020-08-04T16:22:19.747Z info: Load config done!
+2020-08-04T16:22:20.526Z info: init database..
+2020-08-04T16:22:20.572Z info: init database done!
+2020-08-04T16:22:20.584Z info: init app data
+2020-08-04T16:22:20.606Z info: init 3rd apps adapter...
+2020-08-04T16:22:20.606Z info: init apdapter for: nextcloud...
+2020-08-04T16:22:21.325Z info: init apdapter for: nextcloud done!
+2020-08-04T16:22:21.325Z info: init apdapter for: rocketchat...
+2020-08-04T16:22:21.327Z info: init apdapter for: rocketchat done!
+2020-08-04T16:22:21.327Z info: init apdapter for: wordpress...
+2020-08-04T16:22:21.329Z info: init apdapter for: wordpress done!
+2020-08-04T16:22:21.329Z info: init apdapter for: jitsi-meeting...
+2020-08-04T16:22:21.333Z info: init apdapter for: jitsi-meeting done!
+2020-08-04T16:22:21.334Z info: init 3rd apps adapter done!
+2020-08-04T16:22:21.359Z info: Example app listening at http://localhost:3000
+2020-08-04T16:22:21.378Z info: init app data success!
+2020-08-04T16:22:46.414Z info: APP IS STARTING...
+2020-08-04T16:22:46.418Z info: Load config..
+2020-08-04T16:22:46.418Z info: Load config done!
+2020-08-04T16:22:47.284Z info: init database..
+2020-08-04T16:22:47.339Z info: init database done!
+2020-08-04T16:22:47.352Z info: init app data
+2020-08-04T16:22:47.381Z info: init 3rd apps adapter...
+2020-08-04T16:22:47.381Z info: init apdapter for: nextcloud...
+2020-08-04T16:22:48.161Z info: init apdapter for: nextcloud done!
+2020-08-04T16:22:48.162Z info: init apdapter for: rocketchat...
+2020-08-04T16:22:48.163Z info: init apdapter for: rocketchat done!
+2020-08-04T16:22:48.164Z info: init apdapter for: wordpress...
+2020-08-04T16:22:48.165Z info: init apdapter for: wordpress done!
+2020-08-04T16:22:48.165Z info: init apdapter for: jitsi-meeting...
+2020-08-04T16:22:48.168Z info: init apdapter for: jitsi-meeting done!
+2020-08-04T16:22:48.168Z info: init 3rd apps adapter done!
+2020-08-04T16:22:48.196Z info: Example app listening at http://localhost:3000
+2020-08-04T16:22:48.217Z info: init app data success!
+2020-08-04T16:28:43.960Z info: APP IS STARTING...
+2020-08-04T16:28:43.965Z info: Load config..
+2020-08-04T16:28:43.965Z info: Load config done!
+2020-08-04T16:28:44.796Z info: init database..
+2020-08-04T16:28:44.837Z info: init database done!
+2020-08-04T16:28:44.849Z info: init app data
+2020-08-04T16:28:44.864Z info: init 3rd apps adapter...
+2020-08-04T16:28:44.865Z info: init apdapter for: nextcloud...
+2020-08-04T16:28:45.404Z info: init apdapter for: nextcloud done!
+2020-08-04T16:28:45.404Z info: init apdapter for: rocketchat...
+2020-08-04T16:28:45.409Z info: init apdapter for: rocketchat done!
+2020-08-04T16:28:45.411Z info: init apdapter for: wordpress...
+2020-08-04T16:28:45.414Z info: init apdapter for: wordpress done!
+2020-08-04T16:28:45.414Z info: init apdapter for: jitsi-meeting...
+2020-08-04T16:28:45.417Z info: init apdapter for: jitsi-meeting done!
+2020-08-04T16:28:45.417Z info: init 3rd apps adapter done!
+2020-08-04T16:28:45.447Z info: Example app listening at http://localhost:3000
+2020-08-04T16:28:45.468Z info: init app data success!
+2020-08-04T16:45:08.816Z info: APP IS STARTING...
+2020-08-04T16:45:08.818Z info: Load config..
+2020-08-04T16:45:08.819Z info: Load config done!
+2020-08-04T16:45:09.171Z info: init database..
+2020-08-04T16:45:09.194Z info: init database done!
+2020-08-04T16:45:09.200Z info: init app data
+2020-08-04T16:45:09.207Z info: init 3rd apps adapter...
+2020-08-04T16:45:09.208Z info: init apdapter for: nextcloud...
+2020-08-04T16:45:09.452Z info: init apdapter for: nextcloud done!
+2020-08-04T16:45:09.452Z info: init apdapter for: rocketchat...
+2020-08-04T16:45:09.453Z info: init apdapter for: rocketchat done!
+2020-08-04T16:45:09.453Z info: init apdapter for: wordpress...
+2020-08-04T16:45:09.453Z info: init apdapter for: wordpress done!
+2020-08-04T16:45:09.454Z info: init apdapter for: jitsi-meeting...
+2020-08-04T16:45:09.455Z info: init apdapter for: jitsi-meeting done!
+2020-08-04T16:45:09.455Z info: init 3rd apps adapter done!
+2020-08-04T16:45:09.468Z info: Example app listening at http://localhost:3000
+2020-08-04T16:45:09.477Z info: init app data success!
+2020-08-04T16:45:41.058Z info: APP IS STARTING...
+2020-08-04T16:45:41.061Z info: Load config..
+2020-08-04T16:45:41.062Z info: Load config done!
+2020-08-04T16:45:41.557Z info: init database..
+2020-08-04T16:45:41.583Z info: init database done!
+2020-08-04T16:45:41.589Z info: init app data
+2020-08-04T16:45:41.598Z info: init 3rd apps adapter...
+2020-08-04T16:45:41.599Z info: init apdapter for: nextcloud...
+2020-08-04T16:45:42.112Z info: init apdapter for: nextcloud done!
+2020-08-04T16:45:42.113Z info: init apdapter for: rocketchat...
+2020-08-04T16:45:42.115Z info: init apdapter for: rocketchat done!
+2020-08-04T16:45:42.115Z info: init apdapter for: wordpress...
+2020-08-04T16:45:42.117Z info: init apdapter for: wordpress done!
+2020-08-04T16:45:42.117Z info: init apdapter for: jitsi-meeting...
+2020-08-04T16:45:42.127Z info: init apdapter for: jitsi-meeting done!
+2020-08-04T16:45:42.127Z info: init 3rd apps adapter done!
+2020-08-04T16:45:42.164Z info: Example app listening at http://localhost:3000
+2020-08-04T16:45:42.189Z info: init app data success!
+2020-08-04T16:46:57.171Z info: APP IS STARTING...
+2020-08-04T16:46:57.174Z info: Load config..
+2020-08-04T16:46:57.174Z info: Load config done!
+2020-08-04T16:46:57.514Z info: init database..
+2020-08-04T16:46:57.534Z info: init database done!
+2020-08-04T16:46:57.539Z info: init app data
+2020-08-04T16:46:57.547Z info: init 3rd apps adapter...
+2020-08-04T16:46:57.547Z info: init apdapter for: nextcloud...
+2020-08-04T16:46:57.779Z info: init apdapter for: nextcloud done!
+2020-08-04T16:46:57.779Z info: init apdapter for: rocketchat...
+2020-08-04T16:46:57.780Z info: init apdapter for: rocketchat done!
+2020-08-04T16:46:57.780Z info: init apdapter for: wordpress...
+2020-08-04T16:46:57.781Z info: init apdapter for: wordpress done!
+2020-08-04T16:46:57.781Z info: init apdapter for: jitsi-meeting...
+2020-08-04T16:46:57.782Z info: init apdapter for: jitsi-meeting done!
+2020-08-04T16:46:57.783Z info: init 3rd apps adapter done!
+2020-08-04T16:46:57.794Z info: Example app listening at http://localhost:3000
+2020-08-04T16:46:57.803Z info: init app data success!
+2020-08-04T16:47:25.597Z info: APP IS STARTING...
+2020-08-04T16:47:25.601Z info: Load config..
+2020-08-04T16:47:25.602Z info: Load config done!
+2020-08-04T16:47:26.237Z info: init database..
+2020-08-04T16:47:26.274Z info: init database done!
+2020-08-04T16:47:26.280Z info: init app data
+2020-08-04T16:47:26.295Z info: init 3rd apps adapter...
+2020-08-04T16:47:26.296Z info: init apdapter for: nextcloud...
+2020-08-04T16:47:26.681Z info: init apdapter for: nextcloud done!
+2020-08-04T16:47:26.681Z info: init apdapter for: rocketchat...
+2020-08-04T16:47:26.682Z info: init apdapter for: rocketchat done!
+2020-08-04T16:47:26.682Z info: init apdapter for: wordpress...
+2020-08-04T16:47:26.683Z info: init apdapter for: wordpress done!
+2020-08-04T16:47:26.683Z info: init apdapter for: jitsi-meeting...
+2020-08-04T16:47:26.686Z info: init apdapter for: jitsi-meeting done!
+2020-08-04T16:47:26.687Z info: init 3rd apps adapter done!
+2020-08-04T16:47:26.703Z info: Example app listening at http://localhost:3000
+2020-08-04T16:47:26.719Z info: init app data success!
+2020-08-04T16:47:43.509Z info: APP IS STARTING...
+2020-08-04T16:47:43.515Z info: Load config..
+2020-08-04T16:47:43.516Z info: Load config done!
+2020-08-04T16:47:44.404Z info: init database..
+2020-08-04T16:47:44.448Z info: init database done!
+2020-08-04T16:47:44.459Z info: init app data
+2020-08-04T16:47:44.476Z info: init 3rd apps adapter...
+2020-08-04T16:47:44.476Z info: init apdapter for: nextcloud...
+2020-08-04T16:47:45.142Z info: init apdapter for: nextcloud done!
+2020-08-04T16:47:45.142Z info: init apdapter for: rocketchat...
+2020-08-04T16:47:45.144Z info: init apdapter for: rocketchat done!
+2020-08-04T16:47:45.145Z info: init apdapter for: wordpress...
+2020-08-04T16:47:45.149Z info: init apdapter for: wordpress done!
+2020-08-04T16:47:45.150Z info: init apdapter for: jitsi-meeting...
+2020-08-04T16:47:45.154Z info: init apdapter for: jitsi-meeting done!
+2020-08-04T16:47:45.155Z info: init 3rd apps adapter done!
+2020-08-04T16:47:45.202Z info: Example app listening at http://localhost:3000
+2020-08-04T16:47:45.223Z info: init app data success!
+2020-08-04T16:48:05.690Z info: APP IS STARTING...
+2020-08-04T16:48:05.695Z info: Load config..
+2020-08-04T16:48:05.696Z info: Load config done!
+2020-08-04T16:48:06.364Z info: init database..
+2020-08-04T16:48:06.406Z info: init database done!
+2020-08-04T16:48:06.416Z info: init app data
+2020-08-04T16:48:06.432Z info: init 3rd apps adapter...
+2020-08-04T16:48:06.432Z info: init apdapter for: nextcloud...
+2020-08-04T16:48:06.940Z info: init apdapter for: nextcloud done!
+2020-08-04T16:48:06.940Z info: init apdapter for: rocketchat...
+2020-08-04T16:48:06.942Z info: init apdapter for: rocketchat done!
+2020-08-04T16:48:06.943Z info: init apdapter for: wordpress...
+2020-08-04T16:48:06.944Z info: init apdapter for: wordpress done!
+2020-08-04T16:48:06.944Z info: init apdapter for: jitsi-meeting...
+2020-08-04T16:48:06.947Z info: init apdapter for: jitsi-meeting done!
+2020-08-04T16:48:06.947Z info: init 3rd apps adapter done!
+2020-08-04T16:48:06.969Z info: Example app listening at http://localhost:3000
+2020-08-04T16:48:06.991Z info: init app data success!
+2020-08-04T16:49:05.282Z info: APP IS STARTING...
+2020-08-04T16:49:05.285Z info: Load config..
+2020-08-04T16:49:05.285Z info: Load config done!
+2020-08-04T16:49:05.632Z info: init database..
+2020-08-04T16:49:05.652Z info: init database done!
+2020-08-04T16:49:05.656Z info: init app data
+2020-08-04T16:49:05.666Z info: init 3rd apps adapter...
+2020-08-04T16:49:05.666Z info: init apdapter for: nextcloud...
+2020-08-04T16:49:05.928Z info: init apdapter for: nextcloud done!
+2020-08-04T16:49:05.928Z info: init apdapter for: rocketchat...
+2020-08-04T16:49:05.929Z info: init apdapter for: rocketchat done!
+2020-08-04T16:49:05.929Z info: init apdapter for: wordpress...
+2020-08-04T16:49:05.930Z info: init apdapter for: wordpress done!
+2020-08-04T16:49:05.930Z info: init apdapter for: jitsi-meeting...
+2020-08-04T16:49:05.932Z info: init apdapter for: jitsi-meeting done!
+2020-08-04T16:49:05.932Z info: init 3rd apps adapter done!
+2020-08-04T16:49:05.952Z info: Example app listening at http://localhost:3000
+2020-08-04T16:49:05.966Z info: init app data success!
+2020-08-06T13:45:30.302Z info: APP IS STARTING...
+2020-08-06T13:45:30.309Z info: Load config..
+2020-08-06T13:45:30.309Z info: Load config done!
+2020-08-06T13:45:30.764Z info: init database..
+2020-08-06T13:45:30.939Z info: init database done!
+2020-08-06T13:45:30.951Z info: init app data
+2020-08-06T13:45:30.965Z info: init 3rd apps adapter...
+2020-08-06T13:45:30.965Z info: init apdapter for: nextcloud...
+2020-08-06T13:45:31.391Z info: init apdapter for: nextcloud done!
+2020-08-06T13:45:31.391Z info: init apdapter for: rocketchat...
+2020-08-06T13:45:31.392Z info: init apdapter for: rocketchat done!
+2020-08-06T13:45:31.392Z info: init apdapter for: wordpress...
+2020-08-06T13:45:31.393Z info: init apdapter for: wordpress done!
+2020-08-06T13:45:31.393Z info: init apdapter for: jitsi-meeting...
+2020-08-06T13:45:31.395Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T13:45:31.395Z info: init 3rd apps adapter done!
+2020-08-06T13:45:31.408Z info: Example app listening at http://localhost:3000
+2020-08-06T13:45:31.417Z info: init app data success!
+2020-08-06T13:47:25.642Z info: APP IS STARTING...
+2020-08-06T13:47:25.645Z info: Load config..
+2020-08-06T13:47:25.645Z info: Load config done!
+2020-08-06T13:47:25.993Z info: init database..
+2020-08-06T13:47:26.015Z info: init database done!
+2020-08-06T13:47:26.020Z info: init app data
+2020-08-06T13:47:26.031Z info: init 3rd apps adapter...
+2020-08-06T13:47:26.032Z info: init apdapter for: nextcloud...
+2020-08-06T13:47:26.301Z info: init apdapter for: nextcloud done!
+2020-08-06T13:47:26.302Z info: init apdapter for: rocketchat...
+2020-08-06T13:47:26.302Z info: init apdapter for: rocketchat done!
+2020-08-06T13:47:26.302Z info: init apdapter for: wordpress...
+2020-08-06T13:47:26.303Z info: init apdapter for: wordpress done!
+2020-08-06T13:47:26.303Z info: init apdapter for: jitsi-meeting...
+2020-08-06T13:47:26.305Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T13:47:26.306Z info: init 3rd apps adapter done!
+2020-08-06T13:47:26.318Z info: Example app listening at http://localhost:3000
+2020-08-06T13:47:26.328Z info: init app data success!
+2020-08-06T13:50:04.780Z info: APP IS STARTING...
+2020-08-06T13:50:04.783Z info: Load config..
+2020-08-06T13:50:04.783Z info: Load config done!
+2020-08-06T13:50:05.134Z info: init database..
+2020-08-06T13:50:05.160Z info: init database done!
+2020-08-06T13:50:05.167Z info: init app data
+2020-08-06T13:50:05.175Z info: init 3rd apps adapter...
+2020-08-06T13:50:05.175Z info: init apdapter for: nextcloud...
+2020-08-06T13:50:05.413Z info: init apdapter for: nextcloud done!
+2020-08-06T13:50:05.413Z info: init apdapter for: rocketchat...
+2020-08-06T13:50:05.414Z info: init apdapter for: rocketchat done!
+2020-08-06T13:50:05.414Z info: init apdapter for: wordpress...
+2020-08-06T13:50:05.415Z info: init apdapter for: wordpress done!
+2020-08-06T13:50:05.415Z info: init apdapter for: jitsi-meeting...
+2020-08-06T13:50:05.417Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T13:50:05.417Z info: init 3rd apps adapter done!
+2020-08-06T13:50:05.429Z info: Example app listening at http://localhost:3000
+2020-08-06T13:50:05.441Z info: init app data success!
+2020-08-06T13:50:51.594Z info: APP IS STARTING...
+2020-08-06T13:50:51.598Z info: Load config..
+2020-08-06T13:50:51.600Z info: Load config done!
+2020-08-06T13:50:52.290Z info: init database..
+2020-08-06T13:50:52.326Z info: init database done!
+2020-08-06T13:50:52.336Z info: init app data
+2020-08-06T13:50:52.348Z info: init 3rd apps adapter...
+2020-08-06T13:50:52.349Z info: init apdapter for: nextcloud...
+2020-08-06T13:50:52.720Z info: init apdapter for: nextcloud done!
+2020-08-06T13:50:52.720Z info: init apdapter for: rocketchat...
+2020-08-06T13:50:52.721Z info: init apdapter for: rocketchat done!
+2020-08-06T13:50:52.721Z info: init apdapter for: wordpress...
+2020-08-06T13:50:52.722Z info: init apdapter for: wordpress done!
+2020-08-06T13:50:52.722Z info: init apdapter for: jitsi-meeting...
+2020-08-06T13:50:52.724Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T13:50:52.725Z info: init 3rd apps adapter done!
+2020-08-06T13:50:52.749Z info: Example app listening at http://localhost:3000
+2020-08-06T13:50:52.772Z info: init app data success!
+2020-08-06T13:56:33.837Z info: APP IS STARTING...
+2020-08-06T13:56:33.840Z info: Load config..
+2020-08-06T13:56:33.840Z info: Load config done!
+2020-08-06T13:56:34.212Z info: init database..
+2020-08-06T13:56:34.235Z info: init database done!
+2020-08-06T13:56:34.240Z info: init app data
+2020-08-06T13:56:34.252Z info: init 3rd apps adapter...
+2020-08-06T13:56:34.253Z info: init apdapter for: nextcloud...
+2020-08-06T13:56:34.518Z info: init apdapter for: nextcloud done!
+2020-08-06T13:56:34.519Z info: init apdapter for: rocketchat...
+2020-08-06T13:56:34.519Z info: init apdapter for: rocketchat done!
+2020-08-06T13:56:34.520Z info: init apdapter for: wordpress...
+2020-08-06T13:56:34.520Z info: init apdapter for: wordpress done!
+2020-08-06T13:56:34.520Z info: init apdapter for: jitsi-meeting...
+2020-08-06T13:56:34.522Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T13:56:34.522Z info: init 3rd apps adapter done!
+2020-08-06T13:56:34.538Z info: Example app listening at http://localhost:3000
+2020-08-06T13:56:34.549Z info: init app data success!
+2020-08-06T14:00:35.285Z info: APP IS STARTING...
+2020-08-06T14:00:35.288Z info: Load config..
+2020-08-06T14:00:35.288Z info: Load config done!
+2020-08-06T14:00:35.661Z info: init database..
+2020-08-06T14:00:35.736Z info: init database done!
+2020-08-06T14:00:35.744Z info: init app data
+2020-08-06T14:00:35.756Z info: init 3rd apps adapter...
+2020-08-06T14:00:35.756Z info: init apdapter for: nextcloud...
+2020-08-06T14:00:36.083Z info: init apdapter for: nextcloud done!
+2020-08-06T14:00:36.083Z info: init apdapter for: rocketchat...
+2020-08-06T14:00:36.084Z info: init apdapter for: rocketchat done!
+2020-08-06T14:00:36.084Z info: init apdapter for: wordpress...
+2020-08-06T14:00:36.085Z info: init apdapter for: wordpress done!
+2020-08-06T14:00:36.085Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:00:36.087Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:00:36.087Z info: init 3rd apps adapter done!
+2020-08-06T14:00:36.104Z info: Example app listening at http://localhost:3000
+2020-08-06T14:00:36.116Z info: init app data success!
+2020-08-06T14:01:08.010Z info: APP IS STARTING...
+2020-08-06T14:01:08.015Z info: Load config..
+2020-08-06T14:01:08.016Z info: Load config done!
+2020-08-06T14:01:08.638Z info: init database..
+2020-08-06T14:01:08.674Z info: init database done!
+2020-08-06T14:01:08.685Z info: init app data
+2020-08-06T14:01:08.702Z info: init 3rd apps adapter...
+2020-08-06T14:01:08.702Z info: init apdapter for: nextcloud...
+2020-08-06T14:01:09.092Z info: init apdapter for: nextcloud done!
+2020-08-06T14:01:09.093Z info: init apdapter for: rocketchat...
+2020-08-06T14:01:09.094Z info: init apdapter for: rocketchat done!
+2020-08-06T14:01:09.094Z info: init apdapter for: wordpress...
+2020-08-06T14:01:09.097Z info: init apdapter for: wordpress done!
+2020-08-06T14:01:09.098Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:01:09.100Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:01:09.101Z info: init 3rd apps adapter done!
+2020-08-06T14:01:09.121Z info: Example app listening at http://localhost:3000
+2020-08-06T14:01:09.141Z info: init app data success!
+2020-08-06T14:01:21.562Z info: APP IS STARTING...
+2020-08-06T14:01:21.564Z info: Load config..
+2020-08-06T14:01:21.564Z info: Load config done!
+2020-08-06T14:01:21.919Z info: init database..
+2020-08-06T14:01:21.942Z info: init database done!
+2020-08-06T14:01:21.946Z info: init app data
+2020-08-06T14:01:21.958Z info: init 3rd apps adapter...
+2020-08-06T14:01:21.958Z info: init apdapter for: nextcloud...
+2020-08-06T14:01:22.215Z info: init apdapter for: nextcloud done!
+2020-08-06T14:01:22.215Z info: init apdapter for: rocketchat...
+2020-08-06T14:01:22.216Z info: init apdapter for: rocketchat done!
+2020-08-06T14:01:22.216Z info: init apdapter for: wordpress...
+2020-08-06T14:01:22.217Z info: init apdapter for: wordpress done!
+2020-08-06T14:01:22.217Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:01:22.218Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:01:22.218Z info: init 3rd apps adapter done!
+2020-08-06T14:01:22.229Z info: Example app listening at http://localhost:3000
+2020-08-06T14:01:22.242Z info: init app data success!
+2020-08-06T14:02:52.446Z info: APP IS STARTING...
+2020-08-06T14:02:52.451Z info: Load config..
+2020-08-06T14:02:52.452Z info: Load config done!
+2020-08-06T14:02:53.026Z info: init database..
+2020-08-06T14:02:53.053Z info: init database done!
+2020-08-06T14:02:53.058Z info: init app data
+2020-08-06T14:02:53.070Z info: init 3rd apps adapter...
+2020-08-06T14:02:53.071Z info: init apdapter for: nextcloud...
+2020-08-06T14:02:53.454Z info: init apdapter for: nextcloud done!
+2020-08-06T14:02:53.454Z info: init apdapter for: rocketchat...
+2020-08-06T14:02:53.455Z info: init apdapter for: rocketchat done!
+2020-08-06T14:02:53.455Z info: init apdapter for: wordpress...
+2020-08-06T14:02:53.456Z info: init apdapter for: wordpress done!
+2020-08-06T14:02:53.456Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:02:53.458Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:02:53.458Z info: init 3rd apps adapter done!
+2020-08-06T14:02:53.473Z info: Example app listening at http://localhost:3000
+2020-08-06T14:02:53.485Z info: init app data success!
+2020-08-06T14:06:31.809Z info: APP IS STARTING...
+2020-08-06T14:06:31.811Z info: Load config..
+2020-08-06T14:06:31.812Z info: Load config done!
+2020-08-06T14:06:32.189Z info: init database..
+2020-08-06T14:06:32.212Z info: init database done!
+2020-08-06T14:06:32.217Z info: init app data
+2020-08-06T14:06:32.225Z info: init 3rd apps adapter...
+2020-08-06T14:06:32.225Z info: init apdapter for: nextcloud...
+2020-08-06T14:06:32.499Z info: init apdapter for: nextcloud done!
+2020-08-06T14:06:32.499Z info: init apdapter for: rocketchat...
+2020-08-06T14:06:32.500Z info: init apdapter for: rocketchat done!
+2020-08-06T14:06:32.500Z info: init apdapter for: wordpress...
+2020-08-06T14:06:32.501Z info: init apdapter for: wordpress done!
+2020-08-06T14:06:32.501Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:06:32.502Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:06:32.503Z info: init 3rd apps adapter done!
+2020-08-06T14:06:32.514Z info: Example app listening at http://localhost:3000
+2020-08-06T14:06:32.523Z info: init app data success!
+2020-08-06T14:10:12.081Z info: APP IS STARTING...
+2020-08-06T14:10:12.083Z info: Load config..
+2020-08-06T14:10:12.084Z info: Load config done!
+2020-08-06T14:10:12.447Z info: init database..
+2020-08-06T14:10:12.467Z info: init database done!
+2020-08-06T14:10:12.472Z info: init app data
+2020-08-06T14:10:12.483Z info: init 3rd apps adapter...
+2020-08-06T14:10:12.484Z info: init apdapter for: nextcloud...
+2020-08-06T14:10:12.748Z info: init apdapter for: nextcloud done!
+2020-08-06T14:10:12.748Z info: init apdapter for: rocketchat...
+2020-08-06T14:10:12.749Z info: init apdapter for: rocketchat done!
+2020-08-06T14:10:12.749Z info: init apdapter for: wordpress...
+2020-08-06T14:10:12.750Z info: init apdapter for: wordpress done!
+2020-08-06T14:10:12.750Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:10:12.752Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:10:12.752Z info: init 3rd apps adapter done!
+2020-08-06T14:10:12.769Z info: Example app listening at http://localhost:3000
+2020-08-06T14:10:12.785Z info: init app data success!
+2020-08-06T14:10:47.908Z info: APP IS STARTING...
+2020-08-06T14:10:47.913Z info: Load config..
+2020-08-06T14:10:47.913Z info: Load config done!
+2020-08-06T14:10:48.526Z info: init database..
+2020-08-06T14:10:48.560Z info: init database done!
+2020-08-06T14:10:48.567Z info: init app data
+2020-08-06T14:10:48.582Z info: init 3rd apps adapter...
+2020-08-06T14:10:48.582Z info: init apdapter for: nextcloud...
+2020-08-06T14:10:48.928Z info: init apdapter for: nextcloud done!
+2020-08-06T14:10:48.928Z info: init apdapter for: rocketchat...
+2020-08-06T14:10:48.930Z info: init apdapter for: rocketchat done!
+2020-08-06T14:10:48.930Z info: init apdapter for: wordpress...
+2020-08-06T14:10:48.931Z info: init apdapter for: wordpress done!
+2020-08-06T14:10:48.931Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:10:48.933Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:10:48.934Z info: init 3rd apps adapter done!
+2020-08-06T14:10:48.951Z info: Example app listening at http://localhost:3000
+2020-08-06T14:10:48.967Z info: init app data success!
+2020-08-06T14:12:28.492Z info: APP IS STARTING...
+2020-08-06T14:12:28.495Z info: Load config..
+2020-08-06T14:12:28.496Z info: Load config done!
+2020-08-06T14:12:29.118Z info: init database..
+2020-08-06T14:12:29.155Z info: init database done!
+2020-08-06T14:12:29.165Z info: init app data
+2020-08-06T14:12:29.180Z info: init 3rd apps adapter...
+2020-08-06T14:12:29.181Z info: init apdapter for: nextcloud...
+2020-08-06T14:12:29.518Z info: init apdapter for: nextcloud done!
+2020-08-06T14:12:29.518Z info: init apdapter for: rocketchat...
+2020-08-06T14:12:29.519Z info: init apdapter for: rocketchat done!
+2020-08-06T14:12:29.520Z info: init apdapter for: wordpress...
+2020-08-06T14:12:29.520Z info: init apdapter for: wordpress done!
+2020-08-06T14:12:29.521Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:12:29.523Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:12:29.524Z info: init 3rd apps adapter done!
+2020-08-06T14:12:29.540Z info: Example app listening at http://localhost:3000
+2020-08-06T14:12:29.560Z info: init app data success!
+2020-08-06T14:15:19.145Z info: APP IS STARTING...
+2020-08-06T14:15:19.148Z info: Load config..
+2020-08-06T14:15:19.148Z info: Load config done!
+2020-08-06T14:15:19.510Z info: init database..
+2020-08-06T14:15:19.533Z info: init database done!
+2020-08-06T14:15:19.538Z info: init app data
+2020-08-06T14:15:19.547Z info: init 3rd apps adapter...
+2020-08-06T14:15:19.548Z info: init apdapter for: nextcloud...
+2020-08-06T14:15:19.838Z info: init apdapter for: nextcloud done!
+2020-08-06T14:15:19.838Z info: init apdapter for: rocketchat...
+2020-08-06T14:15:19.839Z info: init apdapter for: rocketchat done!
+2020-08-06T14:15:19.839Z info: init apdapter for: wordpress...
+2020-08-06T14:15:19.840Z info: init apdapter for: wordpress done!
+2020-08-06T14:15:19.840Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:15:19.841Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:15:19.842Z info: init 3rd apps adapter done!
+2020-08-06T14:15:19.853Z info: Example app listening at http://localhost:3000
+2020-08-06T14:15:19.864Z info: init app data success!
+2020-08-06T14:16:47.475Z info: APP IS STARTING...
+2020-08-06T14:16:47.478Z info: Load config..
+2020-08-06T14:16:47.479Z info: Load config done!
+2020-08-06T14:16:47.843Z info: init database..
+2020-08-06T14:16:47.862Z info: init database done!
+2020-08-06T14:16:47.870Z info: init app data
+2020-08-06T14:16:47.878Z info: init 3rd apps adapter...
+2020-08-06T14:16:47.878Z info: init apdapter for: nextcloud...
+2020-08-06T14:16:48.161Z info: init apdapter for: nextcloud done!
+2020-08-06T14:16:48.161Z info: init apdapter for: rocketchat...
+2020-08-06T14:16:48.162Z info: init apdapter for: rocketchat done!
+2020-08-06T14:16:48.162Z info: init apdapter for: wordpress...
+2020-08-06T14:16:48.163Z info: init apdapter for: wordpress done!
+2020-08-06T14:16:48.163Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:16:48.165Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:16:48.165Z info: init 3rd apps adapter done!
+2020-08-06T14:16:48.179Z info: Example app listening at http://localhost:3000
+2020-08-06T14:16:48.194Z info: init app data success!
+2020-08-06T14:17:58.303Z info: APP IS STARTING...
+2020-08-06T14:17:58.305Z info: Load config..
+2020-08-06T14:17:58.306Z info: Load config done!
+2020-08-06T14:17:58.674Z info: init database..
+2020-08-06T14:17:58.693Z info: init database done!
+2020-08-06T14:17:58.697Z info: init app data
+2020-08-06T14:17:58.705Z info: init 3rd apps adapter...
+2020-08-06T14:17:58.705Z info: init apdapter for: nextcloud...
+2020-08-06T14:17:58.990Z info: init apdapter for: nextcloud done!
+2020-08-06T14:17:58.991Z info: init apdapter for: rocketchat...
+2020-08-06T14:17:58.991Z info: init apdapter for: rocketchat done!
+2020-08-06T14:17:58.992Z info: init apdapter for: wordpress...
+2020-08-06T14:17:58.992Z info: init apdapter for: wordpress done!
+2020-08-06T14:17:58.992Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:17:58.994Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:17:58.994Z info: init 3rd apps adapter done!
+2020-08-06T14:17:59.006Z info: Example app listening at http://localhost:3000
+2020-08-06T14:17:59.018Z info: init app data success!
+2020-08-06T14:18:44.243Z info: APP IS STARTING...
+2020-08-06T14:18:44.245Z info: Load config..
+2020-08-06T14:18:44.245Z info: Load config done!
+2020-08-06T14:18:44.610Z info: init database..
+2020-08-06T14:18:44.632Z info: init database done!
+2020-08-06T14:18:44.638Z info: init app data
+2020-08-06T14:18:44.649Z info: init 3rd apps adapter...
+2020-08-06T14:18:44.649Z info: init apdapter for: nextcloud...
+2020-08-06T14:18:44.903Z info: init apdapter for: nextcloud done!
+2020-08-06T14:18:44.903Z info: init apdapter for: rocketchat...
+2020-08-06T14:18:44.904Z info: init apdapter for: rocketchat done!
+2020-08-06T14:18:44.904Z info: init apdapter for: wordpress...
+2020-08-06T14:18:44.904Z info: init apdapter for: wordpress done!
+2020-08-06T14:18:44.904Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:18:44.906Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:18:44.906Z info: init 3rd apps adapter done!
+2020-08-06T14:18:44.918Z info: Example app listening at http://localhost:3000
+2020-08-06T14:18:44.931Z info: init app data success!
+2020-08-06T14:19:57.325Z info: APP IS STARTING...
+2020-08-06T14:19:57.329Z info: Load config..
+2020-08-06T14:19:57.330Z info: Load config done!
+2020-08-06T14:19:57.950Z info: init database..
+2020-08-06T14:19:57.983Z info: init database done!
+2020-08-06T14:19:57.992Z info: init app data
+2020-08-06T14:19:58.003Z info: init 3rd apps adapter...
+2020-08-06T14:19:58.003Z info: init apdapter for: nextcloud...
+2020-08-06T14:19:58.413Z info: init apdapter for: nextcloud done!
+2020-08-06T14:19:58.414Z info: init apdapter for: rocketchat...
+2020-08-06T14:19:58.415Z info: init apdapter for: rocketchat done!
+2020-08-06T14:19:58.415Z info: init apdapter for: wordpress...
+2020-08-06T14:19:58.416Z info: init apdapter for: wordpress done!
+2020-08-06T14:19:58.416Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:19:58.418Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:19:58.418Z info: init 3rd apps adapter done!
+2020-08-06T14:19:58.442Z info: Example app listening at http://localhost:3000
+2020-08-06T14:19:58.464Z info: init app data success!
+2020-08-06T14:21:03.264Z info: APP IS STARTING...
+2020-08-06T14:21:03.267Z info: Load config..
+2020-08-06T14:21:03.267Z info: Load config done!
+2020-08-06T14:21:03.669Z info: init database..
+2020-08-06T14:21:03.700Z info: init database done!
+2020-08-06T14:21:03.710Z info: init app data
+2020-08-06T14:21:03.722Z info: init 3rd apps adapter...
+2020-08-06T14:21:03.723Z info: init apdapter for: nextcloud...
+2020-08-06T14:21:04.006Z info: init apdapter for: nextcloud done!
+2020-08-06T14:21:04.006Z info: init apdapter for: rocketchat...
+2020-08-06T14:21:04.007Z info: init apdapter for: rocketchat done!
+2020-08-06T14:21:04.007Z info: init apdapter for: wordpress...
+2020-08-06T14:21:04.008Z info: init apdapter for: wordpress done!
+2020-08-06T14:21:04.008Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:21:04.009Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:21:04.010Z info: init 3rd apps adapter done!
+2020-08-06T14:21:04.021Z info: Example app listening at http://localhost:3000
+2020-08-06T14:21:04.032Z info: init app data success!
+2020-08-06T14:30:52.353Z info: APP IS STARTING...
+2020-08-06T14:30:52.355Z info: Load config..
+2020-08-06T14:30:52.356Z info: Load config done!
+2020-08-06T14:30:52.755Z info: init database..
+2020-08-06T14:30:52.778Z info: init database done!
+2020-08-06T14:30:52.783Z info: init app data
+2020-08-06T14:30:52.794Z info: init 3rd apps adapter...
+2020-08-06T14:30:52.794Z info: init apdapter for: nextcloud...
+2020-08-06T14:30:53.105Z info: init apdapter for: nextcloud done!
+2020-08-06T14:30:53.105Z info: init apdapter for: rocketchat...
+2020-08-06T14:30:53.105Z info: init apdapter for: rocketchat done!
+2020-08-06T14:30:53.106Z info: init apdapter for: wordpress...
+2020-08-06T14:30:53.106Z info: init apdapter for: wordpress done!
+2020-08-06T14:30:53.107Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:30:53.108Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:30:53.109Z info: init 3rd apps adapter done!
+2020-08-06T14:30:53.121Z info: Example app listening at http://localhost:3000
+2020-08-06T14:30:53.137Z info: init app data success!
+2020-08-06T14:31:02.766Z error: [Adapter/JitsiMeetingAdapter.js] username is not defined - ReferenceError: [Adapter/JitsiMeetingAdapter.js] username is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:31:45
+    at JitsiMeetingAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:45:11)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:37:17)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:228:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:31:19.922Z info: APP IS STARTING...
+2020-08-06T14:31:19.925Z info: Load config..
+2020-08-06T14:31:19.925Z info: Load config done!
+2020-08-06T14:31:20.314Z info: init database..
+2020-08-06T14:31:20.343Z info: init database done!
+2020-08-06T14:31:20.352Z info: init app data
+2020-08-06T14:31:20.360Z info: init 3rd apps adapter...
+2020-08-06T14:31:20.361Z info: init apdapter for: nextcloud...
+2020-08-06T14:31:20.664Z info: init apdapter for: nextcloud done!
+2020-08-06T14:31:20.664Z info: init apdapter for: rocketchat...
+2020-08-06T14:31:20.665Z info: init apdapter for: rocketchat done!
+2020-08-06T14:31:20.665Z info: init apdapter for: wordpress...
+2020-08-06T14:31:20.666Z info: init apdapter for: wordpress done!
+2020-08-06T14:31:20.666Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:31:20.668Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:31:20.668Z info: init 3rd apps adapter done!
+2020-08-06T14:31:20.680Z info: Example app listening at http://localhost:3000
+2020-08-06T14:31:20.689Z info: init app data success!
+2020-08-06T14:33:21.776Z info: APP IS STARTING...
+2020-08-06T14:33:21.778Z info: Load config..
+2020-08-06T14:33:21.779Z info: Load config done!
+2020-08-06T14:33:22.215Z info: init database..
+2020-08-06T14:33:22.237Z info: init database done!
+2020-08-06T14:33:22.241Z info: init app data
+2020-08-06T14:33:22.255Z info: init 3rd apps adapter...
+2020-08-06T14:33:22.256Z info: init apdapter for: nextcloud...
+2020-08-06T14:33:22.541Z info: init apdapter for: nextcloud done!
+2020-08-06T14:33:22.542Z info: init apdapter for: rocketchat...
+2020-08-06T14:33:22.542Z info: init apdapter for: rocketchat done!
+2020-08-06T14:33:22.543Z info: init apdapter for: wordpress...
+2020-08-06T14:33:22.546Z info: init apdapter for: wordpress done!
+2020-08-06T14:33:22.547Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:33:22.549Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:33:22.549Z info: init 3rd apps adapter done!
+2020-08-06T14:33:22.564Z info: Example app listening at http://localhost:3000
+2020-08-06T14:33:22.576Z info: init app data success!
+2020-08-06T14:43:55.712Z info: APP IS STARTING...
+2020-08-06T14:43:55.715Z info: Load config..
+2020-08-06T14:43:55.715Z info: Load config done!
+2020-08-06T14:43:56.157Z info: init database..
+2020-08-06T14:43:56.182Z info: init database done!
+2020-08-06T14:43:56.187Z info: init app data
+2020-08-06T14:43:56.195Z info: init 3rd apps adapter...
+2020-08-06T14:43:56.196Z info: init apdapter for: nextcloud...
+2020-08-06T14:43:56.478Z info: init apdapter for: nextcloud done!
+2020-08-06T14:43:56.479Z info: init apdapter for: rocketchat...
+2020-08-06T14:43:56.479Z info: init apdapter for: rocketchat done!
+2020-08-06T14:43:56.479Z info: init apdapter for: wordpress...
+2020-08-06T14:43:56.480Z info: init apdapter for: wordpress done!
+2020-08-06T14:43:56.480Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:43:56.482Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:43:56.482Z info: init 3rd apps adapter done!
+2020-08-06T14:43:56.495Z info: Example app listening at http://localhost:3000
+2020-08-06T14:43:56.508Z info: init app data success!
+2020-08-06T14:50:31.701Z info: APP IS STARTING...
+2020-08-06T14:50:31.703Z info: Load config..
+2020-08-06T14:50:31.704Z info: Load config done!
+2020-08-06T14:50:32.127Z info: init database..
+2020-08-06T14:50:32.147Z info: init database done!
+2020-08-06T14:50:32.151Z info: init app data
+2020-08-06T14:50:32.160Z info: init 3rd apps adapter...
+2020-08-06T14:50:32.160Z info: init apdapter for: nextcloud...
+2020-08-06T14:50:32.429Z info: init apdapter for: nextcloud done!
+2020-08-06T14:50:32.429Z info: init apdapter for: rocketchat...
+2020-08-06T14:50:32.430Z info: init apdapter for: rocketchat done!
+2020-08-06T14:50:32.430Z info: init apdapter for: wordpress...
+2020-08-06T14:50:32.431Z info: init apdapter for: wordpress done!
+2020-08-06T14:50:32.431Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:50:32.432Z error: [Adapter/AdapterManager.js] Unexpected token '}' - /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:69
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at new AdapterManager (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:16:31)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:65:18)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:23:5
+2020-08-06T14:50:32.432Z info: init 3rd apps adapter done!
+2020-08-06T14:50:32.444Z info: Example app listening at http://localhost:3000
+2020-08-06T14:50:32.454Z info: init app data success!
+2020-08-06T14:50:42.604Z info: APP IS STARTING...
+2020-08-06T14:50:42.607Z info: Load config..
+2020-08-06T14:50:42.607Z info: Load config done!
+2020-08-06T14:50:43.058Z info: init database..
+2020-08-06T14:50:43.081Z info: init database done!
+2020-08-06T14:50:43.085Z info: init app data
+2020-08-06T14:50:43.094Z info: init 3rd apps adapter...
+2020-08-06T14:50:43.094Z info: init apdapter for: nextcloud...
+2020-08-06T14:50:43.387Z info: init apdapter for: nextcloud done!
+2020-08-06T14:50:43.387Z info: init apdapter for: rocketchat...
+2020-08-06T14:50:43.388Z info: init apdapter for: rocketchat done!
+2020-08-06T14:50:43.388Z info: init apdapter for: wordpress...
+2020-08-06T14:50:43.389Z info: init apdapter for: wordpress done!
+2020-08-06T14:50:43.389Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:50:43.391Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:50:43.391Z info: init 3rd apps adapter done!
+2020-08-06T14:50:43.403Z info: Example app listening at http://localhost:3000
+2020-08-06T14:50:43.412Z info: init app data success!
+2020-08-06T14:51:38.512Z info: APP IS STARTING...
+2020-08-06T14:51:38.515Z info: Load config..
+2020-08-06T14:51:38.515Z info: Load config done!
+2020-08-06T14:51:38.932Z info: init database..
+2020-08-06T14:51:38.957Z info: init database done!
+2020-08-06T14:51:38.965Z info: init app data
+2020-08-06T14:51:38.976Z info: init 3rd apps adapter...
+2020-08-06T14:51:38.976Z info: init apdapter for: nextcloud...
+2020-08-06T14:51:39.277Z info: init apdapter for: nextcloud done!
+2020-08-06T14:51:39.278Z info: init apdapter for: rocketchat...
+2020-08-06T14:51:39.278Z info: init apdapter for: rocketchat done!
+2020-08-06T14:51:39.279Z info: init apdapter for: wordpress...
+2020-08-06T14:51:39.279Z info: init apdapter for: wordpress done!
+2020-08-06T14:51:39.280Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:51:39.281Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:51:39.281Z info: init 3rd apps adapter done!
+2020-08-06T14:51:39.293Z info: Example app listening at http://localhost:3000
+2020-08-06T14:51:39.304Z info: init app data success!
+2020-08-06T14:52:14.435Z info: APP IS STARTING...
+2020-08-06T14:52:14.437Z info: Load config..
+2020-08-06T14:52:14.438Z info: Load config done!
+2020-08-06T14:52:14.878Z info: init database..
+2020-08-06T14:52:14.901Z info: init database done!
+2020-08-06T14:52:14.908Z info: init app data
+2020-08-06T14:52:14.921Z info: init 3rd apps adapter...
+2020-08-06T14:52:14.921Z info: init apdapter for: nextcloud...
+2020-08-06T14:52:15.173Z info: init apdapter for: nextcloud done!
+2020-08-06T14:52:15.174Z info: init apdapter for: rocketchat...
+2020-08-06T14:52:15.175Z info: init apdapter for: rocketchat done!
+2020-08-06T14:52:15.175Z info: init apdapter for: wordpress...
+2020-08-06T14:52:15.176Z info: init apdapter for: wordpress done!
+2020-08-06T14:52:15.176Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:52:15.177Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:52:15.178Z info: init 3rd apps adapter done!
+2020-08-06T14:52:15.194Z info: Example app listening at http://localhost:3000
+2020-08-06T14:52:15.209Z info: init app data success!
+2020-08-06T14:52:16.239Z error: [Controller/UserController.js] (intermediate value).catch is not a function - TypeError: [Controller/UserController.js] (intermediate value).catch is not a function
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:52:17.950Z error: [Controller/UserController.js] (intermediate value).catch is not a function - TypeError: [Controller/UserController.js] (intermediate value).catch is not a function
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:52:34.662Z info: APP IS STARTING...
+2020-08-06T14:52:34.664Z info: Load config..
+2020-08-06T14:52:34.664Z info: Load config done!
+2020-08-06T14:52:35.101Z info: init database..
+2020-08-06T14:52:35.127Z info: init database done!
+2020-08-06T14:52:35.134Z info: init app data
+2020-08-06T14:52:35.146Z info: init 3rd apps adapter...
+2020-08-06T14:52:35.146Z info: init apdapter for: nextcloud...
+2020-08-06T14:52:35.434Z info: init apdapter for: nextcloud done!
+2020-08-06T14:52:35.434Z info: init apdapter for: rocketchat...
+2020-08-06T14:52:35.435Z info: init apdapter for: rocketchat done!
+2020-08-06T14:52:35.435Z info: init apdapter for: wordpress...
+2020-08-06T14:52:35.436Z info: init apdapter for: wordpress done!
+2020-08-06T14:52:35.436Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:52:35.438Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:52:35.438Z info: init 3rd apps adapter done!
+2020-08-06T14:52:35.454Z info: Example app listening at http://localhost:3000
+2020-08-06T14:52:35.463Z info: init app data success!
+2020-08-06T14:52:46.078Z info: APP IS STARTING...
+2020-08-06T14:52:46.081Z info: Load config..
+2020-08-06T14:52:46.082Z info: Load config done!
+2020-08-06T14:52:46.489Z info: init database..
+2020-08-06T14:52:46.520Z info: init database done!
+2020-08-06T14:52:46.529Z info: init app data
+2020-08-06T14:52:46.539Z info: init 3rd apps adapter...
+2020-08-06T14:52:46.540Z info: init apdapter for: nextcloud...
+2020-08-06T14:52:46.824Z info: init apdapter for: nextcloud done!
+2020-08-06T14:52:46.824Z info: init apdapter for: rocketchat...
+2020-08-06T14:52:46.825Z info: init apdapter for: rocketchat done!
+2020-08-06T14:52:46.825Z info: init apdapter for: wordpress...
+2020-08-06T14:52:46.825Z info: init apdapter for: wordpress done!
+2020-08-06T14:52:46.826Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:52:46.827Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:52:46.827Z info: init 3rd apps adapter done!
+2020-08-06T14:52:46.839Z info: Example app listening at http://localhost:3000
+2020-08-06T14:52:46.850Z info: init app data success!
+2020-08-06T14:52:47.952Z error: [Controller/UserController.js] a is not defined - ReferenceError: [Controller/UserController.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:52:58.833Z info: APP IS STARTING...
+2020-08-06T14:52:58.835Z info: Load config..
+2020-08-06T14:52:58.836Z info: Load config done!
+2020-08-06T14:52:59.281Z info: init database..
+2020-08-06T14:52:59.308Z info: init database done!
+2020-08-06T14:52:59.312Z info: init app data
+2020-08-06T14:52:59.323Z info: init 3rd apps adapter...
+2020-08-06T14:52:59.323Z info: init apdapter for: nextcloud...
+2020-08-06T14:52:59.599Z info: init apdapter for: nextcloud done!
+2020-08-06T14:52:59.599Z info: init apdapter for: rocketchat...
+2020-08-06T14:52:59.600Z info: init apdapter for: rocketchat done!
+2020-08-06T14:52:59.600Z info: init apdapter for: wordpress...
+2020-08-06T14:52:59.601Z info: init apdapter for: wordpress done!
+2020-08-06T14:52:59.601Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:52:59.603Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:52:59.603Z info: init 3rd apps adapter done!
+2020-08-06T14:52:59.613Z info: Example app listening at http://localhost:3000
+2020-08-06T14:52:59.626Z info: init app data success!
+2020-08-06T14:53:00.364Z error: [Oauth2Central/app.js] a is not defined - ReferenceError: [Oauth2Central/app.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:53:44.661Z info: APP IS STARTING...
+2020-08-06T14:53:44.664Z info: Load config..
+2020-08-06T14:53:44.664Z info: Load config done!
+2020-08-06T14:53:45.042Z info: init database..
+2020-08-06T14:53:45.065Z info: init database done!
+2020-08-06T14:53:45.070Z info: init app data
+2020-08-06T14:53:45.079Z info: init 3rd apps adapter...
+2020-08-06T14:53:45.079Z info: init apdapter for: nextcloud...
+2020-08-06T14:53:45.335Z info: init apdapter for: nextcloud done!
+2020-08-06T14:53:45.335Z info: init apdapter for: rocketchat...
+2020-08-06T14:53:45.336Z info: init apdapter for: rocketchat done!
+2020-08-06T14:53:45.336Z info: init apdapter for: wordpress...
+2020-08-06T14:53:45.336Z info: init apdapter for: wordpress done!
+2020-08-06T14:53:45.337Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:53:45.338Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:53:45.338Z info: init 3rd apps adapter done!
+2020-08-06T14:53:45.349Z info: Example app listening at http://localhost:3000
+2020-08-06T14:53:45.362Z info: init app data success!
+2020-08-06T14:53:46.963Z error: [Controller/UserController.js] a is not defined - ReferenceError: [Controller/UserController.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:54:00.161Z info: APP IS STARTING...
+2020-08-06T14:54:00.163Z info: Load config..
+2020-08-06T14:54:00.164Z info: Load config done!
+2020-08-06T14:54:00.623Z info: init database..
+2020-08-06T14:54:00.649Z info: init database done!
+2020-08-06T14:54:00.654Z info: init app data
+2020-08-06T14:54:00.666Z info: init 3rd apps adapter...
+2020-08-06T14:54:00.666Z info: init apdapter for: nextcloud...
+2020-08-06T14:54:00.938Z info: init apdapter for: nextcloud done!
+2020-08-06T14:54:00.939Z info: init apdapter for: rocketchat...
+2020-08-06T14:54:00.941Z info: init apdapter for: rocketchat done!
+2020-08-06T14:54:00.942Z info: init apdapter for: wordpress...
+2020-08-06T14:54:00.942Z info: init apdapter for: wordpress done!
+2020-08-06T14:54:00.942Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:54:00.944Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:54:00.944Z info: init 3rd apps adapter done!
+2020-08-06T14:54:00.963Z info: Example app listening at http://localhost:3000
+2020-08-06T14:54:00.980Z info: init app data success!
+2020-08-06T14:54:01.852Z error: [Oauth2Central/app.js] a is not defined - ReferenceError: [Oauth2Central/app.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:54:46.407Z info: APP IS STARTING...
+2020-08-06T14:54:46.410Z info: Load config..
+2020-08-06T14:54:46.410Z info: Load config done!
+2020-08-06T14:54:46.850Z info: init database..
+2020-08-06T14:54:46.873Z info: init database done!
+2020-08-06T14:54:46.877Z info: init app data
+2020-08-06T14:54:46.886Z info: init 3rd apps adapter...
+2020-08-06T14:54:46.886Z info: init apdapter for: nextcloud...
+2020-08-06T14:54:47.151Z info: init apdapter for: nextcloud done!
+2020-08-06T14:54:47.151Z info: init apdapter for: rocketchat...
+2020-08-06T14:54:47.152Z info: init apdapter for: rocketchat done!
+2020-08-06T14:54:47.152Z info: init apdapter for: wordpress...
+2020-08-06T14:54:47.153Z info: init apdapter for: wordpress done!
+2020-08-06T14:54:47.153Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:54:47.154Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:54:47.155Z info: init 3rd apps adapter done!
+2020-08-06T14:54:47.168Z info: Example app listening at http://localhost:3000
+2020-08-06T14:54:47.185Z info: init app data success!
+2020-08-06T14:54:47.999Z error: [Oauth2Central/app.js] a is not defined - ReferenceError: [Oauth2Central/app.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:55:01.376Z info: APP IS STARTING...
+2020-08-06T14:55:01.379Z info: Load config..
+2020-08-06T14:55:01.379Z info: Load config done!
+2020-08-06T14:55:01.792Z info: init database..
+2020-08-06T14:55:01.818Z info: init database done!
+2020-08-06T14:55:01.828Z info: init app data
+2020-08-06T14:55:01.837Z info: init 3rd apps adapter...
+2020-08-06T14:55:01.837Z info: init apdapter for: nextcloud...
+2020-08-06T14:55:02.137Z info: init apdapter for: nextcloud done!
+2020-08-06T14:55:02.137Z info: init apdapter for: rocketchat...
+2020-08-06T14:55:02.138Z info: init apdapter for: rocketchat done!
+2020-08-06T14:55:02.138Z info: init apdapter for: wordpress...
+2020-08-06T14:55:02.139Z info: init apdapter for: wordpress done!
+2020-08-06T14:55:02.139Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:55:02.141Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:55:02.141Z info: init 3rd apps adapter done!
+2020-08-06T14:55:02.158Z info: Example app listening at http://localhost:3000
+2020-08-06T14:55:02.174Z info: init app data success!
+2020-08-06T14:55:03.408Z error: [Oauth2Central/app.js] a is not defined - ReferenceError: [Oauth2Central/app.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:55:09.487Z info: APP IS STARTING...
+2020-08-06T14:55:09.490Z info: Load config..
+2020-08-06T14:55:09.491Z info: Load config done!
+2020-08-06T14:55:09.913Z info: init database..
+2020-08-06T14:55:09.934Z info: init database done!
+2020-08-06T14:55:09.938Z info: init app data
+2020-08-06T14:55:09.946Z info: init 3rd apps adapter...
+2020-08-06T14:55:09.946Z info: init apdapter for: nextcloud...
+2020-08-06T14:55:10.234Z info: init apdapter for: nextcloud done!
+2020-08-06T14:55:10.234Z info: init apdapter for: rocketchat...
+2020-08-06T14:55:10.235Z info: init apdapter for: rocketchat done!
+2020-08-06T14:55:10.235Z info: init apdapter for: wordpress...
+2020-08-06T14:55:10.236Z info: init apdapter for: wordpress done!
+2020-08-06T14:55:10.236Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:55:10.238Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:55:10.238Z info: init 3rd apps adapter done!
+2020-08-06T14:55:10.255Z info: Example app listening at http://localhost:3000
+2020-08-06T14:55:10.271Z info: init app data success!
+2020-08-06T14:55:11.818Z error: [Controller/UserController.js] a is not defined - ReferenceError: [Controller/UserController.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:57:11.825Z error: [Controller/UserController.js] a is not defined - ReferenceError: [Controller/UserController.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:59:46.610Z info: APP IS STARTING...
+2020-08-06T14:59:46.612Z info: Load config..
+2020-08-06T14:59:46.612Z info: Load config done!
+2020-08-06T14:59:47.048Z info: init database..
+2020-08-06T14:59:47.070Z info: init database done!
+2020-08-06T14:59:47.075Z info: init app data
+2020-08-06T14:59:47.083Z info: init 3rd apps adapter...
+2020-08-06T14:59:47.083Z info: init apdapter for: nextcloud...
+2020-08-06T14:59:47.367Z info: init apdapter for: nextcloud done!
+2020-08-06T14:59:47.367Z info: init apdapter for: rocketchat...
+2020-08-06T14:59:47.368Z info: init apdapter for: rocketchat done!
+2020-08-06T14:59:47.368Z info: init apdapter for: wordpress...
+2020-08-06T14:59:47.368Z info: init apdapter for: wordpress done!
+2020-08-06T14:59:47.369Z info: init apdapter for: jitsi-meeting...
+2020-08-06T14:59:47.370Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T14:59:47.370Z info: init 3rd apps adapter done!
+2020-08-06T14:59:47.386Z info: Example app listening at http://localhost:3000
+2020-08-06T14:59:47.400Z info: init app data success!
+2020-08-06T15:00:13.412Z info: APP IS STARTING...
+2020-08-06T15:00:13.414Z info: Load config..
+2020-08-06T15:00:13.415Z info: Load config done!
+2020-08-06T15:00:13.817Z info: init database..
+2020-08-06T15:00:13.840Z info: init database done!
+2020-08-06T15:00:13.844Z info: init app data
+2020-08-06T15:00:13.854Z info: init 3rd apps adapter...
+2020-08-06T15:00:13.854Z info: init apdapter for: nextcloud...
+2020-08-06T15:00:14.142Z info: init apdapter for: nextcloud done!
+2020-08-06T15:00:14.142Z info: init apdapter for: rocketchat...
+2020-08-06T15:00:14.143Z info: init apdapter for: rocketchat done!
+2020-08-06T15:00:14.143Z info: init apdapter for: wordpress...
+2020-08-06T15:00:14.144Z info: init apdapter for: wordpress done!
+2020-08-06T15:00:14.144Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:00:14.146Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:00:14.146Z info: init 3rd apps adapter done!
+2020-08-06T15:00:14.164Z info: Example app listening at http://localhost:3000
+2020-08-06T15:00:14.177Z info: init app data success!
+2020-08-06T15:08:17.598Z info: APP IS STARTING...
+2020-08-06T15:08:17.600Z info: Load config..
+2020-08-06T15:08:17.601Z info: Load config done!
+2020-08-06T15:08:18.011Z info: init database..
+2020-08-06T15:08:18.038Z info: init database done!
+2020-08-06T15:08:18.046Z info: init app data
+2020-08-06T15:08:18.059Z info: init 3rd apps adapter...
+2020-08-06T15:08:18.059Z info: init apdapter for: nextcloud...
+2020-08-06T15:08:18.320Z info: init apdapter for: nextcloud done!
+2020-08-06T15:08:18.321Z info: init apdapter for: rocketchat...
+2020-08-06T15:08:18.324Z info: init apdapter for: rocketchat done!
+2020-08-06T15:08:18.324Z info: init apdapter for: wordpress...
+2020-08-06T15:08:18.325Z info: init apdapter for: wordpress done!
+2020-08-06T15:08:18.325Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:08:18.327Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:08:18.327Z info: init 3rd apps adapter done!
+2020-08-06T15:08:18.342Z info: Example app listening at http://localhost:3000
+2020-08-06T15:08:18.353Z info: init app data success!
+2020-08-06T15:08:21.197Z error: [Controller/UserController.js] getInfo is not defined - ReferenceError: [Controller/UserController.js] getInfo is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:81:34
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:87:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T15:08:42.026Z info: APP IS STARTING...
+2020-08-06T15:08:42.028Z info: Load config..
+2020-08-06T15:08:42.029Z info: Load config done!
+2020-08-06T15:08:42.530Z info: init database..
+2020-08-06T15:08:42.552Z info: init database done!
+2020-08-06T15:08:42.557Z info: init app data
+2020-08-06T15:08:42.566Z info: init 3rd apps adapter...
+2020-08-06T15:08:42.566Z info: init apdapter for: nextcloud...
+2020-08-06T15:08:42.854Z info: init apdapter for: nextcloud done!
+2020-08-06T15:08:42.855Z info: init apdapter for: rocketchat...
+2020-08-06T15:08:42.856Z info: init apdapter for: rocketchat done!
+2020-08-06T15:08:42.856Z info: init apdapter for: wordpress...
+2020-08-06T15:08:42.857Z info: init apdapter for: wordpress done!
+2020-08-06T15:08:42.857Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:08:42.859Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:08:42.859Z info: init 3rd apps adapter done!
+2020-08-06T15:08:42.871Z info: Example app listening at http://localhost:3000
+2020-08-06T15:08:42.889Z info: init app data success!
+2020-08-06T15:08:43.722Z error: [Adapter/JitsiMeetingAdapter.js] username is not defined - ReferenceError: [Adapter/JitsiMeetingAdapter.js] username is not defined
+    at JitsiMeetingAdapter.getPassword (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:101:86)
+    at JitsiMeetingAdapter.getInfo (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:68:35)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:81:53
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:87:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T15:08:57.617Z info: APP IS STARTING...
+2020-08-06T15:08:57.620Z info: Load config..
+2020-08-06T15:08:57.621Z info: Load config done!
+2020-08-06T15:08:58.077Z info: init database..
+2020-08-06T15:08:58.104Z info: init database done!
+2020-08-06T15:08:58.109Z info: init app data
+2020-08-06T15:08:58.121Z info: init 3rd apps adapter...
+2020-08-06T15:08:58.121Z info: init apdapter for: nextcloud...
+2020-08-06T15:08:58.411Z info: init apdapter for: nextcloud done!
+2020-08-06T15:08:58.411Z info: init apdapter for: rocketchat...
+2020-08-06T15:08:58.412Z info: init apdapter for: rocketchat done!
+2020-08-06T15:08:58.412Z info: init apdapter for: wordpress...
+2020-08-06T15:08:58.413Z info: init apdapter for: wordpress done!
+2020-08-06T15:08:58.413Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:08:58.415Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:08:58.415Z info: init 3rd apps adapter done!
+2020-08-06T15:08:58.431Z info: Example app listening at http://localhost:3000
+2020-08-06T15:08:58.440Z info: init app data success!
+2020-08-06T15:08:59.243Z error: [Adapter/JitsiMeetingAdapter.js] username is not defined - ReferenceError: [Adapter/JitsiMeetingAdapter.js] username is not defined
+    at JitsiMeetingAdapter.getPassword (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:101:86)
+    at JitsiMeetingAdapter.getInfo (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:68:35)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:81:59
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:87:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T15:09:35.779Z info: APP IS STARTING...
+2020-08-06T15:09:35.782Z info: Load config..
+2020-08-06T15:09:35.782Z info: Load config done!
+2020-08-06T15:09:36.178Z info: init database..
+2020-08-06T15:09:36.200Z info: init database done!
+2020-08-06T15:09:36.205Z info: init app data
+2020-08-06T15:09:36.217Z info: init 3rd apps adapter...
+2020-08-06T15:09:36.217Z info: init apdapter for: nextcloud...
+2020-08-06T15:09:36.528Z info: init apdapter for: nextcloud done!
+2020-08-06T15:09:36.528Z info: init apdapter for: rocketchat...
+2020-08-06T15:09:36.529Z info: init apdapter for: rocketchat done!
+2020-08-06T15:09:36.529Z info: init apdapter for: wordpress...
+2020-08-06T15:09:36.530Z info: init apdapter for: wordpress done!
+2020-08-06T15:09:36.530Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:09:36.532Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:09:36.532Z info: init 3rd apps adapter done!
+2020-08-06T15:09:36.550Z info: Example app listening at http://localhost:3000
+2020-08-06T15:09:36.567Z info: init app data success!
+2020-08-06T15:09:52.200Z info: APP IS STARTING...
+2020-08-06T15:09:52.203Z info: Load config..
+2020-08-06T15:09:52.203Z info: Load config done!
+2020-08-06T15:09:52.684Z info: init database..
+2020-08-06T15:09:52.710Z info: init database done!
+2020-08-06T15:09:52.715Z info: init app data
+2020-08-06T15:09:52.725Z info: init 3rd apps adapter...
+2020-08-06T15:09:52.726Z info: init apdapter for: nextcloud...
+2020-08-06T15:09:53.020Z info: init apdapter for: nextcloud done!
+2020-08-06T15:09:53.021Z info: init apdapter for: rocketchat...
+2020-08-06T15:09:53.023Z info: init apdapter for: rocketchat done!
+2020-08-06T15:09:53.024Z info: init apdapter for: wordpress...
+2020-08-06T15:09:53.025Z info: init apdapter for: wordpress done!
+2020-08-06T15:09:53.025Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:09:53.027Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:09:53.027Z info: init 3rd apps adapter done!
+2020-08-06T15:09:53.042Z info: Example app listening at http://localhost:3000
+2020-08-06T15:09:53.053Z info: init app data success!
+2020-08-06T15:10:02.081Z info: APP IS STARTING...
+2020-08-06T15:10:02.084Z info: Load config..
+2020-08-06T15:10:02.084Z info: Load config done!
+2020-08-06T15:10:02.559Z info: init database..
+2020-08-06T15:10:02.584Z info: init database done!
+2020-08-06T15:10:02.589Z info: init app data
+2020-08-06T15:10:02.597Z info: init 3rd apps adapter...
+2020-08-06T15:10:02.597Z info: init apdapter for: nextcloud...
+2020-08-06T15:10:02.923Z info: init apdapter for: nextcloud done!
+2020-08-06T15:10:02.923Z info: init apdapter for: rocketchat...
+2020-08-06T15:10:02.924Z info: init apdapter for: rocketchat done!
+2020-08-06T15:10:02.924Z info: init apdapter for: wordpress...
+2020-08-06T15:10:02.924Z info: init apdapter for: wordpress done!
+2020-08-06T15:10:02.925Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:10:02.926Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:10:02.927Z info: init 3rd apps adapter done!
+2020-08-06T15:10:02.938Z info: Example app listening at http://localhost:3000
+2020-08-06T15:10:02.950Z info: init app data success!
+2020-08-06T15:10:20.818Z info: APP IS STARTING...
+2020-08-06T15:10:20.825Z info: Load config..
+2020-08-06T15:10:20.825Z info: Load config done!
+2020-08-06T15:10:21.294Z info: init database..
+2020-08-06T15:10:21.314Z info: init database done!
+2020-08-06T15:10:21.319Z info: init app data
+2020-08-06T15:10:21.330Z info: init 3rd apps adapter...
+2020-08-06T15:10:21.330Z info: init apdapter for: nextcloud...
+2020-08-06T15:10:21.624Z info: init apdapter for: nextcloud done!
+2020-08-06T15:10:21.625Z info: init apdapter for: rocketchat...
+2020-08-06T15:10:21.627Z info: init apdapter for: rocketchat done!
+2020-08-06T15:10:21.627Z info: init apdapter for: wordpress...
+2020-08-06T15:10:21.628Z info: init apdapter for: wordpress done!
+2020-08-06T15:10:21.628Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:10:21.629Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:10:21.630Z info: init 3rd apps adapter done!
+2020-08-06T15:10:21.642Z info: Example app listening at http://localhost:3000
+2020-08-06T15:10:21.653Z info: init app data success!
+2020-08-06T15:11:07.670Z info: APP IS STARTING...
+2020-08-06T15:11:07.673Z info: Load config..
+2020-08-06T15:11:07.673Z info: Load config done!
+2020-08-06T15:11:08.057Z info: init database..
+2020-08-06T15:11:08.078Z info: init database done!
+2020-08-06T15:11:08.088Z info: init app data
+2020-08-06T15:11:08.100Z info: init 3rd apps adapter...
+2020-08-06T15:11:08.100Z info: init apdapter for: nextcloud...
+2020-08-06T15:11:08.394Z info: init apdapter for: nextcloud done!
+2020-08-06T15:11:08.394Z info: init apdapter for: rocketchat...
+2020-08-06T15:11:08.395Z info: init apdapter for: rocketchat done!
+2020-08-06T15:11:08.395Z info: init apdapter for: wordpress...
+2020-08-06T15:11:08.395Z info: init apdapter for: wordpress done!
+2020-08-06T15:11:08.395Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:11:08.397Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:11:08.397Z info: init 3rd apps adapter done!
+2020-08-06T15:11:08.409Z info: Example app listening at http://localhost:3000
+2020-08-06T15:11:08.419Z info: init app data success!
+2020-08-06T15:17:14.152Z info: APP IS STARTING...
+2020-08-06T15:17:14.155Z info: Load config..
+2020-08-06T15:17:14.155Z info: Load config done!
+2020-08-06T15:17:14.583Z info: init database..
+2020-08-06T15:17:14.609Z info: init database done!
+2020-08-06T15:17:14.617Z info: init app data
+2020-08-06T15:17:14.630Z info: init 3rd apps adapter...
+2020-08-06T15:17:14.631Z info: init apdapter for: nextcloud...
+2020-08-06T15:17:14.928Z info: init apdapter for: nextcloud done!
+2020-08-06T15:17:14.928Z info: init apdapter for: rocketchat...
+2020-08-06T15:17:14.929Z info: init apdapter for: rocketchat done!
+2020-08-06T15:17:14.929Z info: init apdapter for: wordpress...
+2020-08-06T15:17:14.931Z info: init apdapter for: wordpress done!
+2020-08-06T15:17:14.932Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:17:14.934Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:17:14.934Z info: init 3rd apps adapter done!
+2020-08-06T15:17:14.949Z info: Example app listening at http://localhost:3000
+2020-08-06T15:17:14.960Z info: init app data success!
+2020-08-06T15:17:58.535Z info: APP IS STARTING...
+2020-08-06T15:17:58.538Z info: Load config..
+2020-08-06T15:17:58.538Z info: Load config done!
+2020-08-06T15:17:58.958Z info: init database..
+2020-08-06T15:17:58.982Z info: init database done!
+2020-08-06T15:17:58.986Z info: init app data
+2020-08-06T15:17:59.000Z info: init 3rd apps adapter...
+2020-08-06T15:17:59.000Z info: init apdapter for: nextcloud...
+2020-08-06T15:17:59.273Z info: init apdapter for: nextcloud done!
+2020-08-06T15:17:59.273Z info: init apdapter for: rocketchat...
+2020-08-06T15:17:59.274Z info: init apdapter for: rocketchat done!
+2020-08-06T15:17:59.274Z info: init apdapter for: wordpress...
+2020-08-06T15:17:59.275Z info: init apdapter for: wordpress done!
+2020-08-06T15:17:59.275Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:17:59.277Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:17:59.277Z info: init 3rd apps adapter done!
+2020-08-06T15:17:59.289Z info: Example app listening at http://localhost:3000
+2020-08-06T15:17:59.301Z info: init app data success!
+2020-08-06T15:19:29.075Z info: APP IS STARTING...
+2020-08-06T15:19:29.078Z info: Load config..
+2020-08-06T15:19:29.078Z info: Load config done!
+2020-08-06T15:19:29.504Z info: init database..
+2020-08-06T15:19:29.529Z info: init database done!
+2020-08-06T15:19:29.536Z info: init app data
+2020-08-06T15:19:29.544Z info: init 3rd apps adapter...
+2020-08-06T15:19:29.544Z info: init apdapter for: nextcloud...
+2020-08-06T15:19:29.804Z info: init apdapter for: nextcloud done!
+2020-08-06T15:19:29.804Z info: init apdapter for: rocketchat...
+2020-08-06T15:19:29.805Z info: init apdapter for: rocketchat done!
+2020-08-06T15:19:29.805Z info: init apdapter for: wordpress...
+2020-08-06T15:19:29.806Z info: init apdapter for: wordpress done!
+2020-08-06T15:19:29.806Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:19:29.807Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:19:29.807Z info: init 3rd apps adapter done!
+2020-08-06T15:19:29.820Z info: Example app listening at http://localhost:3000
+2020-08-06T15:19:29.834Z info: init app data success!
+2020-08-06T15:20:18.916Z error: [Adapter/JitsiMeetingAdapter.js] Cannot read property 'trim' of null - TypeError: [Adapter/JitsiMeetingAdapter.js] Cannot read property 'trim' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:56:24
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T15:21:39.892Z info: APP IS STARTING...
+2020-08-06T15:21:39.894Z info: Load config..
+2020-08-06T15:21:39.895Z info: Load config done!
+2020-08-06T15:21:40.257Z info: init database..
+2020-08-06T15:21:40.279Z info: init database done!
+2020-08-06T15:21:40.283Z info: init app data
+2020-08-06T15:21:40.292Z info: init 3rd apps adapter...
+2020-08-06T15:21:40.292Z info: init apdapter for: nextcloud...
+2020-08-06T15:21:40.526Z info: init apdapter for: nextcloud done!
+2020-08-06T15:21:40.526Z info: init apdapter for: rocketchat...
+2020-08-06T15:21:40.527Z info: init apdapter for: rocketchat done!
+2020-08-06T15:21:40.527Z info: init apdapter for: wordpress...
+2020-08-06T15:21:40.528Z info: init apdapter for: wordpress done!
+2020-08-06T15:21:40.528Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:21:40.530Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:21:40.530Z info: init 3rd apps adapter done!
+2020-08-06T15:21:40.542Z info: Example app listening at http://localhost:3000
+2020-08-06T15:21:40.550Z info: init app data success!
+2020-08-06T15:21:45.788Z error: [Adapter/JitsiMeetingAdapter.js] Cannot read property 'trim' of null - TypeError: [Adapter/JitsiMeetingAdapter.js] Cannot read property 'trim' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:56:24
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T15:22:16.229Z info: APP IS STARTING...
+2020-08-06T15:22:16.231Z info: Load config..
+2020-08-06T15:22:16.232Z info: Load config done!
+2020-08-06T15:22:16.666Z info: init database..
+2020-08-06T15:22:16.702Z info: init database done!
+2020-08-06T15:22:16.708Z info: init app data
+2020-08-06T15:22:16.722Z info: init 3rd apps adapter...
+2020-08-06T15:22:16.722Z info: init apdapter for: nextcloud...
+2020-08-06T15:22:16.975Z info: init apdapter for: nextcloud done!
+2020-08-06T15:22:16.976Z info: init apdapter for: rocketchat...
+2020-08-06T15:22:16.978Z info: init apdapter for: rocketchat done!
+2020-08-06T15:22:16.978Z info: init apdapter for: wordpress...
+2020-08-06T15:22:16.978Z info: init apdapter for: wordpress done!
+2020-08-06T15:22:16.979Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:22:16.980Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:22:16.981Z info: init 3rd apps adapter done!
+2020-08-06T15:22:16.997Z info: Example app listening at http://localhost:3000
+2020-08-06T15:22:17.012Z info: init app data success!
+2020-08-06T15:22:36.978Z info: APP IS STARTING...
+2020-08-06T15:22:36.985Z info: Load config..
+2020-08-06T15:22:36.986Z info: Load config done!
+2020-08-06T15:22:37.360Z info: init database..
+2020-08-06T15:22:37.385Z info: init database done!
+2020-08-06T15:22:37.391Z info: init app data
+2020-08-06T15:22:37.398Z info: init 3rd apps adapter...
+2020-08-06T15:22:37.398Z info: init apdapter for: nextcloud...
+2020-08-06T15:22:37.701Z info: init apdapter for: nextcloud done!
+2020-08-06T15:22:37.701Z info: init apdapter for: rocketchat...
+2020-08-06T15:22:37.702Z info: init apdapter for: rocketchat done!
+2020-08-06T15:22:37.702Z info: init apdapter for: wordpress...
+2020-08-06T15:22:37.703Z info: init apdapter for: wordpress done!
+2020-08-06T15:22:37.703Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:22:37.709Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:22:37.709Z info: init 3rd apps adapter done!
+2020-08-06T15:22:37.722Z info: Example app listening at http://localhost:3000
+2020-08-06T15:22:37.733Z info: init app data success!
+2020-08-06T15:22:50.939Z error: [Adapter/JitsiMeetingAdapter.js] Cannot read property 'trim' of null - TypeError: [Adapter/JitsiMeetingAdapter.js] Cannot read property 'trim' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:58:24
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T15:23:37.471Z info: APP IS STARTING...
+2020-08-06T15:23:37.473Z info: Load config..
+2020-08-06T15:23:37.474Z info: Load config done!
+2020-08-06T15:23:37.976Z info: init database..
+2020-08-06T15:23:37.999Z info: init database done!
+2020-08-06T15:23:38.005Z info: init app data
+2020-08-06T15:23:38.016Z info: init 3rd apps adapter...
+2020-08-06T15:23:38.016Z info: init apdapter for: nextcloud...
+2020-08-06T15:23:38.316Z info: init apdapter for: nextcloud done!
+2020-08-06T15:23:38.316Z info: init apdapter for: rocketchat...
+2020-08-06T15:23:38.317Z info: init apdapter for: rocketchat done!
+2020-08-06T15:23:38.317Z info: init apdapter for: wordpress...
+2020-08-06T15:23:38.318Z info: init apdapter for: wordpress done!
+2020-08-06T15:23:38.318Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:23:38.322Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:23:38.322Z info: init 3rd apps adapter done!
+2020-08-06T15:23:38.338Z info: Example app listening at http://localhost:3000
+2020-08-06T15:23:38.352Z info: init app data success!
+2020-08-06T15:23:48.399Z info: APP IS STARTING...
+2020-08-06T15:23:48.401Z info: Load config..
+2020-08-06T15:23:48.402Z info: Load config done!
+2020-08-06T15:23:48.813Z info: init database..
+2020-08-06T15:23:48.839Z info: init database done!
+2020-08-06T15:23:48.848Z info: init app data
+2020-08-06T15:23:48.859Z info: init 3rd apps adapter...
+2020-08-06T15:23:48.859Z info: init apdapter for: nextcloud...
+2020-08-06T15:23:49.135Z info: init apdapter for: nextcloud done!
+2020-08-06T15:23:49.135Z info: init apdapter for: rocketchat...
+2020-08-06T15:23:49.136Z info: init apdapter for: rocketchat done!
+2020-08-06T15:23:49.136Z info: init apdapter for: wordpress...
+2020-08-06T15:23:49.137Z info: init apdapter for: wordpress done!
+2020-08-06T15:23:49.137Z info: init apdapter for: jitsi-meeting...
+2020-08-06T15:23:49.139Z info: init apdapter for: jitsi-meeting done!
+2020-08-06T15:23:49.139Z info: init 3rd apps adapter done!
+2020-08-06T15:23:49.156Z info: Example app listening at http://localhost:3000
+2020-08-06T15:23:49.172Z info: init app data success!
+2020-08-09T08:04:04.009Z info: APP IS STARTING...
+2020-08-09T08:04:04.012Z info: Load config..
+2020-08-09T08:04:04.012Z info: Load config done!
+2020-08-09T08:04:04.338Z info: init database..
+2020-08-09T08:04:04.461Z info: init database done!
+2020-08-09T08:04:04.480Z info: init app data
+2020-08-09T08:04:04.495Z info: init 3rd apps adapter...
+2020-08-09T08:04:04.496Z info: init apdapter for: nextcloud...
+2020-08-09T08:04:04.850Z info: init apdapter for: nextcloud done!
+2020-08-09T08:04:04.850Z info: init apdapter for: rocketchat...
+2020-08-09T08:04:04.851Z info: init apdapter for: rocketchat done!
+2020-08-09T08:04:04.851Z info: init apdapter for: wordpress...
+2020-08-09T08:04:04.852Z info: init apdapter for: wordpress done!
+2020-08-09T08:04:04.852Z info: init apdapter for: jitsi-meeting...
+2020-08-09T08:04:04.853Z info: init apdapter for: jitsi-meeting done!
+2020-08-09T08:04:04.853Z info: init 3rd apps adapter done!
+2020-08-09T08:04:04.865Z info: Example app listening at http://localhost:3000
+2020-08-09T08:04:04.873Z info: init app data success!
+2020-08-09T08:06:38.425Z info: APP IS STARTING...
+2020-08-09T08:06:38.427Z info: Load config..
+2020-08-09T08:06:38.428Z info: Load config done!
+2020-08-09T08:06:38.761Z info: init database..
+2020-08-09T08:06:38.782Z info: init database done!
+2020-08-09T08:06:38.786Z info: init app data
+2020-08-09T08:06:38.795Z info: init 3rd apps adapter...
+2020-08-09T08:06:38.795Z info: init apdapter for: nextcloud...
+2020-08-09T08:06:39.170Z info: init apdapter for: nextcloud done!
+2020-08-09T08:06:39.171Z info: init apdapter for: rocketchat...
+2020-08-09T08:06:39.172Z info: init apdapter for: rocketchat done!
+2020-08-09T08:06:39.172Z info: init apdapter for: wordpress...
+2020-08-09T08:06:39.173Z info: init apdapter for: wordpress done!
+2020-08-09T08:06:39.173Z info: init apdapter for: jitsi-meeting...
+2020-08-09T08:06:39.177Z info: init apdapter for: jitsi-meeting done!
+2020-08-09T08:06:39.178Z info: init 3rd apps adapter done!
+2020-08-09T08:06:39.196Z info: Example app listening at http://localhost:3000
+2020-08-09T08:06:39.214Z info: init app data success!
+2020-08-09T08:13:37.539Z info: APP IS STARTING...
+2020-08-09T08:13:37.542Z info: Load config..
+2020-08-09T08:13:37.542Z info: Load config done!
+2020-08-09T08:13:37.868Z info: init database..
+2020-08-09T08:13:37.887Z info: init database done!
+2020-08-09T08:13:37.891Z info: init app data
+2020-08-09T08:13:37.901Z info: init 3rd apps adapter...
+2020-08-09T08:13:37.901Z info: init apdapter for: nextcloud...
+2020-08-09T08:13:38.317Z info: init apdapter for: nextcloud done!
+2020-08-09T08:13:38.317Z info: init apdapter for: rocketchat...
+2020-08-09T08:13:38.318Z info: init apdapter for: rocketchat done!
+2020-08-09T08:13:38.318Z info: init apdapter for: wordpress...
+2020-08-09T08:13:38.319Z info: init apdapter for: wordpress done!
+2020-08-09T08:13:38.319Z info: init apdapter for: jitsi-meeting...
+2020-08-09T08:13:38.321Z info: init apdapter for: jitsi-meeting done!
+2020-08-09T08:13:38.321Z info: init 3rd apps adapter done!
+2020-08-09T08:13:38.339Z info: Example app listening at http://localhost:3000
+2020-08-09T08:13:38.354Z info: init app data success!
+2020-08-09T08:35:31.886Z info: APP IS STARTING...
+2020-08-09T08:35:31.889Z info: Load config..
+2020-08-09T08:35:31.889Z info: Load config done!
+2020-08-09T08:35:32.216Z info: init database..
+2020-08-09T08:35:32.236Z info: init database done!
+2020-08-09T08:35:32.240Z info: init app data
+2020-08-09T08:35:32.248Z info: init 3rd apps adapter...
+2020-08-09T08:35:32.248Z info: init apdapter for: nextcloud...
+2020-08-09T08:35:32.470Z info: init apdapter for: nextcloud done!
+2020-08-09T08:35:32.470Z info: init apdapter for: rocketchat...
+2020-08-09T08:35:32.471Z info: init apdapter for: rocketchat done!
+2020-08-09T08:35:32.471Z info: init apdapter for: wordpress...
+2020-08-09T08:35:32.472Z info: init apdapter for: wordpress done!
+2020-08-09T08:35:32.472Z info: init apdapter for: jitsi-meeting...
+2020-08-09T08:35:32.474Z info: init apdapter for: jitsi-meeting done!
+2020-08-09T08:35:32.474Z info: init 3rd apps adapter done!
+2020-08-09T08:35:32.485Z info: Example app listening at http://localhost:3000
+2020-08-09T08:35:32.494Z info: init app data success!
+2020-08-09T08:38:58.514Z info: APP IS STARTING...
+2020-08-09T08:38:58.516Z info: Load config..
+2020-08-09T08:38:58.517Z info: Load config done!
+2020-08-09T08:38:59.032Z info: init database..
+2020-08-09T08:38:59.067Z info: init database done!
+2020-08-09T08:38:59.075Z info: init app data
+2020-08-09T08:38:59.089Z info: init 3rd apps adapter...
+2020-08-09T08:38:59.090Z info: init apdapter for: nextcloud...
+2020-08-09T08:38:59.422Z info: init apdapter for: nextcloud done!
+2020-08-09T08:38:59.423Z info: init apdapter for: rocketchat...
+2020-08-09T08:38:59.423Z info: init apdapter for: rocketchat done!
+2020-08-09T08:38:59.424Z info: init apdapter for: wordpress...
+2020-08-09T08:38:59.424Z info: init apdapter for: wordpress done!
+2020-08-09T08:38:59.424Z info: init apdapter for: jitsi-meeting...
+2020-08-09T08:38:59.426Z info: init apdapter for: jitsi-meeting done!
+2020-08-09T08:38:59.427Z info: init 3rd apps adapter done!
+2020-08-09T08:38:59.443Z info: Example app listening at http://localhost:3000
+2020-08-09T08:38:59.459Z info: init app data success!
+2020-08-09T08:41:04.904Z info: APP IS STARTING...
+2020-08-09T08:41:04.907Z info: Load config..
+2020-08-09T08:41:04.907Z info: Load config done!
+2020-08-09T08:41:05.234Z info: init database..
+2020-08-09T08:41:05.253Z info: init database done!
+2020-08-09T08:41:05.257Z info: init app data
+2020-08-09T08:41:05.265Z info: init 3rd apps adapter...
+2020-08-09T08:41:05.265Z info: init apdapter for: nextcloud...
+2020-08-09T08:41:05.480Z info: init apdapter for: nextcloud done!
+2020-08-09T08:41:05.481Z info: init apdapter for: rocketchat...
+2020-08-09T08:41:05.481Z info: init apdapter for: rocketchat done!
+2020-08-09T08:41:05.481Z info: init apdapter for: wordpress...
+2020-08-09T08:41:05.482Z info: init apdapter for: wordpress done!
+2020-08-09T08:41:05.482Z info: init apdapter for: jitsi-meeting...
+2020-08-09T08:41:05.484Z info: init apdapter for: jitsi-meeting done!
+2020-08-09T08:41:05.484Z info: init 3rd apps adapter done!
+2020-08-09T08:41:05.496Z info: Example app listening at http://localhost:3000
+2020-08-09T08:41:05.504Z info: init app data success!
+2020-08-11T14:30:11.125Z info: APP IS STARTING...
+2020-08-11T14:30:11.128Z info: Load config..
+2020-08-11T14:30:11.128Z info: Load config done!
+2020-08-11T14:30:11.583Z info: init database..
+2020-08-11T14:30:11.657Z info: init database done!
+2020-08-11T14:30:11.676Z info: init app data
+2020-08-11T14:30:11.689Z info: init 3rd apps adapter...
+2020-08-11T14:30:11.689Z info: init apdapter for: nextcloud...
+2020-08-11T14:30:11.930Z info: init apdapter for: nextcloud done!
+2020-08-11T14:30:11.930Z info: init apdapter for: rocketchat...
+2020-08-11T14:30:11.931Z info: init apdapter for: rocketchat done!
+2020-08-11T14:30:11.931Z info: init apdapter for: wordpress...
+2020-08-11T14:30:11.932Z info: init apdapter for: wordpress done!
+2020-08-11T14:30:11.932Z info: init apdapter for: jitsi-meeting...
+2020-08-11T14:30:11.933Z info: init apdapter for: jitsi-meeting done!
+2020-08-11T14:30:11.934Z info: init 3rd apps adapter done!
+2020-08-11T14:30:11.944Z info: Example app listening at http://localhost:3000
+2020-08-11T14:30:12.015Z info: init app data success!
+2020-08-11T14:30:21.007Z info: APP IS STARTING...
+2020-08-11T14:30:21.010Z info: Load config..
+2020-08-11T14:30:21.010Z info: Load config done!
+2020-08-11T14:30:21.376Z info: init database..
+2020-08-11T14:30:21.395Z info: init database done!
+2020-08-11T14:30:21.400Z info: init app data
+2020-08-11T14:30:21.408Z info: init 3rd apps adapter...
+2020-08-11T14:30:21.408Z info: init apdapter for: nextcloud...
+2020-08-11T14:30:21.629Z info: init apdapter for: nextcloud done!
+2020-08-11T14:30:21.629Z info: init apdapter for: rocketchat...
+2020-08-11T14:30:21.630Z info: init apdapter for: rocketchat done!
+2020-08-11T14:30:21.630Z info: init apdapter for: wordpress...
+2020-08-11T14:30:21.630Z info: init apdapter for: wordpress done!
+2020-08-11T14:30:21.630Z info: init apdapter for: jitsi-meeting...
+2020-08-11T14:30:21.632Z info: init apdapter for: jitsi-meeting done!
+2020-08-11T14:30:21.632Z info: init 3rd apps adapter done!
+2020-08-11T14:30:21.643Z info: Example app listening at http://localhost:3000
+2020-08-11T14:30:21.654Z info: init app data success!
+2020-08-11T14:30:38.234Z error: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer - TypeError: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer
+    at Parser.parse (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:23:22)
+    at Object.module.exports [as toJson] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:172:17)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/NextCloudAdapter.js:30:36)
+    at self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.onRequestError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at Socket.socketErrorListener (_http_client.js:426:9)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-08-11T14:31:16.390Z info: APP IS STARTING...
+2020-08-11T14:31:16.393Z info: Load config..
+2020-08-11T14:31:16.393Z info: Load config done!
+2020-08-11T14:31:16.727Z info: init database..
+2020-08-11T14:31:16.759Z info: init database done!
+2020-08-11T14:31:16.764Z info: init app data
+2020-08-11T14:31:16.777Z info: init 3rd apps adapter...
+2020-08-11T14:31:16.778Z info: init apdapter for: nextcloud...
+2020-08-11T14:31:17.042Z info: init apdapter for: nextcloud done!
+2020-08-11T14:31:17.042Z info: init apdapter for: rocketchat...
+2020-08-11T14:31:17.043Z info: init apdapter for: rocketchat done!
+2020-08-11T14:31:17.043Z info: init apdapter for: wordpress...
+2020-08-11T14:31:17.044Z info: init apdapter for: wordpress done!
+2020-08-11T14:31:17.044Z info: init apdapter for: jitsi-meeting...
+2020-08-11T14:31:17.046Z info: init apdapter for: jitsi-meeting done!
+2020-08-11T14:31:17.046Z info: init 3rd apps adapter done!
+2020-08-11T14:31:17.063Z info: Example app listening at http://localhost:3000
+2020-08-11T14:31:17.078Z info: init app data success!
+2020-08-11T14:31:20.205Z error: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer - TypeError: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer
+    at Parser.parse (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:23:22)
+    at Object.module.exports [as toJson] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:172:17)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/NextCloudAdapter.js:30:36)
+    at self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.onRequestError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at Socket.socketErrorListener (_http_client.js:426:9)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-08-11T14:37:40.761Z info: APP IS STARTING...
+2020-08-11T14:37:40.764Z info: Load config..
+2020-08-11T14:37:40.765Z info: Load config done!
+2020-08-11T14:37:41.213Z info: init database..
+2020-08-11T14:37:41.234Z info: init database done!
+2020-08-11T14:37:41.238Z info: init app data
+2020-08-11T14:37:41.246Z info: init 3rd apps adapter...
+2020-08-11T14:37:41.246Z info: init apdapter for: nextcloud...
+2020-08-11T14:37:41.497Z info: init apdapter for: nextcloud done!
+2020-08-11T14:37:41.497Z info: init apdapter for: rocketchat...
+2020-08-11T14:37:41.498Z info: init apdapter for: rocketchat done!
+2020-08-11T14:37:41.498Z info: init apdapter for: wordpress...
+2020-08-11T14:37:41.499Z info: init apdapter for: wordpress done!
+2020-08-11T14:37:41.499Z info: init apdapter for: jitsi-meeting...
+2020-08-11T14:37:41.500Z info: init apdapter for: jitsi-meeting done!
+2020-08-11T14:37:41.500Z info: init 3rd apps adapter done!
+2020-08-11T14:37:41.512Z info: Example app listening at http://localhost:3000
+2020-08-11T14:37:41.523Z info: init app data success!
+2020-08-11T14:37:50.771Z error: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer - TypeError: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer
+    at Parser.parse (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:23:22)
+    at Object.module.exports [as toJson] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:172:17)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/NextCloudAdapter.js:30:36)
+    at self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.onRequestError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at Socket.socketErrorListener (_http_client.js:426:9)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-08-11T14:38:23.644Z info: APP IS STARTING...
+2020-08-11T14:38:23.647Z info: Load config..
+2020-08-11T14:38:23.647Z info: Load config done!
+2020-08-11T14:38:24.037Z info: init database..
+2020-08-11T14:38:24.057Z info: init database done!
+2020-08-11T14:38:24.062Z info: init app data
+2020-08-11T14:38:24.069Z info: init 3rd apps adapter...
+2020-08-11T14:38:24.069Z info: init apdapter for: nextcloud...
+2020-08-11T14:38:24.319Z info: init apdapter for: nextcloud done!
+2020-08-11T14:38:24.319Z info: init apdapter for: rocketchat...
+2020-08-11T14:38:24.320Z info: init apdapter for: rocketchat done!
+2020-08-11T14:38:24.320Z info: init apdapter for: wordpress...
+2020-08-11T14:38:24.321Z info: init apdapter for: wordpress done!
+2020-08-11T14:38:24.322Z info: init apdapter for: jitsi-meeting...
+2020-08-11T14:38:24.323Z info: init apdapter for: jitsi-meeting done!
+2020-08-11T14:38:24.323Z info: init 3rd apps adapter done!
+2020-08-11T14:38:24.335Z info: Example app listening at http://localhost:3000
+2020-08-11T14:38:24.346Z info: init app data success!
+2020-08-11T14:58:30.223Z error: code not found
+2020-08-11T14:59:12.785Z info: APP IS STARTING...
+2020-08-11T14:59:12.789Z info: Load config..
+2020-08-11T14:59:12.789Z info: Load config done!
+2020-08-11T14:59:13.125Z info: init database..
+2020-08-11T14:59:13.145Z info: init database done!
+2020-08-11T14:59:13.149Z info: init app data
+2020-08-11T14:59:13.158Z info: init 3rd apps adapter...
+2020-08-11T14:59:13.158Z info: init apdapter for: nextcloud...
+2020-08-11T14:59:13.377Z info: init apdapter for: nextcloud done!
+2020-08-11T14:59:13.378Z info: init apdapter for: rocketchat...
+2020-08-11T14:59:13.378Z info: init apdapter for: rocketchat done!
+2020-08-11T14:59:13.378Z info: init apdapter for: wordpress...
+2020-08-11T14:59:13.379Z info: init apdapter for: wordpress done!
+2020-08-11T14:59:13.379Z info: init apdapter for: jitsi-meeting...
+2020-08-11T14:59:13.381Z info: init apdapter for: jitsi-meeting done!
+2020-08-11T14:59:13.381Z info: init 3rd apps adapter done!
+2020-08-11T14:59:13.392Z info: Example app listening at http://localhost:3000
+2020-08-11T14:59:13.473Z info: init app data success!
+2020-08-11T14:59:19.986Z error: code not found
+2020-08-13T13:59:42.919Z info: APP IS STARTING...
+2020-08-13T13:59:42.924Z info: Load config..
+2020-08-13T13:59:42.925Z info: Load config done!
+2020-08-13T13:59:43.297Z info: init database..
+2020-08-13T13:59:43.416Z info: init database done!
+2020-08-13T13:59:43.436Z info: init app data
+2020-08-13T13:59:43.457Z info: init 3rd apps adapter...
+2020-08-13T13:59:43.458Z info: init apdapter for: nextcloud...
+2020-08-13T13:59:43.709Z info: init apdapter for: nextcloud done!
+2020-08-13T13:59:43.709Z info: init apdapter for: rocketchat...
+2020-08-13T13:59:43.709Z info: init apdapter for: rocketchat done!
+2020-08-13T13:59:43.710Z info: init apdapter for: wordpress...
+2020-08-13T13:59:43.711Z info: init apdapter for: wordpress done!
+2020-08-13T13:59:43.711Z info: init apdapter for: jitsi-meeting...
+2020-08-13T13:59:43.712Z info: init apdapter for: jitsi-meeting done!
+2020-08-13T13:59:43.713Z info: init 3rd apps adapter done!
+2020-08-13T13:59:43.725Z info: Example app listening at http://localhost:3000
+2020-08-13T13:59:43.733Z info: init app data success!
+2020-08-13T14:00:50.741Z error: code not found
+2020-08-13T14:01:15.794Z error: code not found
+2020-08-13T14:02:28.530Z error: code not found
+2020-08-13T14:03:57.827Z error: code not found
+2020-08-13T14:04:37.665Z error: code not found
+2020-08-13T14:56:30.768Z info: APP IS STARTING...
+2020-08-13T14:56:30.770Z info: Load config..
+2020-08-13T14:56:30.770Z info: Load config done!
+2020-08-13T14:56:31.084Z info: init database..
+2020-08-13T14:56:31.181Z info: init database done!
+2020-08-13T14:56:31.190Z info: init app data
+2020-08-13T14:56:31.200Z info: init 3rd apps adapter...
+2020-08-13T14:56:31.200Z info: init apdapter for: nextcloud...
+2020-08-13T14:56:31.418Z info: init apdapter for: nextcloud done!
+2020-08-13T14:56:31.418Z info: init apdapter for: rocketchat...
+2020-08-13T14:56:31.419Z info: init apdapter for: rocketchat done!
+2020-08-13T14:56:31.419Z info: init apdapter for: wordpress...
+2020-08-13T14:56:31.420Z info: init apdapter for: wordpress done!
+2020-08-13T14:56:31.420Z info: init apdapter for: jitsi-meeting...
+2020-08-13T14:56:31.422Z info: init apdapter for: jitsi-meeting done!
+2020-08-13T14:56:31.422Z info: init 3rd apps adapter done!
+2020-08-13T14:56:31.433Z info: Example app listening at http://localhost:3000
+2020-08-13T14:56:31.441Z info: init app data success!
+2020-08-13T14:57:27.554Z info: APP IS STARTING...
+2020-08-13T14:57:27.557Z info: Load config..
+2020-08-13T14:57:27.557Z info: Load config done!
+2020-08-13T14:57:27.874Z info: init database..
+2020-08-13T14:57:27.893Z info: init database done!
+2020-08-13T14:57:27.897Z info: init app data
+2020-08-13T14:57:27.905Z info: init 3rd apps adapter...
+2020-08-13T14:57:27.905Z info: init apdapter for: nextcloud...
+2020-08-13T14:57:28.211Z info: init apdapter for: nextcloud done!
+2020-08-13T14:57:28.212Z info: init apdapter for: rocketchat...
+2020-08-13T14:57:28.213Z info: init apdapter for: rocketchat done!
+2020-08-13T14:57:28.213Z info: init apdapter for: wordpress...
+2020-08-13T14:57:28.215Z info: init apdapter for: wordpress done!
+2020-08-13T14:57:28.215Z info: init apdapter for: jitsi-meeting...
+2020-08-13T14:57:28.217Z info: init apdapter for: jitsi-meeting done!
+2020-08-13T14:57:28.218Z info: init 3rd apps adapter done!
+2020-08-13T14:57:28.232Z info: Example app listening at http://localhost:3000
+2020-08-13T14:57:28.241Z info: init app data success!
+2020-08-13T15:07:23.335Z info: APP IS STARTING...
+2020-08-13T15:07:23.339Z info: Load config..
+2020-08-13T15:07:23.340Z info: Load config done!
+2020-08-13T15:07:23.692Z info: init database..
+2020-08-13T15:07:23.712Z info: init database done!
+2020-08-13T15:07:23.716Z info: init app data
+2020-08-13T15:07:23.723Z info: init 3rd apps adapter...
+2020-08-13T15:07:23.723Z info: init apdapter for: nextcloud...
+2020-08-13T15:07:23.970Z info: init apdapter for: nextcloud done!
+2020-08-13T15:07:23.970Z info: init apdapter for: rocketchat...
+2020-08-13T15:07:23.971Z info: init apdapter for: rocketchat done!
+2020-08-13T15:07:23.971Z info: init apdapter for: wordpress...
+2020-08-13T15:07:23.972Z info: init apdapter for: wordpress done!
+2020-08-13T15:07:23.972Z info: init apdapter for: jitsi-meeting...
+2020-08-13T15:07:23.973Z info: init apdapter for: jitsi-meeting done!
+2020-08-13T15:07:23.974Z info: init 3rd apps adapter done!
+2020-08-13T15:07:23.985Z info: Example app listening at http://localhost:3000
+2020-08-13T15:07:23.993Z info: init app data success!
+2020-08-16T08:48:59.734Z info: APP IS STARTING...
+2020-08-16T08:48:59.748Z info: Load config..
+2020-08-16T08:48:59.750Z info: Load config done!
+2020-08-16T08:49:00.360Z info: init database..
+2020-08-16T08:49:00.445Z info: init database done!
+2020-08-16T08:49:00.456Z info: init app data
+2020-08-16T08:49:00.469Z info: init 3rd apps adapter...
+2020-08-16T08:49:00.469Z info: init apdapter for: nextcloud...
+2020-08-16T08:49:00.751Z info: init apdapter for: nextcloud done!
+2020-08-16T08:49:00.751Z info: init apdapter for: rocketchat...
+2020-08-16T08:49:00.752Z info: init apdapter for: rocketchat done!
+2020-08-16T08:49:00.752Z info: init apdapter for: wordpress...
+2020-08-16T08:49:00.753Z info: init apdapter for: wordpress done!
+2020-08-16T08:49:00.754Z info: init apdapter for: jitsi-meeting...
+2020-08-16T08:49:00.756Z info: init apdapter for: jitsi-meeting done!
+2020-08-16T08:49:00.756Z info: init 3rd apps adapter done!
+2020-08-16T08:49:00.770Z info: Example app listening at http://localhost:3000
+2020-08-16T08:49:00.854Z info: init app data success!
+2020-08-16T08:49:40.507Z info: APP IS STARTING...
+2020-08-16T08:49:40.510Z info: Load config..
+2020-08-16T08:49:40.510Z info: Load config done!
+2020-08-16T08:49:40.861Z info: init database..
+2020-08-16T08:49:40.882Z info: init database done!
+2020-08-16T08:49:40.886Z info: init app data
+2020-08-16T08:49:40.894Z info: init 3rd apps adapter...
+2020-08-16T08:49:40.894Z info: init apdapter for: nextcloud...
+2020-08-16T08:49:41.117Z info: init apdapter for: nextcloud done!
+2020-08-16T08:49:41.117Z info: init apdapter for: rocketchat...
+2020-08-16T08:49:41.118Z info: init apdapter for: rocketchat done!
+2020-08-16T08:49:41.118Z info: init apdapter for: wordpress...
+2020-08-16T08:49:41.119Z info: init apdapter for: wordpress done!
+2020-08-16T08:49:41.119Z info: init apdapter for: jitsi-meeting...
+2020-08-16T08:49:41.121Z info: init apdapter for: jitsi-meeting done!
+2020-08-16T08:49:41.121Z info: init 3rd apps adapter done!
+2020-08-16T08:49:41.132Z info: Example app listening at http://localhost:3000
+2020-08-16T08:49:41.143Z info: init app data success!
+2020-08-16T08:50:12.894Z info: APP IS STARTING...
+2020-08-16T08:50:12.896Z info: Load config..
+2020-08-16T08:50:12.897Z info: Load config done!
+2020-08-16T08:50:13.222Z info: init database..
+2020-08-16T08:50:13.312Z info: init database done!
+2020-08-16T08:50:13.335Z info: init app data
+2020-08-16T08:50:13.364Z info: init 3rd apps adapter...
+2020-08-16T08:50:13.364Z info: init apdapter for: nextcloud...
+2020-08-16T08:50:13.632Z info: init apdapter for: nextcloud done!
+2020-08-16T08:50:13.632Z info: init apdapter for: rocketchat...
+2020-08-16T08:50:13.633Z info: init apdapter for: rocketchat done!
+2020-08-16T08:50:13.633Z info: init apdapter for: wordpress...
+2020-08-16T08:50:13.634Z info: init apdapter for: wordpress done!
+2020-08-16T08:50:13.634Z info: init apdapter for: jitsi-meeting...
+2020-08-16T08:50:13.636Z info: init apdapter for: jitsi-meeting done!
+2020-08-16T08:50:13.636Z info: init 3rd apps adapter done!
+2020-08-16T08:50:13.648Z info: Example app listening at http://localhost:3000
+2020-08-16T08:50:13.657Z info: init app data success!
+2020-08-16T08:50:57.366Z info: APP IS STARTING...
+2020-08-16T08:50:57.368Z info: Load config..
+2020-08-16T08:50:57.368Z info: Load config done!
+2020-08-16T08:50:57.736Z info: init database..
+2020-08-16T08:50:57.756Z info: init database done!
+2020-08-16T08:50:57.760Z info: init app data
+2020-08-16T08:50:57.768Z info: init 3rd apps adapter...
+2020-08-16T08:50:57.768Z info: init apdapter for: nextcloud...
+2020-08-16T08:50:57.987Z info: init apdapter for: nextcloud done!
+2020-08-16T08:50:57.987Z info: init apdapter for: rocketchat...
+2020-08-16T08:50:57.988Z info: init apdapter for: rocketchat done!
+2020-08-16T08:50:57.988Z info: init apdapter for: wordpress...
+2020-08-16T08:50:57.989Z info: init apdapter for: wordpress done!
+2020-08-16T08:50:57.989Z info: init apdapter for: jitsi-meeting...
+2020-08-16T08:50:57.991Z info: init apdapter for: jitsi-meeting done!
+2020-08-16T08:50:57.991Z info: init 3rd apps adapter done!
+2020-08-16T08:50:58.004Z info: Example app listening at http://localhost:3000
+2020-08-16T08:50:58.014Z info: init app data success!
+2020-08-16T09:47:09.887Z info: APP IS STARTING...
+2020-08-16T09:47:09.891Z info: Load config..
+2020-08-16T09:47:09.891Z info: Load config done!
+2020-08-16T09:47:10.215Z info: init database..
+2020-08-16T09:47:10.234Z info: init database done!
+2020-08-16T09:47:10.238Z info: init app data
+2020-08-16T09:47:10.246Z info: init 3rd apps adapter...
+2020-08-16T09:47:10.246Z info: init apdapter for: nextcloud...
+2020-08-16T09:47:10.473Z info: init apdapter for: nextcloud done!
+2020-08-16T09:47:10.474Z info: init apdapter for: rocketchat...
+2020-08-16T09:47:10.474Z info: init apdapter for: rocketchat done!
+2020-08-16T09:47:10.474Z info: init apdapter for: wordpress...
+2020-08-16T09:47:10.475Z info: init apdapter for: wordpress done!
+2020-08-16T09:47:10.475Z info: init apdapter for: jitsi-meeting...
+2020-08-16T09:47:10.477Z info: init apdapter for: jitsi-meeting done!
+2020-08-16T09:47:10.477Z info: init 3rd apps adapter done!
+2020-08-16T09:47:10.488Z info: Example app listening at http://localhost:3000
+2020-08-16T09:47:10.495Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2020-08-16T09:47:10.495Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2020-08-16T09:47:10.495Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2020-08-16T09:47:10.565Z info: init app data success!
+2020-08-16T09:47:32.626Z error: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer - TypeError: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer
+    at Parser.parse (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:23:22)
+    at Object.module.exports [as toJson] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:172:17)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/NextCloudAdapter.js:30:36)
+    at self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.onRequestError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at Socket.socketErrorListener (_http_client.js:426:9)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-08-16T09:50:52.563Z info: APP IS STARTING...
+2020-08-16T09:50:52.565Z info: Load config..
+2020-08-16T09:50:52.566Z info: Load config done!
+2020-08-16T09:50:52.891Z info: init database..
+2020-08-16T09:50:52.911Z info: init database done!
+2020-08-16T09:50:52.916Z info: init app data
+2020-08-16T09:50:52.924Z info: init 3rd apps adapter...
+2020-08-16T09:50:52.924Z info: init apdapter for: nextcloud...
+2020-08-16T09:50:53.146Z info: init apdapter for: nextcloud done!
+2020-08-16T09:50:53.146Z info: init apdapter for: rocketchat...
+2020-08-16T09:50:53.147Z info: init apdapter for: rocketchat done!
+2020-08-16T09:50:53.147Z info: init apdapter for: wordpress...
+2020-08-16T09:50:53.148Z info: init apdapter for: wordpress done!
+2020-08-16T09:50:53.148Z info: init apdapter for: jitsi-meeting...
+2020-08-16T09:50:53.150Z info: init apdapter for: jitsi-meeting done!
+2020-08-16T09:50:53.150Z info: init 3rd apps adapter done!
+2020-08-16T09:50:53.164Z info: Example app listening at http://localhost:3000
+2020-08-16T09:50:53.171Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2020-08-16T09:50:53.171Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2020-08-16T09:50:53.171Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2020-08-16T09:50:53.173Z info: init app data success!
+2021-04-19T08:15:49.683Z info: APP IS STARTING...
+2021-04-19T08:15:49.688Z info: Load config..
+2021-04-19T08:15:49.688Z info: Load config done!
+2021-04-19T08:15:50.302Z info: init database..
+2021-04-19T08:15:50.477Z info: init database done!
+2021-04-19T08:15:50.500Z info: init app data
+2021-04-19T08:15:50.531Z info: init 3rd apps adapter...
+2021-04-19T08:15:50.532Z info: init apdapter for: nextcloud...
+2021-04-19T08:15:50.746Z error: [Adapter/AdapterManager.js] The module '/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/build/Release/node_expat.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 72. This version of Node.js requires
+NODE_MODULE_VERSION 83. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`). - Error: [Adapter/AdapterManager.js] The module '/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/build/Release/node_expat.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 72. This version of Node.js requires
+NODE_MODULE_VERSION 83. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1122:18)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at bindings (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/bindings/bindings.js:112:48)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:4:32)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:1:13)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2021-04-19T08:15:50.746Z info: init apdapter for: rocketchat...
+2021-04-19T08:15:50.747Z info: init apdapter for: rocketchat done!
+2021-04-19T08:15:50.748Z info: init apdapter for: wordpress...
+2021-04-19T08:15:50.748Z info: init apdapter for: wordpress done!
+2021-04-19T08:15:50.748Z info: init apdapter for: jitsi-meeting...
+2021-04-19T08:15:50.750Z info: init apdapter for: jitsi-meeting done!
+2021-04-19T08:15:50.750Z info: init 3rd apps adapter done!
+2021-04-19T08:15:50.764Z info: Example app listening at http://localhost:3000
+2021-04-19T08:15:50.771Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2021-04-19T08:15:50.771Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2021-04-19T08:15:50.771Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2021-04-19T08:15:50.847Z info: init app data success!
+2021-04-19T08:16:26.415Z info: APP IS STARTING...
+2021-04-19T08:16:26.417Z info: Load config..
+2021-04-19T08:16:26.418Z info: Load config done!
+2021-04-19T08:16:26.782Z info: init database..
+2021-04-19T08:16:26.801Z info: init database done!
+2021-04-19T08:16:26.805Z info: init app data
+2021-04-19T08:16:26.814Z info: init 3rd apps adapter...
+2021-04-19T08:16:26.814Z info: init apdapter for: nextcloud...
+2021-04-19T08:16:27.087Z info: init apdapter for: nextcloud done!
+2021-04-19T08:16:27.087Z info: init apdapter for: rocketchat...
+2021-04-19T08:16:27.088Z info: init apdapter for: rocketchat done!
+2021-04-19T08:16:27.088Z info: init apdapter for: wordpress...
+2021-04-19T08:16:27.089Z info: init apdapter for: wordpress done!
+2021-04-19T08:16:27.089Z info: init apdapter for: jitsi-meeting...
+2021-04-19T08:16:27.090Z info: init apdapter for: jitsi-meeting done!
+2021-04-19T08:16:27.091Z info: init 3rd apps adapter done!
+2021-04-19T08:16:27.102Z info: Example app listening at http://localhost:3000
+2021-04-19T08:16:27.108Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2021-04-19T08:16:27.108Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2021-04-19T08:16:27.108Z warn: NOT ADMIN USER FOUND! EVERYONE CAN ACCESS ADMIN PAGE!
+2021-04-19T08:16:27.110Z info: init app data success!

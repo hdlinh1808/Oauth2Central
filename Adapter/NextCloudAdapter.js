@@ -15,6 +15,7 @@ class NextCloudApdater extends Adapter {
 
     checkExistUser(user, callback) {
         if (user == null) {
+            let code = ErrorCode.fail();
             logger.error("user null!");
             callback(code);
             return;
@@ -42,7 +43,7 @@ class NextCloudApdater extends Adapter {
 
     disableUser(user, callback) {
         if (user == null) {
-            code = ErrorCode.fail();
+            let code = ErrorCode.fail();
             logger.error("user null!");
             callback(code);
             return;

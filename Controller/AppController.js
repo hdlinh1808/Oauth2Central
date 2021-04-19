@@ -16,23 +16,39 @@ class AppController {
     }
 
     renderDashboardPage(req, resp) {
-        let apps = this.appDaoImpl.getListApp();
-        let appInfos = [];
-        for (let i = 0; i < apps.length; i++) {
-            let app = apps[i];
-            let appInfo = this.appDaoImpl.getAppInfo(app);
-            if (appInfo == undefined) {
-                continue;
-            }
+        (async () => {
+            let apps = this.appDaoImpl.getListApp();
+            let appInfos = [];
+            let sessionId = req.cookies.centralSession;
+            let user = await this.userDaoImpl.getUserDetailBySessionId(sessionId);
+            
+            for (let i = 0; i < apps.length; i++) {
+                let app = apps[i];
+                let appInfo = this.appDaoImpl.getAppInfo(app);
+                if (appInfo == undefined) {
+                    continue;
+                }
 
-            appInfos.push(appInfo);
-        }
-        let data = {
-            app: appInfos,
-        }
-        let content = BaseTemplate.renderPageWithParam(dashboardTpl, data);
-        let page = BaseTemplate.renderWithBaseTpl("", "Dashboard", content);
-        resp.send(page);
+                let adapter = adapterManager.getAdapter(app);
+                if (adapter == null) {
+                    continue;
+                }
+
+                if (typeof adapter.getInfo === "function" && user.apps.includes(app)) {
+                   appInfo.info = await adapter.getInfo(user);
+                }
+
+                appInfos.push(appInfo);
+            }
+            let data = {
+                app: appInfos,
+            }
+            let content = BaseTemplate.renderPageWithParam(dashboardTpl, data);
+            let page = BaseTemplate.renderWithBaseTpl("", "Dashboard", content);
+            resp.send(page);
+        })().catch((err) => {
+            logger.error(err);
+        })
     }
 
     requestApp(req, resp) {

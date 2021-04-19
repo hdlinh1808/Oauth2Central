@@ -1456,3 +1456,229 @@ Require stack:
     at emitErrorNT (internal/streams/destroy.js:92:8)
     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
     at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-07-29T14:47:31.713Z error: check exist user error!
+2020-07-29T14:47:31.714Z error: [Adapter/WordpressAdapter.js] connect ECONNREFUSED 127.0.0.1:9000 - Error: connect ECONNREFUSED 127.0.0.1:9000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+2020-08-03T16:22:47.636Z error: [Adapter/AdapterManager.js] Adapter is not defined - ReferenceError: [Adapter/AdapterManager.js] Adapter is not defined
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:3:33)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at new AdapterManager (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:16:31)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:65:18)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:23:5
+2020-08-03T16:23:10.028Z error: [Adapter/AdapterManager.js] require(...) is not a function - TypeError: [Adapter/AdapterManager.js] require(...) is not a function
+    at new AdapterManager (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:16:66)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:65:18)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:23:5
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-03T16:55:41.372Z error: [Adapter/AdapterManager.js] Identifier 'stdout' has already been declared - /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:26
+            const { stdout, stderr } = await exec('linhhd');
+                    ^
+
+SyntaxError: Identifier 'stdout' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at new AdapterManager (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:16:31)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:65:18)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:23:5
+2020-08-06T14:31:02.766Z error: [Adapter/JitsiMeetingAdapter.js] username is not defined - ReferenceError: [Adapter/JitsiMeetingAdapter.js] username is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:31:45
+    at JitsiMeetingAdapter.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:45:11)
+    at AdapterManager.enableUser (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:37:17)
+    at AppController.acceptAppRequest (/media/lap12654/DATA/git/my-git/Oauth2Central/Controller/AppController.js:228:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:50:32.432Z error: [Adapter/AdapterManager.js] Unexpected token '}' - /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:69
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at new AdapterManager (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:16:31)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/AdapterManager.js:65:18)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/app.js:23:5
+2020-08-06T14:52:16.239Z error: [Controller/UserController.js] (intermediate value).catch is not a function - TypeError: [Controller/UserController.js] (intermediate value).catch is not a function
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:52:17.950Z error: [Controller/UserController.js] (intermediate value).catch is not a function - TypeError: [Controller/UserController.js] (intermediate value).catch is not a function
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:52:47.952Z error: [Controller/UserController.js] a is not defined - ReferenceError: [Controller/UserController.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:53:00.364Z error: [Oauth2Central/app.js] a is not defined - ReferenceError: [Oauth2Central/app.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:53:46.963Z error: [Controller/UserController.js] a is not defined - ReferenceError: [Controller/UserController.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:54:01.852Z error: [Oauth2Central/app.js] a is not defined - ReferenceError: [Oauth2Central/app.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:54:47.999Z error: [Oauth2Central/app.js] a is not defined - ReferenceError: [Oauth2Central/app.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:55:03.408Z error: [Oauth2Central/app.js] a is not defined - ReferenceError: [Oauth2Central/app.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:55:11.818Z error: [Controller/UserController.js] a is not defined - ReferenceError: [Controller/UserController.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T14:57:11.825Z error: [Controller/UserController.js] a is not defined - ReferenceError: [Controller/UserController.js] a is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:66:17
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:75:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T15:08:21.197Z error: [Controller/UserController.js] getInfo is not defined - ReferenceError: [Controller/UserController.js] getInfo is not defined
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:81:34
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:87:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T15:08:43.722Z error: [Adapter/JitsiMeetingAdapter.js] username is not defined - ReferenceError: [Adapter/JitsiMeetingAdapter.js] username is not defined
+    at JitsiMeetingAdapter.getPassword (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:101:86)
+    at JitsiMeetingAdapter.getInfo (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:68:35)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:81:53
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:87:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T15:08:59.243Z error: [Adapter/JitsiMeetingAdapter.js] username is not defined - ReferenceError: [Adapter/JitsiMeetingAdapter.js] username is not defined
+    at JitsiMeetingAdapter.getPassword (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:101:86)
+    at JitsiMeetingAdapter.getInfo (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:68:35)
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:81:59
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Controller/UserController.js:87:15
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T15:20:18.916Z error: [Adapter/JitsiMeetingAdapter.js] Cannot read property 'trim' of null - TypeError: [Adapter/JitsiMeetingAdapter.js] Cannot read property 'trim' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:56:24
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T15:21:45.788Z error: [Adapter/JitsiMeetingAdapter.js] Cannot read property 'trim' of null - TypeError: [Adapter/JitsiMeetingAdapter.js] Cannot read property 'trim' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:56:24
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-06T15:22:50.939Z error: [Adapter/JitsiMeetingAdapter.js] Cannot read property 'trim' of null - TypeError: [Adapter/JitsiMeetingAdapter.js] Cannot read property 'trim' of null
+    at /media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/JitsiMeetingAdapter.js:58:24
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-11T14:30:38.234Z error: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer - TypeError: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer
+    at Parser.parse (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:23:22)
+    at Object.module.exports [as toJson] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:172:17)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/NextCloudAdapter.js:30:36)
+    at self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.onRequestError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at Socket.socketErrorListener (_http_client.js:426:9)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-08-11T14:31:20.205Z error: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer - TypeError: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer
+    at Parser.parse (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:23:22)
+    at Object.module.exports [as toJson] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:172:17)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/NextCloudAdapter.js:30:36)
+    at self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.onRequestError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at Socket.socketErrorListener (_http_client.js:426:9)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-08-11T14:37:50.771Z error: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer - TypeError: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer
+    at Parser.parse (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:23:22)
+    at Object.module.exports [as toJson] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:172:17)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/NextCloudAdapter.js:30:36)
+    at self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.onRequestError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at Socket.socketErrorListener (_http_client.js:426:9)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-08-11T14:58:30.223Z error: code not found
+2020-08-11T14:59:19.986Z error: code not found
+2020-08-13T14:00:50.741Z error: code not found
+2020-08-13T14:01:15.794Z error: code not found
+2020-08-13T14:02:28.530Z error: code not found
+2020-08-13T14:03:57.827Z error: code not found
+2020-08-13T14:04:37.665Z error: code not found
+2020-08-16T09:47:32.626Z error: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer - TypeError: [Adapter/NextCloudAdapter.js] Parse buffer must be String or Buffer
+    at Parser.parse (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:23:22)
+    at Object.module.exports [as toJson] (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:172:17)
+    at Request._callback (/media/lap12654/DATA/git/my-git/Oauth2Central/Adapter/NextCloudAdapter.js:30:36)
+    at self.callback (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.onRequestError (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at Socket.socketErrorListener (_http_client.js:426:9)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-19T08:15:50.746Z error: [Adapter/AdapterManager.js] The module '/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/build/Release/node_expat.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 72. This version of Node.js requires
+NODE_MODULE_VERSION 83. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`). - Error: [Adapter/AdapterManager.js] The module '/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/build/Release/node_expat.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 72. This version of Node.js requires
+NODE_MODULE_VERSION 83. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1122:18)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at bindings (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/bindings/bindings.js:112:48)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/node-expat/lib/node-expat.js:4:32)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/media/lap12654/DATA/git/my-git/Oauth2Central/node_modules/xml2json/lib/xml2json.js:1:13)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)

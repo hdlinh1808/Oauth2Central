@@ -67,7 +67,7 @@
                                 <a href="{{appUrl}}"><img class="table-avatar" src="{{image}}"> <span
                                         class="name">{{name}}</span></a>
                             </td>
-                            <td><span class="badge bg-danger">Access allowed</span> </td>
+                            <td><span class="badge bg-success">Access allowed</span> </td>
                             <td>
                                 <button class="btn btn-danger btn-sm grant remove"
                                     data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying...">Remove</button>
@@ -277,7 +277,7 @@
                 let appUrl = $row.find('a').attr('href');
                 avail.row.add([
                     `<a href="${appUrl}"><img class="table-avatar" src="${imgSrc}"> <span class="name">${app}</span>`,
-                    '<span class="badge bg-danger">Access allowed</span>',
+                    '<span class="badge bg-success">Access allowed</span>',
                     `<button class="btn btn-danger btn-sm grant remove"
                                     data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying...">Remove</button>`
                 ]).draw(true);
@@ -322,7 +322,7 @@
                 let appUrl = $row.find('a').attr('href');
                 avail.row.add([
                     `<a href="${appUrl}"><img class="table-avatar" src="${imgSrc}"> <span class="name">${app}</span>`,
-                    '<span class="badge bg-danger">Access allowed</span>',
+                    '<span class="badge bg-success">Access allowed</span>',
                     `<button class="btn btn-danger btn-sm grant remove"
                                     data-loading-text="<i class='spinner-grow spinner-grow-sm '></i> Verifying...">Remove</button>`
                 ]).draw(true);

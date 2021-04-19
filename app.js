@@ -144,6 +144,10 @@ var mongoUtil = require("./DBClient/MongoUtil.js");
         userController.removeAdminPermission(req, resp);
     })
 
+    app.get("/userguide", (req, resp) => {
+        userController.renderUserGuildPage(req, resp);
+    })
+
     app.get("/test", (req, resp) => {
         logger.info('test')
     })

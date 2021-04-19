@@ -44,7 +44,7 @@ class RocketchatAdapter extends Adapter {
             try {
                 let code = ErrorCode.success();
                 if (userid == null) {
-                    code = ErrorCode.fail();
+                    code = ErrorCode.errorNotExist("User isn't registered with Rocketchat");
                     callback(code);
                     return;
                 }

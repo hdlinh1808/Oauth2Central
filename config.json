@@ -31,6 +31,17 @@
             "displayName": "Wordpress",
             "disableRole": "newuser",
             "enableRole": "administrator"
+            
+        },
+        "jitsi-meeting": {
+            "fileKeyPath": "/home/lap12654/Desktop/Video.pem",
+            "image": "",
+            "baseUrl": "https://jitsi.example.com",
+            "description": "",
+            "adapter": "JitsiMeetingAdapter",
+            "displayName": "Jitsi Metting",
+            "redirectUrl": "https://jitsi.example.com",
+            "domain": "jitsi.example.com"
         }
     },
     "db": {

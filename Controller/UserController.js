@@ -5,8 +5,10 @@ var fs = require("fs");
 const userManagementTpl = fs.readFileSync("./views/user_manager.mustache").toString();
 const userDetailTpl = fs.readFileSync("./views/user_detail.mustache").toString();
 const adminUserDetailTpl = fs.readFileSync("./views/admin_user_detail.mustache").toString();
+const userGuideTpl = fs.readFileSync("./views/user_guide.mustache").toString();
 var ErrorCode = require("../ErrorCode/ErrorCode.js")
 var RoleManager = require("../Middleware/RoleManager.js");
+const adapterManager = require("../Adapter/AdapterManager.js")
 class UserController {
     constructor() {
         this.userDaoImpl = DAOImplObject.getUserDaoImpl();
@@ -19,6 +21,12 @@ class UserController {
 
     renderUserManagementPage(req, resp) {
         let page = BaseTemplate.renderWithBaseAdminTpl("User Management", userManagementTpl, req.query.usernameAdmin);
+        resp.send(page);
+    }
+
+    renderUserGuildPage(req, resp) {
+        let content = BaseTemplate.renderPageWithParam(userGuideTpl, {});
+        let page = BaseTemplate.renderWithBaseTpl("", "User Guide", content);
         resp.send(page);
     }
 
@@ -43,7 +51,7 @@ class UserController {
         this.userDaoImpl.getListUserWithTotal(userRegex, skip, limit).then((data) => {
             let users = data.users;
             let totalRecord = data.totalRecord;
-            
+
             let respData = {
                 users: users,
                 recordsTotal: totalRecord,
@@ -62,14 +70,31 @@ class UserController {
         let appDaoImpl = this.appDaoImpl;
         let $this = this;
         this.userDaoImpl.getUserDetailBySessionId(sessionId).then(function (user) {
-            let data = $this.getDataUserInfo(user, appDaoImpl);
-            if (!data) {
-                resp.send("user not found");
-                return;
-            }
-            let content = BaseTemplate.renderPageWithParam(userDetailTpl, data);
-            let page = BaseTemplate.renderWithBaseTpl("", "User detail", content);
-            resp.send(page);
+            (async () => {
+                let data = $this.getDataUserInfo(user, appDaoImpl);
+                if (!data) {
+                    resp.send("user not found");
+                    return;
+                }
+                let accessRow = data.accessRow;
+                for (let i = 0; i < accessRow.length; i++) {
+                    let app = accessRow[i].app;
+                    let adapter = adapterManager.getAdapter(app);
+                    if (adapter == null) {
+                        continue;
+                    }
+
+                    if (typeof adapter.getInfo === "function") {
+                        accessRow[i].info = await adapter.getInfo(user);
+                    }
+                }
+                let content = BaseTemplate.renderPageWithParam(userDetailTpl, data);
+                let page = BaseTemplate.renderWithBaseTpl("", "User detail", content);
+                resp.send(page);
+            })().catch((err) => {
+                logger.error(err);
+            })
+
         }).catch((err) => {
             logger.error(err);
         });
@@ -84,6 +109,7 @@ class UserController {
                 resp.send("user not found");
                 return;
             }
+
             let content = BaseTemplate.renderPageWithParam(adminUserDetailTpl, data);
             let page = BaseTemplate.renderWithBaseAdminTpl("User detail", content, req.query.usernameAdmin);
             resp.send(page);
@@ -116,6 +142,7 @@ class UserController {
             let appInfo = appDaoImpl.getAppInfo(app);
             let element = {
                 id: '',
+                app: app,
                 name: app,
                 image: appInfo.imageUrl,
                 appUrl: appInfo.redirectUrl,

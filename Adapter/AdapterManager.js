@@ -57,8 +57,13 @@ class AdapterManager {
         adapter.checkExistUser(user, callback);
     }
 
-    getAdapter() {
-
+    getAdapter(app) {
+        let adapter = this.adapter[app];
+        if (adapter == undefined) {
+            logger.error('adapter of ' + app + " undefined")
+            return null;
+        }
+        return adapter;
     }
 }
 

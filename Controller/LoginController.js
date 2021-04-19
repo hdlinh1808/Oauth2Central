@@ -34,6 +34,7 @@ class LoginController {
         var code = req.query.code;
         if (code == undefined || code == "") {
             logger.error("code not found")
+            resp.send("something error when authorizing! If you login with fb, maybe your account dont connect to any email.");
             return;
         }
         var tokenParams = {
@@ -60,11 +61,11 @@ class LoginController {
             let access_token = params.access_token;
             getUserInfo(access_token, resp, async (params) => { //success function
                 let sub = params.sub;
-                let rs = await userDaoImpl.checkExistUser(params.username);
+                let rs = await userDaoImpl.checkExistUser(params.email);
                 if (!rs) {
-                    await userDaoImpl.createNewUser(params.username, params.email, access_token, sub, "viewer", [], []);
+                    await userDaoImpl.createNewUser(params.email, params.email, access_token, sub, "viewer", [], []);
                 }
-                let session = await sessionDaoImpl.addOrUpdateUserSession(params.username, sub, access_token);
+                let session = await sessionDaoImpl.addOrUpdateUserSession(params.email, sub, access_token);
                 resp.cookie('centralSession', session._id);
                 resp.redirect("/dashboard");
             });
